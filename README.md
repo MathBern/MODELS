@@ -1,2 +1,2 @@
-# CMFGEN-Models
-Repository to store CMFGEN models
+# MODELS_CMFGEN
+Repository to store my CMFGEN models
