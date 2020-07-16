@@ -1,0 +1,15 @@
+Program started on:
+Fri Mar 17 11:25:00 BRT 2017
+Machine name is :
+vitalogy
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+cmfgen_dev.exe     000000000056B03B  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000547C88  Unknown               Unknown  Unknown
+cmfgen_dev.exe     000000000046279A  Unknown               Unknown  Unknown
+cmfgen_dev.exe     00000000004A04C4  Unknown               Unknown  Unknown
+cmfgen_dev.exe     000000000040CD67  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000406676  Unknown               Unknown  Unknown
+cmfgen_dev.exe     000000000040360E  Unknown               Unknown  Unknown
+libc.so.6          00002B1C96DB17ED  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000403529  Unknown               Unknown  Unknown

@@ -1,0 +1,1558 @@
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ **********************************************************
+ Warning reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order. Should not cause a problem
+ Levels are:          23          24
+ **********************************************************
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                         
+ ***Warning**** --- 30260 weak transitions cut in GENOSC_V6 --- FeSIX_F_OSCDAT
+ ***Warning**** --- 34246 weak transitions cut in GENOSC_V6 --- FeV_F_OSCDAT
+ ***Warning**** --- 34324 weak transitions cut in GENOSC_V6 --- FeIV_F_OSCDAT
+ ***Warning**** ---  3124 weak transitions cut in GENOSC_V6 --- FeIII_F_OSCDAT
+ Opened MODEL
+  
+ *************** Warning -- Warning -- Warning ****************
+ Max. cont. freq may be too small in in SET_X_FREQ_V2
+ Max. cont. should generally be set to 1000 when X-rays present
+ Need to allow for ionization from inner shells. Generally can
+ ignore ionization from n=1 (=PQN) state of iron group elements
+ since these can also ionize from n=2 sate. A list of effected
+ ionization routes follows:
+ 
+  IZ=26    NE=24   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=23   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=22   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.73E+03
+ Warning from INS_LINE_V4
+   410 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=  3.498970000000000E-003
+ Min(Nu_LINE)=  8.591002573166140E-006
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13482 frequencies
+ Number of line frequencies is:        145385
+ Number of frequencies is:             113778
+  
+  Warning from SET_FREQUENCY_GRID
+   411 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=  3.494913403868898E-003
+ Min(Nu_LINE)=  8.591002573166140E-006
+ Error opening POINT1 in SCR_READ
+ Error opening POINT2 in SCR_READ
+ Error on reading Pointers in READ_SCRTEMP
+ Starting a new model.
+ *_IN files will be used to start model
+ Setting ITS_DONE keyword in HYDRO_DEFAULTS to 0
+ Using NON-GRID option for new model.
+ Warning ED in GETELEC_V2 is non-monotonic
+ We estimated the gammas using the grid index.
+ Departure coefficients assumed to be function of Ne.
+  
+ Thompson scattering optical depth at inner boundary is: 5.977E+01
+ Rosseland optical depth at inner boundary is:           1.040E+02
+ Rosseland optical depth at outer boundary is:           7.519E-05
+  
+ Callng COMP_GREY_V4 in SET_NEW
+ BEGIN COMP_GREY_V4          60          15          75
+ Largest correction to T in GREY initialization loop is  1.16E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+ BEGIN COMP_GREY_V4          60          15          75
+ Largest correction to T in GREY initialization loop is  6.50E-01 %
+ Callng COMP_GREY_V4 in SET_NEW
+ BEGIN COMP_GREY_V4          60          15          75
+ Largest correction to T in GREY initialization loop is  3.48E-01 %
+ Callng COMP_GREY_V4 in SET_NEW
+ BEGIN COMP_GREY_V4          60          15          75
+ Largest correction to T in GREY initialization loop is  3.48E-01 %
+ Callng COMP_GREY_V4 in SET_NEW
+ BEGIN COMP_GREY_V4          60          15          75
+ Largest correction to T in GREY initialization loop is  3.48E-01 %
+  
+ Amount of memory allocated for BA is:     333103380  words
+ Memory needed with full dependence is:    319058160  words
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 60   T=8.7632E+00   ED=2.0790E+15
+   FeVIII may need to be included in the model (IF ~ 1.2E-01)
+ 
+                   Temperature (10^4 K) is 8.763E+00
+           Atom/ion density (per cm^3)) is 1.728E+15
+                 Electrons per atom/ion is 1.203E+00
+ Total thermal kinetic energy (ev/atom) is 2.496E+01
+  Approximate internal energy (ev/atom) is 2.689E+01
+ App. missing internal energy (ev/atom) is 6.608E-04
+             Radiation energy (ev/atom) is 5.064E+02
+  
+ If T is too small may get expoential overflow when computing LTE populations
+ The recommended minimum value of T (T_MIN) in units of 10^4 K is: 0.191
+  
+
+ Current great iteration count is
+           1
+ Unable to open EDDFACTOR_INFO
+ Error occurred in READ_DIRECT_INFO
+ IOS=          29
+ Error --- unable to open EDDFACTOR_INFO
+ Will compute new f
+ The value of DTDR is :  0.519623881482375     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V11
+ R(1)=  2.01700773E+04   RMAX=  2.01700773E+05
+ V(1)=  1.38430700E+03   VMAX=  1.39839169E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V11 is    84
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   2.275431    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111167
+  
+ Luminosity of star is :   282789.249835239        291252.192349471     
+ LAMBDA iteration used
+ BA matrix computed
+ He2     g.s. eq. replaced by ionization eq. at  50 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  42 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  54 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at  45 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  53 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  60 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  55 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  60 depths.
+ Temperature held fixed at all depths.
+ Maximum % increase at depth  37 is  6.11E+04  (LAMBDA)
+ Maximum % decrease at depth  20 is  5.70E+01  (LAMBDA)
+ Maximm changes as returned by SOLVEBA_V9 is   61057.6758386465     
+ DEC_VEC:   5.70E-01  5.33E-01  5.20E-01  5.19E-01  5.18E-01  5.17E-01  5.15E-01  5.15E-01  5.14E-01  5.13E-01
+ INC_VEC:  -6.11E+02 -3.88E+02 -3.04E+02 -2.23E+02 -2.13E+02 -1.72E+02 -1.27E+02 -1.19E+02 -1.11E+02 -1.06E+02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           2
+ The value of DTDR is :  0.523353635891643     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.969282    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111227
+  
+ Luminosity of star is :   284224.395387065        293357.467472216     
+ LAMBDA iteration used
+ BA matrix computed
+ He2     g.s. eq. replaced by ionization eq. at  50 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  42 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  54 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at  45 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  53 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  60 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  55 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  60 depths.
+ Temperature held fixed at all depths.
+ Maximum % increase at depth  24 is  1.69E+01  (LAMBDA)
+ Maximum % decrease at depth  32 is  2.23E+01  (LAMBDA)
+ Maximm changes as returned by SOLVEBA_V9 is   28.7522094474160     
+ DEC_VEC:   2.23E-01  2.19E-01  2.18E-01  2.17E-01  2.16E-01  2.16E-01  2.15E-01  2.14E-01  2.14E-01  2.14E-01
+ INC_VEC:  -1.69E-01 -1.55E-01 -1.40E-01 -1.34E-01 -1.27E-01 -1.19E-01 -1.13E-01 -9.91E-02 -9.60E-02 -9.53E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           3
+ The value of DTDR is :  0.523338764500616     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+          60          60         506
+          59          60         506
+ Average number of calls to FG_J_CMF is   1.896465    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111251
+  
+ Luminosity of star is :   284867.345659921        293357.467472210     
+ BA matrix computed
+ Beginning TRI solution in CMF_BLKBAND
+ He2     g.s. eq. replaced by ionization eq. at  51 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  32 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  45 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at   2 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  47 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  53 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  53 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  57 depths.
+ Maximum % increase at depth  27 is  7.30E+01
+ Maximum % decrease at depth  32 is  1.51E+02
+ Maximm changes as returned by SOLVEBA_V9 is   10000000.0000000     
+ DEC_VEC:   1.51E+00  1.51E+00  1.51E+00  1.50E+00  1.50E+00  1.49E+00  1.47E+00  1.42E+00  1.41E+00  1.41E+00
+ INC_VEC:  -7.30E-01 -7.24E-01 -7.07E-01 -6.81E-01 -6.76E-01 -6.69E-01 -6.68E-01 -6.60E-01 -6.60E-01 -6.52E-01
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           4
+ The value of DTDR is :  0.523357049567954     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   2.171255    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111239
+  
+ Luminosity of star is :   286031.233923603        293357.467472214     
+ LAMBDA iteration used
+ BA matrix computed
+ He2     g.s. eq. replaced by ionization eq. at  50 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  42 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  54 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at  45 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  53 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  60 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  55 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  60 depths.
+ Temperature held fixed at all depths.
+ Maximum % increase at depth  33 is  2.72E+02  (LAMBDA)
+ Maximum % decrease at depth   1 is  1.93E+01  (LAMBDA)
+ Maximm changes as returned by SOLVEBA_V9 is   272.477926396821     
+ DEC_VEC:   1.93E-01  1.91E-01  1.72E-01  1.41E-01  9.70E-02  9.51E-02  9.48E-02  9.07E-02  9.06E-02  9.04E-02
+ INC_VEC:  -2.72E+00 -2.62E+00 -2.56E+00 -2.54E+00 -2.52E+00 -2.48E+00 -2.45E+00 -2.44E+00 -2.44E+00 -2.43E+00
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           5
+ The value of DTDR is :  0.523356613126386     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+          60          60         506
+          59          60         506
+ Average number of calls to FG_J_CMF is   1.900807    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111248
+  
+ Luminosity of star is :   286480.741244147        293357.467472203     
+ BA matrix computed
+ Beginning TRI solution in CMF_BLKBAND
+ He2     g.s. eq. replaced by ionization eq. at  51 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  32 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  45 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at   2 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  47 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  53 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  53 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  57 depths.
+ Maximum % increase at depth  32 is  1.40E+02
+ Maximum % decrease at depth  29 is  1.47E+01
+ Maximm changes as returned by SOLVEBA_V9 is   139.554972592825     
+ DEC_VEC:   1.47E-01  1.47E-01  1.45E-01  1.44E-01  1.44E-01  1.44E-01  1.44E-01  1.43E-01  1.41E-01  1.41E-01
+ INC_VEC:  -1.40E+00 -1.38E+00 -1.27E+00 -1.15E+00 -1.13E+00 -1.04E+00 -9.41E-01 -5.93E-01 -5.38E-01 -4.99E-01
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           6
+ The value of DTDR is :  0.523384371797070     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.968641    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111243
+  
+ Luminosity of star is :   287529.258025129        293357.467472215     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  37 is  1.25E+01
+ Maximum % decrease at depth  30 is  4.80E+00
+ Maximm changes as returned by SOLVEBA_V9 is   12.5236068451479     
+ DEC_VEC:   4.80E-02  4.70E-02  4.65E-02  4.64E-02  4.61E-02  4.47E-02  4.39E-02  4.36E-02  4.28E-02  4.26E-02
+ INC_VEC:  -1.25E-01 -1.24E-01 -1.22E-01 -1.21E-01 -1.21E-01 -1.21E-01 -1.20E-01 -1.20E-01 -1.20E-01 -1.20E-01
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           7
+ The value of DTDR is :  0.523390991132702     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.926699    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111258
+  
+ Luminosity of star is :   288412.580214482        293357.467472208     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  35 is  9.14E+00
+ Maximum % decrease at depth  37 is  2.36E+00
+ Maximm changes as returned by SOLVEBA_V9 is   8.98404148068388     
+ DEC_VEC:   2.36E-02  2.35E-02  2.35E-02  2.34E-02  2.33E-02  2.31E-02  2.31E-02  2.28E-02  2.27E-02  2.27E-02
+ INC_VEC:  -9.14E-02 -9.13E-02 -9.12E-02 -9.12E-02 -9.09E-02 -9.08E-02 -9.04E-02 -9.02E-02 -8.99E-02 -8.98E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           8
+ The value of DTDR is :  0.523392575084409     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+          60          60         506
+          59          60         506
+ Average number of calls to FG_J_CMF is   1.922358    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111265
+  
+ Luminosity of star is :   289038.211193099        293357.467472216     
+ BA matrix computed
+ Beginning TRI solution in CMF_BLKBAND
+ He2     g.s. eq. replaced by ionization eq. at  51 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  32 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  45 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at   2 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  47 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  53 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  53 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  57 depths.
+ Maximum % increase at depth  36 is  8.75E+00
+ Maximum % decrease at depth  27 is  1.83E+00
+ Maximm changes as returned by SOLVEBA_V9 is   8.58784965174870     
+ DEC_VEC:   1.83E-02  1.81E-02  1.80E-02  1.79E-02  1.78E-02  1.78E-02  1.77E-02  1.77E-02  1.77E-02  1.76E-02
+ INC_VEC:  -8.75E-02 -8.74E-02 -8.70E-02 -8.70E-02 -8.68E-02 -8.62E-02 -8.62E-02 -8.61E-02 -8.60E-02 -8.59E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+           9
+ The value of DTDR is :  0.523392254567087     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.901343    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111271
+  
+ Luminosity of star is :   289477.336368287        293357.467472209     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  33 is  5.08E+00
+ Maximum % decrease at depth   3 is  2.04E+00
+ Maximm changes as returned by SOLVEBA_V9 is   4.99270186639987     
+ DEC_VEC:   2.04E-02  2.04E-02  2.03E-02  2.02E-02  2.02E-02  2.01E-02  2.01E-02  1.99E-02  1.97E-02  1.94E-02
+ INC_VEC:  -5.08E-02 -5.06E-02 -5.06E-02 -5.06E-02 -5.05E-02 -5.05E-02 -5.02E-02 -5.02E-02 -5.00E-02 -4.99E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          10
+ The value of DTDR is :  0.523391065733488     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.873288    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111272
+  
+ Luminosity of star is :   289805.603093992        293357.467472213     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  4.40E+00
+ Maximum % decrease at depth   1 is  2.11E+00
+ Maximm changes as returned by SOLVEBA_V9 is   4.29208017887805     
+ DEC_VEC:   2.11E-02  2.11E-02  2.11E-02  2.09E-02  2.07E-02  2.04E-02  2.01E-02  1.97E-02  1.93E-02  1.87E-02
+ INC_VEC:  -4.40E-02 -4.38E-02 -4.37E-02 -4.37E-02 -4.34E-02 -4.32E-02 -4.32E-02 -4.31E-02 -4.30E-02 -4.29E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          11
+ The value of DTDR is :  0.523389396425805     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.865361    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111272
+  
+ Luminosity of star is :   290058.711699623        293357.467472221     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  3.76E+00
+ Maximum % decrease at depth   1 is  1.94E+00
+ Maximm changes as returned by SOLVEBA_V9 is   3.62675309804486     
+ DEC_VEC:   1.94E-02  1.93E-02  1.92E-02  1.89E-02  1.87E-02  1.84E-02  1.80E-02  1.76E-02  1.71E-02  1.65E-02
+ INC_VEC:  -3.76E-02 -3.73E-02 -3.73E-02 -3.70E-02 -3.68E-02 -3.68E-02 -3.66E-02 -3.64E-02 -3.63E-02 -3.63E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          12
+ The value of DTDR is :  0.523387427397170     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.863506    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111276
+  
+ Luminosity of star is :   290259.265115007        293357.467472211     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  3.13E+00
+ Maximum % decrease at depth   1 is  1.64E+00
+ Maximm changes as returned by SOLVEBA_V9 is   3.01919733399549     
+ DEC_VEC:   1.64E-02  1.63E-02  1.61E-02  1.59E-02  1.56E-02  1.53E-02  1.50E-02  1.47E-02  1.42E-02  1.37E-02
+ INC_VEC:  -3.13E-02 -3.12E-02 -3.12E-02 -3.10E-02 -3.05E-02 -3.05E-02 -3.04E-02 -3.02E-02 -3.02E-02 -3.02E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          13
+ The value of DTDR is :  0.523385257731669     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.860386    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111276
+  
+ Luminosity of star is :   290420.909816692        293357.467472209     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  2.58E+00
+ Maximum % decrease at depth   1 is  1.32E+00
+ Maximm changes as returned by SOLVEBA_V9 is   2.48140933692762     
+ DEC_VEC:   1.32E-02  1.31E-02  1.29E-02  1.28E-02  1.25E-02  1.23E-02  1.20E-02  1.17E-02  1.13E-02  1.09E-02
+ INC_VEC:  -2.58E-02 -2.58E-02 -2.57E-02 -2.56E-02 -2.51E-02 -2.51E-02 -2.50E-02 -2.49E-02 -2.49E-02 -2.48E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          14
+ The value of DTDR is :  0.523382948697011     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.857538    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111276
+  
+ Luminosity of star is :   290552.378196898        293357.467472192     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  2.12E+00
+ Maximum % decrease at depth   1 is  1.07E+00
+ Maximm changes as returned by SOLVEBA_V9 is   2.03334678547446     
+ DEC_VEC:   1.07E-02  1.06E-02  1.04E-02  1.03E-02  1.01E-02  9.91E-03  9.68E-03  9.44E-03  9.16E-03  8.82E-03
+ INC_VEC:  -2.12E-02 -2.12E-02 -2.11E-02 -2.10E-02 -2.06E-02 -2.06E-02 -2.05E-02 -2.04E-02 -2.04E-02 -2.03E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          15
+ The value of DTDR is :  0.523380541371521     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.854049    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111280
+  
+ Luminosity of star is :   290661.309677659        293357.467472212     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  1.74E+00
+ Maximum % decrease at depth   1 is  8.66E-01
+ Maximm changes as returned by SOLVEBA_V9 is   1.66762939712781     
+ DEC_VEC:   8.66E-03  8.60E-03  8.51E-03  8.39E-03  8.25E-03  8.10E-03  7.93E-03  7.74E-03  7.51E-03  7.26E-03
+ INC_VEC:  -1.74E-02 -1.74E-02 -1.73E-02 -1.72E-02 -1.69E-02 -1.69E-02 -1.69E-02 -1.68E-02 -1.67E-02 -1.67E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          16
+ The value of DTDR is :  0.523378064784480     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+          60          60         506
+          59          60         506
+ Average number of calls to FG_J_CMF is   1.851606    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111280
+  
+ Luminosity of star is :   290751.376949047        293357.467472207     
+ BA matrix computed
+ Beginning TRI solution in CMF_BLKBAND
+ He2     g.s. eq. replaced by ionization eq. at  51 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  56 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ N2      g.s. eq. replaced by ionization eq. at  32 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  45 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  60 depths.
+ NV      g.s. eq. replaced by ionization eq. at  60 depths.
+ O2      g.s. eq. replaced by ionization eq. at   2 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  47 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  53 depths.
+ OV      g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  60 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  43 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  51 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  53 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  57 depths.
+ Maximum % increase at depth  31 is  1.70E+00
+ Maximum % decrease at depth   1 is  6.29E-01
+ Maximm changes as returned by SOLVEBA_V9 is   1.61529203641705     
+ DEC_VEC:   6.29E-03  6.24E-03  6.15E-03  6.06E-03  5.95E-03  5.85E-03  5.72E-03  5.58E-03  5.43E-03  5.24E-03
+ INC_VEC:  -1.70E-02 -1.69E-02 -1.67E-02 -1.67E-02 -1.67E-02 -1.66E-02 -1.64E-02 -1.62E-02 -1.62E-02 -1.62E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          17
+ The value of DTDR is :  0.523375540086138     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.851008    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111281
+  
+ Luminosity of star is :   290827.262945252        293357.467472197     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  1.13E+00
+ Maximum % decrease at depth   1 is  5.55E-01
+ Maximm changes as returned by SOLVEBA_V9 is   1.07836345795261     
+ DEC_VEC:   5.55E-03  5.52E-03  5.47E-03  5.40E-03  5.30E-03  5.25E-03  5.15E-03  5.03E-03  4.89E-03  4.74E-03
+ INC_VEC:  -1.13E-02 -1.12E-02 -1.12E-02 -1.12E-02 -1.09E-02 -1.09E-02 -1.09E-02 -1.09E-02 -1.08E-02 -1.08E-02
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          18
+ The value of DTDR is :  0.523372983388898     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.850551    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111283
+  
+ Luminosity of star is :   290890.717587452        293357.467472197     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  9.39E-01
+ Maximum % decrease at depth   1 is  4.74E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.899557224400429     
+ DEC_VEC:   4.74E-03  4.71E-03  4.67E-03  4.61E-03  4.53E-03  4.47E-03  4.38E-03  4.28E-03  4.15E-03  4.01E-03
+ INC_VEC:  -9.39E-03 -9.34E-03 -9.34E-03 -9.27E-03 -9.15E-03 -9.15E-03 -9.08E-03 -9.03E-03 -9.00E-03 -9.00E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          19
+ The value of DTDR is :  0.523370406610852     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.849945    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111285
+  
+ Luminosity of star is :   290945.013488898        293357.467472196     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  7.89E-01
+ Maximum % decrease at depth   1 is  3.96E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.756111615894830     
+ DEC_VEC:   3.96E-03  3.94E-03  3.90E-03  3.84E-03  3.78E-03  3.71E-03  3.63E-03  3.54E-03  3.44E-03  3.32E-03
+ INC_VEC:  -7.89E-03 -7.85E-03 -7.84E-03 -7.78E-03 -7.71E-03 -7.71E-03 -7.64E-03 -7.58E-03 -7.56E-03 -7.56E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          20
+ The value of DTDR is :  0.523367819029373     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.849505    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111285
+  
+ Luminosity of star is :   290991.633680829        293357.467472200     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  6.67E-01
+ Maximum % decrease at depth   1 is  3.30E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.640061569987598     
+ DEC_VEC:   3.30E-03  3.27E-03  3.24E-03  3.20E-03  3.15E-03  3.08E-03  3.01E-03  2.94E-03  2.85E-03  2.75E-03
+ INC_VEC:  -6.67E-03 -6.65E-03 -6.63E-03 -6.58E-03 -6.55E-03 -6.54E-03 -6.47E-03 -6.41E-03 -6.40E-03 -6.40E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          21
+ The value of DTDR is :  0.523365227868775     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.848934    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111287
+  
+ Luminosity of star is :   291031.911128562        293357.467472209     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  5.68E-01
+ Maximum % decrease at depth   1 is  2.75E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.545037467803112     
+ DEC_VEC:   2.75E-03  2.74E-03  2.71E-03  2.67E-03  2.63E-03  2.57E-03  2.52E-03  2.46E-03  2.39E-03  2.31E-03
+ INC_VEC:  -5.68E-03 -5.66E-03 -5.63E-03 -5.60E-03 -5.59E-03 -5.59E-03 -5.51E-03 -5.46E-03 -5.45E-03 -5.45E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          22
+ The value of DTDR is :  0.523362638821634     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.848547    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111287
+  
+ Luminosity of star is :   291066.982651241        293357.467472209     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  4.87E-01
+ Maximum % decrease at depth   1 is  2.32E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.467949034559536     
+ DEC_VEC:   2.32E-03  2.30E-03  2.28E-03  2.25E-03  2.21E-03  2.17E-03  2.13E-03  2.08E-03  2.02E-03  1.95E-03
+ INC_VEC:  -4.87E-03 -4.85E-03 -4.82E-03 -4.81E-03 -4.80E-03 -4.79E-03 -4.73E-03 -4.69E-03 -4.68E-03 -4.68E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          23
+ The value of DTDR is :  0.523360056426875     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.848002    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111288
+  
+ Luminosity of star is :   291097.753250671        293357.467472201     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  4.21E-01
+ Maximum % decrease at depth   1 is  1.97E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.404258293512912     
+ DEC_VEC:   1.97E-03  1.96E-03  1.94E-03  1.91E-03  1.88E-03  1.85E-03  1.81E-03  1.77E-03  1.72E-03  1.66E-03
+ INC_VEC:  -4.21E-03 -4.19E-03 -4.16E-03 -4.16E-03 -4.16E-03 -4.13E-03 -4.08E-03 -4.06E-03 -4.04E-03 -4.04E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          24
+ The value of DTDR is :  0.523357484348583     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.847264    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111288
+  
+ Luminosity of star is :   291124.891108372        293357.467472204     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  3.66E-01
+ Maximum % decrease at depth   1 is  1.68E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.351751596656652     
+ DEC_VEC:   1.68E-03  1.68E-03  1.66E-03  1.64E-03  1.61E-03  1.58E-03  1.55E-03  1.52E-03  1.47E-03  1.43E-03
+ INC_VEC:  -3.66E-03 -3.64E-03 -3.63E-03 -3.62E-03 -3.61E-03 -3.59E-03 -3.55E-03 -3.54E-03 -3.53E-03 -3.52E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          25
+ The value of DTDR is :  0.523354925583259     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846658    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111288
+  
+ Luminosity of star is :   291148.980918046        293357.467472208     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  3.20E-01
+ Maximum % decrease at depth   1 is  1.45E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.309411506136182     
+ DEC_VEC:   1.45E-03  1.44E-03  1.43E-03  1.41E-03  1.39E-03  1.37E-03  1.34E-03  1.31E-03  1.27E-03  1.23E-03
+ INC_VEC:  -3.20E-03 -3.19E-03 -3.18E-03 -3.18E-03 -3.16E-03 -3.14E-03 -3.11E-03 -3.11E-03 -3.11E-03 -3.09E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          26
+ The value of DTDR is :  0.523352382612608     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846658    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111287
+  
+ Luminosity of star is :   291170.584898371        293357.467472208     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  2.82E-01
+ Maximum % decrease at depth   1 is  1.26E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.274077766576641     
+ DEC_VEC:   1.26E-03  1.25E-03  1.24E-03  1.23E-03  1.21E-03  1.19E-03  1.17E-03  1.14E-03  1.11E-03  1.07E-03
+ INC_VEC:  -2.82E-03 -2.81E-03 -2.81E-03 -2.81E-03 -2.78E-03 -2.76E-03 -2.76E-03 -2.75E-03 -2.74E-03 -2.74E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+ NUM_BAD_NG=           0
+ NG Acceleration performed using NG_BAND= 10
+ Max NG % increase at depth  30 is  3.19E+00
+ Max NG % decrease at depth  24 is  1.27E+00
+
+ Current great iteration count is
+          28
+ The value of DTDR is :  0.523237823013342     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.865747    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291446.610558689        293357.467472194     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  21 is  1.27E+00
+ Maximum % decrease at depth  21 is  1.22E+00
+ Maximm changes as returned by SOLVEBA_V9 is  0.522094295352152     
+ DEC_VEC:   1.22E-02  5.12E-03  2.30E-03  2.29E-03  2.13E-03  2.11E-03  2.06E-03  2.04E-03  2.00E-03  2.00E-03
+ INC_VEC:  -1.27E-02 -1.26E-02 -1.15E-02 -6.90E-03 -6.85E-03 -6.42E-03 -5.37E-03 -5.26E-03 -5.26E-03 -5.22E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          29
+ The value of DTDR is :  0.523236935931722     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846719    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291472.232893535        293357.467472200     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  17 is  3.13E-01
+ Maximum % decrease at depth   9 is  1.35E-01
+ Maximm changes as returned by SOLVEBA_V9 is  0.265090722988389     
+ DEC_VEC:   1.35E-03  1.34E-03  1.29E-03  1.26E-03  1.24E-03  1.20E-03  1.18E-03  1.17E-03  1.16E-03  1.13E-03
+ INC_VEC:  -3.13E-03 -2.73E-03 -2.72E-03 -2.72E-03 -2.72E-03 -2.69E-03 -2.69E-03 -2.66E-03 -2.66E-03 -2.65E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          30
+ The value of DTDR is :  0.523236056087127     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846658    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291487.114069855        293357.467472200     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  35 is  1.70E-01
+ Maximum % decrease at depth   1 is  9.66E-02
+ Maximm changes as returned by SOLVEBA_V9 is  0.166035248169328     
+ DEC_VEC:   9.66E-04  9.61E-04  9.50E-04  9.38E-04  9.23E-04  9.03E-04  8.74E-04  8.32E-04  7.82E-04  7.34E-04
+ INC_VEC:  -1.70E-03 -1.68E-03 -1.67E-03 -1.67E-03 -1.67E-03 -1.66E-03 -1.66E-03 -1.66E-03 -1.66E-03 -1.66E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          31
+ The value of DTDR is :  0.523235179801220     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846614    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291497.490755969        293357.467472203     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  1.31E-01
+ Maximum % decrease at depth   1 is  6.84E-02
+ Maximm changes as returned by SOLVEBA_V9 is  0.126567570216666     
+ DEC_VEC:   6.84E-04  6.75E-04  6.60E-04  6.44E-04  6.27E-04  6.09E-04  5.89E-04  5.70E-04  5.48E-04  5.24E-04
+ INC_VEC:  -1.31E-03 -1.31E-03 -1.30E-03 -1.29E-03 -1.29E-03 -1.28E-03 -1.28E-03 -1.27E-03 -1.27E-03 -1.27E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          32
+ The value of DTDR is :  0.523234314282428     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291505.774092818        293357.467472208     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  1.10E-01
+ Maximum % decrease at depth   1 is  5.35E-02
+ Maximm changes as returned by SOLVEBA_V9 is  0.106230763545152     
+ DEC_VEC:   5.35E-04  5.31E-04  5.24E-04  5.16E-04  5.07E-04  4.98E-04  4.87E-04  4.75E-04  4.62E-04  4.46E-04
+ INC_VEC:  -1.10E-03 -1.10E-03 -1.09E-03 -1.09E-03 -1.09E-03 -1.08E-03 -1.07E-03 -1.07E-03 -1.06E-03 -1.06E-03
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          33
+ The value of DTDR is :  0.523233464205646     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291512.908415633        293357.467472204     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  9.49E-02
+ Maximum % decrease at depth   1 is  4.50E-02
+ Maximm changes as returned by SOLVEBA_V9 is  9.123848023577649E-002
+ DEC_VEC:   4.50E-04  4.47E-04  4.43E-04  4.38E-04  4.31E-04  4.23E-04  4.15E-04  4.05E-04  3.93E-04  3.80E-04
+ INC_VEC:  -9.49E-04 -9.47E-04 -9.40E-04 -9.39E-04 -9.39E-04 -9.33E-04 -9.23E-04 -9.17E-04 -9.13E-04 -9.12E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          34
+ The value of DTDR is :  0.523232632563349     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291519.262714904        293357.467472201     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  31 is  8.30E-02
+ Maximum % decrease at depth   1 is  3.83E-02
+ Maximm changes as returned by SOLVEBA_V9 is  8.035364001996503E-002
+ DEC_VEC:   3.83E-04  3.81E-04  3.77E-04  3.72E-04  3.66E-04  3.60E-04  3.52E-04  3.44E-04  3.34E-04  3.23E-04
+ INC_VEC:  -8.30E-04 -8.28E-04 -8.27E-04 -8.25E-04 -8.19E-04 -8.15E-04 -8.08E-04 -8.07E-04 -8.07E-04 -8.04E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          35
+ The value of DTDR is :  0.523231821083743     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291524.978736729        293357.467472204     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  7.36E-02
+ Maximum % decrease at depth   1 is  3.29E-02
+ Maximm changes as returned by SOLVEBA_V9 is  7.158746644327207E-002
+ DEC_VEC:   3.29E-04  3.27E-04  3.24E-04  3.20E-04  3.15E-04  3.09E-04  3.03E-04  2.96E-04  2.88E-04  2.79E-04
+ INC_VEC:  -7.36E-04 -7.36E-04 -7.34E-04 -7.34E-04 -7.24E-04 -7.23E-04 -7.20E-04 -7.19E-04 -7.19E-04 -7.16E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          36
+ The value of DTDR is :  0.523231030588682     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291530.121229189        293357.467472211     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  6.58E-02
+ Maximum % decrease at depth   1 is  2.86E-02
+ Maximm changes as returned by SOLVEBA_V9 is  6.392214739262055E-002
+ DEC_VEC:   2.86E-04  2.85E-04  2.83E-04  2.79E-04  2.75E-04  2.70E-04  2.65E-04  2.59E-04  2.52E-04  2.44E-04
+ INC_VEC:  -6.58E-04 -6.57E-04 -6.56E-04 -6.55E-04 -6.49E-04 -6.46E-04 -6.45E-04 -6.43E-04 -6.42E-04 -6.39E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          37
+ The value of DTDR is :  0.523230261270742     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291534.737565656        293357.467472202     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  5.90E-02
+ Maximum % decrease at depth   1 is  2.53E-02
+ Maximm changes as returned by SOLVEBA_V9 is  5.723034226065218E-002
+ DEC_VEC:   2.53E-04  2.51E-04  2.49E-04  2.47E-04  2.43E-04  2.39E-04  2.34E-04  2.29E-04  2.23E-04  2.16E-04
+ INC_VEC:  -5.90E-04 -5.89E-04 -5.88E-04 -5.86E-04 -5.83E-04 -5.79E-04 -5.77E-04 -5.77E-04 -5.74E-04 -5.72E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          38
+ The value of DTDR is :  0.523229512897567     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846622    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291538.874142858        293357.467472191     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  5.29E-02
+ Maximum % decrease at depth   1 is  2.25E-02
+ Maximm changes as returned by SOLVEBA_V9 is  5.126357410733740E-002
+ DEC_VEC:   2.25E-04  2.24E-04  2.22E-04  2.19E-04  2.16E-04  2.13E-04  2.09E-04  2.04E-04  1.99E-04  1.93E-04
+ INC_VEC:  -5.29E-04 -5.28E-04 -5.26E-04 -5.25E-04 -5.22E-04 -5.19E-04 -5.17E-04 -5.16E-04 -5.14E-04 -5.13E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          39
+ The value of DTDR is :  0.523228784959671     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Average number of calls to FG_J_CMF is   1.846614    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291542.578107673        293357.467472203     
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  4.73E-02
+ Maximum % decrease at depth   1 is  2.01E-02
+ Maximm changes as returned by SOLVEBA_V9 is  4.590763772912462E-002
+ DEC_VEC:   2.01E-04  2.00E-04  1.98E-04  1.96E-04  1.93E-04  1.90E-04  1.86E-04  1.82E-04  1.78E-04  1.72E-04
+ INC_VEC:  -4.73E-04 -4.73E-04 -4.71E-04 -4.70E-04 -4.68E-04 -4.65E-04 -4.63E-04 -4.62E-04 -4.60E-04 -4.59E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+
+ Current great iteration count is
+          40
+ The value of DTDR is :  0.523228076779394     
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Calling FG_J_CMF_V11 in COMP_J_BLANK
+ Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Done Calling MOM_J_CMF_V8
+ Tau(Nu= 1.3161E+01) at outer boundary is: 6.784E+02
+ Tau(Nu= 1.1600E+01) at outer boundary is: 1.911E+00
+ Tau(Nu= 5.9501E+00) at outer boundary is: 1.222E-02
+ Tau(Nu= 3.2900E+00) at outer boundary is: 2.176E-03
+ Tau(Nu= 8.3001E-01) at outer boundary is: 1.429E-03
+ Average number of calls to FG_J_CMF is   1.846614    
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      111290
+  
+ Luminosity of star is :   291545.897978592        293357.467472202     
+ BEGIN COMP_GREY_V4          60          15          75
+  
+ *****************************************************************************************
+ Possible error with hydrostatic structure --- large error in photosphere
+              Mean error is -1.42E+01
+ Root mean squared error is  2.69E+01
+           Maximum error is  5.59E+01
+ *****************************************************************************************
+  
+ BA matrix **NOT** computed
+ Maximum % increase at depth  32 is  4.24E-02
+ Maximum % decrease at depth   1 is  1.79E-02
+ Maximm changes as returned by SOLVEBA_V9 is  4.110853325219181E-002
+ DEC_VEC:   1.79E-04  1.79E-04  1.77E-04  1.75E-04  1.73E-04  1.70E-04  1.67E-04  1.63E-04  1.59E-04  1.54E-04
+ INC_VEC:  -4.24E-04 -4.23E-04 -4.22E-04 -4.21E-04 -4.19E-04 -4.16E-04 -4.14E-04 -4.14E-04 -4.12E-04 -4.11E-04
+ The minimum value of scale for Major species is:  0.0000E+00
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 60   T=8.7639E+00   ED=2.0790E+15
+   FeVIII may need to be included in the model (IF ~ 1.2E-01)
+ 
+                   Temperature (10^4 K) is 8.764E+00
+           Atom/ion density (per cm^3)) is 1.728E+15
+                 Electrons per atom/ion is 1.203E+00
+ Total thermal kinetic energy (ev/atom) is 2.496E+01
+  Approximate internal energy (ev/atom) is 2.689E+01
+ App. missing internal energy (ev/atom) is 6.618E-04
+             Radiation energy (ev/atom) is 5.066E+02
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ **********************************************************
+ Warning reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order. Should not cause a problem
+ Levels are:          23          24
+ **********************************************************
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                         
+ ***Warning**** --- 30260 weak transitions cut in GENOSC_V6 --- FeSIX_F_OSCDAT
+ ***Warning**** --- 34246 weak transitions cut in GENOSC_V6 --- FeV_F_OSCDAT
+ ***Warning**** --- 34324 weak transitions cut in GENOSC_V6 --- FeIV_F_OSCDAT
+ ***Warning**** ---  3124 weak transitions cut in GENOSC_V6 --- FeIII_F_OSCDAT
+ Opened MODEL
+  
+ *************** Warning -- Warning -- Warning ****************
+ Max. cont. freq may be too small in in SET_X_FREQ_V2
+ Max. cont. should generally be set to 1000 when X-rays present
+ Need to allow for ionization from inner shells. Generally can
+ ignore ionization from n=1 (=PQN) state of iron group elements
+ since these can also ionize from n=2 sate. A list of effected
+ ionization routes follows:
+ 
+  IZ=26    NE=24   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=23   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=22   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.73E+03
+ Warning from INS_LINE_V4
+   410 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=  3.498970000000000E-003
+ Min(Nu_LINE)=  8.591002573166140E-006
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13482 frequencies
+ Number of line frequencies is:        145385
+ Number of frequencies is:             113778
+  
+  Warning from SET_FREQUENCY_GRID
+   411 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=  3.494913403868898E-003
+ Min(Nu_LINE)=  8.591002573166140E-006
+ Error opening POINT1 in SCR_READ
+ Error opening POINT2 in SCR_READ
+ Error on reading Pointers in READ_SCRTEMP
+ Starting a new model.
+ *_IN files will be used to start model
+ Setting ITS_DONE keyword in HYDRO_DEFAULTS to 0
+ Using NON-GRID option for new model.
+ Warning ED in GETELEC_V2 is non-monotonic
+ We estimated the gammas using the grid index.
+ Departure coefficients assumed to be function of Ne.

@@ -1,0 +1,17 @@
+Program started on:
+Mon Dec 19 13:07:22 BRST 2016
+Machine name is :
+vitalogy
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 7, file /home/wagner/models_CMFGEN/IRDATA_Spitzer/cmfgen/DONAVAN_MODFINAIS/hd195592/m30/obs/MODEL_SPEC
+Image              PC                Routine            Line        Source             
+cmfgen_dev.exe     00000000007B27CE  Unknown               Unknown  Unknown
+cmfgen_dev.exe     00000000007B19CE  Unknown               Unknown  Unknown
+cmfgen_dev.exe     000000000076C136  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000728E09  Unknown               Unknown  Unknown
+cmfgen_dev.exe     00000000007286F7  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000737F1D  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000404876  Unknown               Unknown  Unknown
+cmfgen_dev.exe     000000000040360E  Unknown               Unknown  Unknown
+libc.so.6          00002B83FA4C87ED  Unknown               Unknown  Unknown
+cmfgen_dev.exe     0000000000403529  Unknown               Unknown  Unknown

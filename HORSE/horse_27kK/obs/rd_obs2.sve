@@ -1,0 +1,12 @@
+rd_obs2
+{FILE=/home/matheus/CMFGEN/OBSERVED_SPECTRA/HD167756_op_spec_ec.dat}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{REM_BP=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=F}
+{COLS=1,2}
+{WR=F}

@@ -1,0 +1,23 @@
+  
+ Overhead is   0.000000000000000E+000
+  
+        Identifier           Elapsed             CPU
+                               Time              Time
+ mainc                          0.882700         0.884055
+ linear                         0.010500         0.012000
+ cnvlv                          0.861300         0.860054
+        Identifier           Elapsed             CPU
+                               Time              Time
+ mainc                          0.995100         0.996062
+ linear                         0.033500         0.036002
+ cnvlv                          0.933300         0.932059
+        Identifier           Elapsed             CPU
+                               Time              Time
+ mainc                          1.412200         1.412088
+ linear                         0.047300         0.048003
+ cnvlv                          1.320300         1.320083
+        Identifier           Elapsed             CPU
+                               Time              Time
+ mainc                          1.823100         1.820114
+ linear                         0.058600         0.060004
+ cnvlv                          1.703800         1.700107

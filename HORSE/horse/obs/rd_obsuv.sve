@@ -1,0 +1,11 @@
+rd_obsuv
+{FILE=../../swp02141lowresNORM.dat}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=F}
+{COLS=1,2}
+{WR=F}

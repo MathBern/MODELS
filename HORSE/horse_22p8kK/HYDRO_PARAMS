@@ -1,0 +1,16 @@
+2.70       [LOG_G]
+1.70384    [MU_ATOM]
+2.30       [TEFF]
+T          [OLD_MOD]
+F          [OLD_V]
+T          [WIND_PRES]
+166.387049 [RSTAR]
+1.0D+08    [ATOM_DEN]
+120.0D0    [MAX_R]
+0.14625E-6 [MDOT]
+1980       [VINF] !Target is 1940
+2.0        [BETA]
+183.901470 [CON_R]
+175.144265 [REF_R]
+10.0D0     [CON_V]
+

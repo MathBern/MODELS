@@ -1,0 +1,87 @@
+
+ Reading in atomic data
+
+ Warning -- FORMAT Date not found in oscilator file:HI_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:He2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:HeI_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:CIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:C2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:NV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:NIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:OV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:O2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:Mg2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:SkIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:Sk2_F_OSCDAT
+ ***Warning**** --- 30260 weak transitions cut in GENOSC_V9 --- FeSIX_F_OSCDAT
+ ***Warning**** --- 34246 weak transitions cut in GENOSC_V9 --- FeV_F_OSCDAT
+ ***Warning**** --- 34324 weak transitions cut in GENOSC_V9 --- FeIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:FeIII_F_OSCDAT
+ ***Warning**** ---  3124 weak transitions cut in GENOSC_V9 --- FeIII_F_OSCDAT
+  
+ *************** Warning -- Warning -- Warning ****************
+ Max. cont. freq may be too small in in SET_X_FREQ_V2
+ Max. cont. should generally be set to 1000 when X-rays present
+ Need to allow for ionization from inner shells. Generally can
+ ignore ionization from n=1 (=PQN) state of iron group elements
+ since these can also ionize from n=2 sate. A list of effected
+ ionization routes follows:
+
+  IZ=26    NE=24   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=23   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=22   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.73E+03
+
+
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 70   T=7.0049E+00   ED=1.5325E+15
+   MgIII  may need to be included in the model (IF ~ 8.0E-01)
+   MgIV   may need to be included in the model (IF ~ 3.2E-03)
+   FeSEV  may need to be included in the model (IF ~ 7.8E-04)
+ 
+                   Temperature (10^4 K) is 7.005E+00
+           Atom/ion density (per cm^3)) is 1.243E+15
+                 Electrons per atom/ion is 1.233E+00
+ Total thermal kinetic energy (ev/atom) is 2.022E+01
+  Approximate internal energy (ev/atom) is 2.881E+01
+ App. missing internal energy (ev/atom) is 2.577E-02
+             Radiation energy (ev/atom) is 2.874E+02
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 70   T=7.0048E+00   ED=1.5325E+15
+   MgIII  may need to be included in the model (IF ~ 8.0E-01)
+   MgIV   may need to be included in the model (IF ~ 3.2E-03)
+   FeSEV  may need to be included in the model (IF ~ 7.8E-04)
+ 
+                   Temperature (10^4 K) is 7.005E+00
+           Atom/ion density (per cm^3)) is 1.243E+15
+                 Electrons per atom/ion is 1.233E+00
+ Total thermal kinetic energy (ev/atom) is 2.022E+01
+  Approximate internal energy (ev/atom) is 2.881E+01
+ App. missing internal energy (ev/atom) is 2.577E-02
+             Radiation energy (ev/atom) is 2.874E+02
