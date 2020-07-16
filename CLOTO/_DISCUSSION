@@ -1,0 +1,14 @@
+> Alguns diagnósticos de Teff estão em contradição na resposta a diminuição da Teff (Tripleto do Si III e linha [He II 4572]). E o final das asas da série de Balmer parece se ajustar melhor para Teffs mais elevadas.
+>> O modelo de 25kK parece se ajustar muito bem a algumas linhas do H, mas falha em alguns diagnósticos de Teff (Tripleto do Si III).
+* Talvez colocando mais elementos pesados (Co, Ni, etc) para fazer um backwarming mais forte resolva. Pois eu poderia abaixar a Teff, mas a temperatura na atmosfera aumentaria.
+* Talvez as abundâncias, no caso do He estão incorretas.
+* Talvez Aumentando o logg, a abertura das asas de H faça a borda das linhas abaixarem.
+
+> A luminosidade parece muito alta ainda.
+*Diminuir a Teff é um caminho possível, mas prejudica o ajuste de He II 4572 e prejudica o ajuste do final das asas das linhas de Balmer.
+
+> As linhas [Si IV 1393, 1403] estão muito fortes
+* Talvez alterar a quantidade e a posição inicial da produção de RX possa resolver o problema. [Não Resolveu]
+! Ao mexer nos RX, as linhas [C IV 1548, 1550] e [N V 1245] se alteraram consideravelmente.
+!* Ao que parece, deixar uma velocidade baixa para o começo da produção dos RX parece ser o mais correto (~200km/s)
+

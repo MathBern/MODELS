@@ -1,0 +1,12 @@
+rd_obs
+{FILE=/home/matheus/CMFGEN/OBSERVED_SPECTRA/hd167756_IUE_OP.fp.dat}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{REM_BP=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=F}
+{COLS=1,2}
+{WR=F}

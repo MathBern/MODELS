@@ -1,0 +1,690 @@
+
+
+ Model started on:               13-Feb-2020 12:30:01
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+ Error opening POINT1 in SCR_READ
+ Error opening POINT2 in SCR_READ
+ Error on reading Pointers in READ_SCRTEMP
+ Starting a new model.
+ *_IN files will be used to start model
+ Setting ITS_DONE keyword in HYDRO_DEFAULTS to 0
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13748 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124918
+  
+ Warning from SET_FREQUENCY_GRID
+   422 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   1948.1750000000000     
+ Maximum red  profile extent is  9.927E-01 2.203E+03 km/s
+ Maximum red  wing    extent is  9.657E-01 1.029E+04 km/s
+ Maximum blue profile extent is  1.007E+00 2.203E+03 km/s
+ Maximum blue wing    extent is  1.021E+00 6.203E+03 km/s
+ Using NON-GRID option for new model.
+ Warning ED in GETELEC_V2 is non-monotonic
+ We estimated the gammas using the grid index.
+ Warning - core radius not identical in REGRIDWSC
+ Rescaling to make Rcore identical
+ Departure coefficients assumed to be function of Ne.
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ Warning - opacity assumed to be r**(-2) in TORSCL
+ Warning - opacity assumed to be r**(-2) in TORSCL
+  
+ Thompson scattering optical depth at inner boundary is: 4.309E+01
+ Rosseland optical depth at inner boundary is:           1.024E+02
+ Rosseland optical depth at outer boundary is:           4.394E-06
+  
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  7.78E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  2.43E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  2.61E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  2.60E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  2.60E+00 %
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   1
+ 
+ Unable to open EDDFACTOR_INFO
+ Error occurred in READ_DIRECT_INFO: IOS=           2
+ Error --- unable to open EDDFACTOR_INFO -- will compute new f
+ The value of DTDR is :  0.51821656215997347     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 T
+ Using OLD_DEFAULT method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.09159949E+04   RMAX=  2.09159949E+05
+ V(1)=  1.94817500E+03   VMAX=  1.97671985E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.06612349    
+  
+ Number of weak lines is      106253
+  
+ Luminosity of star (d=1,ND)(iteration 1) is:    1.61525362E+05    1.81598917E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   43 is  3.78E+04  (LAMBDA)          --- iteration    1
+ Maximum % decrease at depth   34 is  9.95E+01  (LAMBDA)          --- iteration    1
+ Maximm changes as returned by SOLVEBA_V9 is   37786.499516650729     
+ DEC_VEC:   9.95E-01  9.94E-01  9.93E-01  9.92E-01  9.91E-01  9.91E-01  9.91E-01  9.91E-01  9.90E-01  9.90E-01
+ INC_VEC:  -3.78E+02 -2.41E+02 -2.38E+02 -2.29E+02 -2.23E+02 -2.07E+02 -2.04E+02 -2.04E+02 -2.04E+02 -2.04E+02
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   2
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51839933231320867     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.97957861    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106295
+  
+ Luminosity of star (d=1,ND)(iteration 2) is:    1.61905982E+05    1.81675429E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   25 is  2.15E+01  (LAMBDA)          --- iteration    2
+ Maximum % decrease at depth   34 is  3.79E+01  (LAMBDA)          --- iteration    2
+ Maximm changes as returned by SOLVEBA_V9 is   60.976948788069279     
+ DEC_VEC:   3.79E-01  3.76E-01  3.48E-01  3.44E-01  3.30E-01  3.29E-01  3.24E-01  3.19E-01  3.19E-01  3.13E-01
+ INC_VEC:  -2.15E-01 -2.14E-01 -2.09E-01 -2.07E-01 -2.06E-01 -2.02E-01 -2.02E-01 -1.97E-01 -1.96E-01 -1.96E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   3
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51840053353770588     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.87215614    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106304
+  
+ Luminosity of star (d=1,ND)(iteration 3) is:    1.62224092E+05    1.81675429E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   27 is  8.83E+00  (LAMBDA)          --- iteration    3
+ Maximum % decrease at depth   34 is  2.00E+01  (LAMBDA)          --- iteration    3
+ Maximm changes as returned by SOLVEBA_V9 is   25.071903831931028     
+ DEC_VEC:   2.00E-01  1.97E-01  1.95E-01  1.92E-01  1.78E-01  1.73E-01  1.70E-01  1.70E-01  1.68E-01  1.67E-01
+ INC_VEC:  -8.83E-02 -8.55E-02 -8.51E-02 -8.40E-02 -8.37E-02 -8.32E-02 -8.32E-02 -8.32E-02 -8.28E-02 -8.26E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+
+
+ Model started on:               13-Feb-2020 13:25:32
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13748 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124918
+  
+ Warning from SET_FREQUENCY_GRID
+   422 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   1948.1750000000000     
+ Maximum red  profile extent is  9.927E-01 2.203E+03 km/s
+ Maximum red  wing    extent is  9.657E-01 1.029E+04 km/s
+ Maximum blue profile extent is  1.007E+00 2.203E+03 km/s
+ Maximum blue wing    extent is  1.021E+00 6.203E+03 km/s
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ Error opening logical unit to recall :BAMAT
+ IOSTAT=           2
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   4
+ 
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51840203968823417     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.09159949E+04   RMAX=  2.09159949E+05
+ V(1)=  1.94817500E+03   VMAX=  1.97671985E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.66453195    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106305
+  
+ Luminosity of star (d=1,ND)(iteration 4) is:    1.62476017E+05    1.81675429E+05
+
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   43 is  6.51E+01  (BA computed)     --- iteration    4
+ Maximum % decrease at depth   37 is  7.93E+01  (BA computed)     --- iteration    4
+ Maximm changes as returned by SOLVEBA_V9 is   382.26770940758314     
+ DEC_VEC:   7.93E-01  7.80E-01  7.74E-01  7.68E-01  7.39E-01  7.36E-01  7.11E-01  6.79E-01  6.72E-01  6.61E-01
+ INC_VEC:  -6.51E-01 -5.52E-01 -5.32E-01 -5.23E-01 -5.11E-01 -5.06E-01 -4.98E-01 -4.96E-01 -4.94E-01 -4.92E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   5
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51840284751102150     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.00010395    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106321
+  
+ Luminosity of star (d=1,ND)(iteration 5) is:    1.63249716E+05    1.81675429E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   49 is  2.52E+01  (BA not computed) --- iteration    5
+ Maximum % decrease at depth   36 is  6.02E+01  (BA not computed) --- iteration    5
+ Maximm changes as returned by SOLVEBA_V9 is   151.34005119665156     
+ DEC_VEC:   6.02E-01  5.93E-01  5.57E-01  5.40E-01  4.92E-01  4.77E-01  4.57E-01  4.54E-01  4.50E-01  4.41E-01
+ INC_VEC:  -2.52E-01 -2.50E-01 -2.40E-01 -2.36E-01 -2.32E-01 -2.32E-01 -2.31E-01 -2.26E-01 -2.25E-01 -2.24E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   6
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51841629553484747     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.94110537    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106332
+  
+ Luminosity of star (d=1,ND)(iteration 6) is:    1.63650047E+05    1.81675429E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   48 is  2.18E+01  (BA not computed) --- iteration    6
+ Maximum % decrease at depth   37 is  5.25E+01  (BA not computed) --- iteration    6
+ Maximm changes as returned by SOLVEBA_V9 is   110.63626452036581     
+ DEC_VEC:   5.25E-01  4.74E-01  3.99E-01  3.85E-01  3.85E-01  3.73E-01  3.54E-01  3.49E-01  2.93E-01  2.92E-01
+ INC_VEC:  -2.18E-01 -2.11E-01 -2.07E-01 -1.99E-01 -1.94E-01 -1.93E-01 -1.92E-01 -1.92E-01 -1.92E-01 -1.91E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+
+
+ Model started on:               13-Feb-2020 14:20:13
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13748 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124918
+  
+ Warning from SET_FREQUENCY_GRID
+   422 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   1948.1750000000000     
+ Maximum red  profile extent is  9.927E-01 2.203E+03 km/s
+ Maximum red  wing    extent is  9.657E-01 1.029E+04 km/s
+ Maximum blue profile extent is  1.007E+00 2.203E+03 km/s
+ Maximum blue wing    extent is  1.021E+00 6.203E+03 km/s
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   7
+ 
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51841717660347408     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.09159949E+04   RMAX=  2.09159949E+05
+ V(1)=  1.94817500E+03   VMAX=  1.97671985E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.66434777    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106344
+  
+ Luminosity of star (d=1,ND)(iteration 7) is:    1.63979350E+05    1.81675429E+05
+
+ BA matrix **NOT** computed
+ Error in READ_BCD_MAT
+ Unable to read CSCRATCH0036  
+ IOSTAT=        5016
+
+
+ Model started on:               13-Feb-2020 14:38:22
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13748 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124918
+  
+ Warning from SET_FREQUENCY_GRID
+   422 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   1948.1750000000000     
+ Maximum red  profile extent is  9.927E-01 2.203E+03 km/s
+ Maximum red  wing    extent is  9.657E-01 1.029E+04 km/s
+ Maximum blue profile extent is  1.007E+00 2.203E+03 km/s
+ Maximum blue wing    extent is  1.021E+00 6.203E+03 km/s
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   7
+ 
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51841717660347408     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.09159949E+04   RMAX=  2.09159949E+05
+ V(1)=  1.94817500E+03   VMAX=  1.97671985E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.66433179    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106344
+  
+ Luminosity of star (d=1,ND)(iteration 7) is:    1.63979349E+05    1.81675429E+05
+
+ BA matrix **NOT** computed
+ Error in READ_BCD_MAT
+ Unable to read CSCRATCH0036  
+ IOSTAT=        5016
+
+
+ Model started on:               13-Feb-2020 15:38:06
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13748 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124918
+  
+ Warning from SET_FREQUENCY_GRID
+   422 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   1948.1750000000000     
+ Maximum red  profile extent is  9.927E-01 2.203E+03 km/s
+ Maximum red  wing    extent is  9.657E-01 1.029E+04 km/s
+ Maximum blue profile extent is  1.007E+00 2.203E+03 km/s
+ Maximum blue wing    extent is  1.021E+00 6.203E+03 km/s
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   7
+ 
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.51841717660347408     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.09159949E+04   RMAX=  2.09159949E+05
+ V(1)=  1.94817500E+03   VMAX=  1.97671985E+03
+ Using depth 1 and   7 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.66433179    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      106344
+  
+ Luminosity of star (d=1,ND)(iteration 7) is:    1.63979349E+05    1.81675429E+05
+
+ BA matrix **NOT** computed
+ Error in READ_BCD_MAT
+ Unable to read CSCRATCH0036  
+ IOSTAT=        5016

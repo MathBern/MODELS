@@ -1,0 +1,18 @@
+Program started on:
+seg nov 25 17:01:32 -03 2019
+Machine name is :
+math
+At line 286 of file cmfgen.f (unit = 7)
+Fortran runtime error: Cannot open file 'MODEL_SPEC': No such file or directory
+
+Error termination. Backtrace:
+#0  0x14e8d1fc131a
+#1  0x14e8d1fc1ec5
+#2  0x14e8d1fc268d
+#3  0x14e8d2134c3d
+#4  0x14e8d2134f84
+#5  0x55aa05761501
+#6  0x55aa0576a3f5
+#7  0x14e8d13f1b96
+#8  0x55aa0575f319
+#9  0xffffffffffffffff

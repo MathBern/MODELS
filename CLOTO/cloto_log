@@ -1,0 +1,315 @@
+Estrela Alvo: HD167756
+Modelo: horse_27kK - Baseado no modelo horse (do Wagner/Donavan)
+Mudanças: Diminuição da Teff de 28kK para 27kK (demais parâmetros fixos)
+Observações: 
+Resultados: Convergiu bem
+Discussão: Precisa-se baixar a perda de massa (H_alpha muito forte) e possivelmente a temperatura
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_mdot.30p - Baseado no modelo horse_27kK
+Mudanças: Inserção de vinf de Howarth+97 e Diminuição da Mdot em 30%
+Observações: 
+Resultados: Convergiu bem em MEANOPAC e OUTGEN
+Discussão: 
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_mdot.70p - Baseado no modelo horse_27kK
+Mudanças: Inserção de vinf de Howarth+97 e Diminuição da Mdot em 70%
+Observações: 
+Resultados: Convergiu bem em MEANOPAC e OUTGEN
+Discussão: Está gerando H_alpha com perfil de quase absorção. Mas precisa baixar ainda mais
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_mdot.30p_Teff.26kK - Baseado no modelo horse_27kK
+Mudanças: Inserção de vinf de Howarth+97 e diminuição da Teff em 1kK
+Observações: 
+Resultados: Não convergiu em 60 iterações duas vezes!
+Discussão: XXX
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_mdot.70.30p - Baseado no modelo Cloto_mdot.70p
+Mudanças: Diminuição da Mdot em 30% em relação ao anterior
+Observações: 
+Resultados: Convergiu bem
+Discussão: Não baixou o suficiente. H_alpha ainda não está em absorção, já que está em emissão dentro de uma absorção, quase plana
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_mdot.70.70p - Baseado no modelo Cloto_mdot.70p
+Mudanças: Diminuição da Mdot em 70% em relação ao anterior
+Observações: 
+Resultados: Convergiu bem
+Discussão: Parece ser a quase a quantidade ideal, porque a linha possui quase a mesma altura e largura (largura equivalente bem próxima) no H_alpha. Porém, no UV as coisas estão muito diferentes...
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_up.RX_fix.Vinf - Baseado no modelo Cloto_mdot.70.70p
+Mudanças: Aumento do 'filling factor'[FIL_FAC_1] de 0.14 para 0.4, diminuição da velocidade a partir do qual os choques começam a ficar importantes [V_SHOCK_1], eliminação da segunda frente de choque e produção de RX (*_2) e mudança da velocidade terminal[VINF] de 1490 para 1940. 
+Observações: 
+Resultados: Convergiu bem
+Discussão: O perfil PCyg de C IV 1548-50 ficou melhor. Talvez ainda precise subir um pouquinho a Vinf para que fique mais cravada no 1940 após as Iterações Hydro e ainda alterar o [V_SHOCK_1] para ver se tem algum efeito importante.
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_chs.RX_up.Vinf - Baseado no modelo Cloto_up.RX_fix.Vinf
+Mudanças: Mudança da [V_SHOCK_1] de 400km/s para 500km/s apenas para ver o efeito que isso tem no espectro e pequeno aumento da Vinf de 1940 para 1950 para que o wind_hyd ao fazer a estrutura de velocidade faça a Vinf efetiva mais próxima do valor observado.
+Observações: 
+Resultados: Convergiu bem
+Discussão: Somente alterou a região em torno da linha do N V 1240, fazendo com que ela subisse um pouco. Ou seja, aumentou-se a absorção nessa faixa
+------------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.26kK - Baseado no modelo Cloto_up.RX_fix.Vinf
+Mudanças: Mudança da temperatura efetiva de 27kK para 26kK. Além disso, aumentei a Vinf para 1950 para que o wind_hyd produzisse um Vinf efetivo mais perto do original.
+Observações: 
+Resultados: Não convergiu, e tá longe disso
+Discussão: Provavelmente não convergiu porque possivelmente a estrutura de ionização se alterou. Portanto, é necessário alterar em quantidades menores.
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.26p5kK - Baseado no modelo Cloto_up.RX_fix.Vinf
+Mudanças: Mudança da temperatura efetiva de 27kK para 26.5kK. Além disso, aumentei a Vinf para 1950 para que o wind_hyd produzisse um Vinf efetivo mais perto do original.
+Observações: 
+Resultados: Convergiu bem
+Discussão:
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.26kK - Baseado no modelo Cloto_Teff.26p5kK
+Mudanças: Mudança da temperatura efetiva de 26.5kK para 26kK. 
+Observações: 
+Resultados: Convergiu bem
+Discussão: Está requerendo mais que 60 iterações.
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25p5kK_try1 - Baseado no modelo Cloto_Teff.26p5kK
+Mudanças: Mudança da temperatura efetiva de 26.5kK para 25.5kK. 
+Observações: 
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25p5kK_try2 - Baseado no modelo Cloto_Teff.26p5kK
+Mudanças: Mudança da temperatura efetiva de 26.5kK para 25kK. 
+Observações: 
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25p5kK_try2 - Baseado no modelo Cloto_Teff.26p5kK
+Mudanças: Mudança da temperatura efetiva de 26.5kK para 25kK. 
+Observações: 
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25p5kK_g.2p8 - Baseado no modelo Cloto_Teff.26kK
+Mudanças: Mudança da temperatura efetiva de 26kK para 25.5kK e alteração do logg de 2.9 para 2.8 (mantendo a luminosidade constante). 
+Observações: 
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25p8kK - Baseado no modelo Cloto_Teff.26kK
+Mudanças: Mudança da temperatura efetiva de 26kK para 25.8kK (mantendo R constante) 
+Observações: 
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25kK - Baseado no modelo Cloto_Teff.25p5kK_g.2p8
+Mudanças: Mudança da temperatura efetiva de 25.5kK para 25kK (mantendo R constante) 
+Observações: A partir de agora o 2.8 é o logg padrão, então será omitido.
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.25kK_g.2p7 - Baseado no modelo Cloto_Teff.25p5kK_g.2p8
+Mudanças: Mudança da temperatura efetiva de 25.5kK para 25kK (mantendo L constante) 
+Observações: 
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.24p5kK_g.2p7 - Baseado no modelo Cloto_Teff.25kK_g.2p7
+Mudanças: Mudança da temperatura efetiva de 25kK para 24.5kK (mantendo R constante) e alteração do input da [VINF] de 1950 para 1990, mas ainda visando 1940
+Observações: O logg é 2.7 
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.24p5kK - Baseado no modelo Cloto_Teff.25kK
+Mudanças: Mudança da temperatura efetiva de 25kK para 24.5kK (mantendo R constante) e alteração do input da [VINF] de 1950 para 1990, mas ainda visando 1940
+Observações: O logg é 2.8. 
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_ND.70 - Baseado no modelo Cloto_Teff.24p5kK
+Mudanças: Mudança do número de profundidades ópticas (ND) de 60 para 70 para ver se tem efeito na largura do H_alpha
+Observações: O logg é 2.8. 
+Resultados: Convergiu bem
+Discussão: Aquela mensagem de erro estranho sobre estrutura hidrostática sumiu.
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_ND.80 - Baseado no modelo Cloto_ND.70
+Mudanças: Mudança do número de profundidades ópticas (ND) de 70 para 80 para ver se tem efeito na largura do H_alpha. Mas sem muitas expectativas
+Observações: O logg é 2.8. 
+Resultados: 
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_HeH.up20p - Baseado no modelo Cloto_ND.70
+Mudanças: Aumento da abundância de He em 20%
+Observações: O logg é 2.8. 
+Resultados: Convergiu bem
+Discussão: As linhas de He abaixaram apenas um pouco, quase imperceptivelmente
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_HeH.down20p - Baseado no modelo Cloto_ND.70
+Mudanças: Diminuição da abundância de He em 20%
+Observações: O logg é 2.8. 
+Resultados: Convergiu bem
+Discussão: As linhas de He se elevaram apenas um pouco, quase imperceptivelmente. No entanto, curiosamente o H_alpha mudou um pouco
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_beta.1 - Baseado no modelo Cloto_HeH.up20p
+Mudanças: Diminuição do beta (lei beta de velocidades) de 1.4 para 1.0
+Observações: O logg é 2.8. 
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_beta.2 - Baseado no modelo Cloto_HeH.up20p
+Mudanças: Aumentp do beta (lei beta de velocidades) de 1.4 para 2.0
+Observações: O logg é 2.8. 
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_Teff.24kK - Baseado no modelo Cloto_beta.2
+Mudanças: Diminuição da temperatura efetiva pra 24kK
+Observações: O logg é 2.8 e beta é 2.
+Resultados: convergiu bem
+Discussão: Fitou melhor as linhas da série de balmer (tirando o H_alpha)
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_24kK_add.Si2 - Baseado no modelo Cloto_Teff.24kK
+Mudanças: Adição do íon Si II
+Observações: O logg é 2.8 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_24p5kK_g.2p7_add.Si2 - Baseado no modelo Cloto_Teff.24p5kK_g.2p7
+Mudanças: Adição do íon Si II
+Observações: O logg é 2.8 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_fix.CNO.30p_24kK - Baseado no modelo Cloto_24kK_add.Si2
+Mudanças: Aumento do C e diminuição do C em 30%
+Observações: O logg é 2.8 e beta é 2.
+Resultados: 
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Cloto_fix.CNO.30p_24p5kK_g.2p7 - Baseado no modelo Cloto_24p5kK_add.Si2_g.2p7
+Mudanças: Aumento do C e diminuição do N em 30%
+Observações: O logg é 2.7 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_N.down.30p_24kK - Baseado no modelo Cloto_fix.CNO.30p_24kK
+Mudanças: Diminuição do N em 30%
+Observações: O logg é 2.8 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_N.down.30p_24p5kK - Baseado no modelo Cloto_fix.CNO.30p_24p5kK_g.2p7
+Mudanças: Diminuição do N em 30%
+Observações: O logg é 2.7 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_add.Mg2_g.2p7_A - Baseado no modelo Clo_N.down.30p_24kK
+Mudanças: Diminuição do logg (pela diminuição da massa) e adição do Mg II
+Observações: O logg é 2.7 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_add.Mg2_g.2p7_B - Baseado no modelo Clo_N.down.30p_24p5kK
+Mudanças: Diminuição da Teff de 24.5kK para 24kK e adição do Mg II
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Não Convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_N.down30p30p_24kK - Baseado no modelo Cloto_N.down.30p_24kK
+Mudanças: Diminuição em mais 30% do N
+Observações: O logg é 2.8 e beta é 2.
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_23p5kK - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Diminuição da Temperatura de 24kK para 23.5Kk
+Observações: O logg é 2.7 e beta é 2.
+Resultados: convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_23kK - Baseado no modelo Clo_23p5kK
+Mudanças: Diminuição da Temperatura de 23.5kK para 23Kk
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_23kK - Baseado no modelo Clo_23p5kK
+Mudanças: Diminuição da Temperatura de 23.5kK para 23Kk
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_down.XR - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Diminuição do filling factor de RX de 0.4 para 0.3 a fim de diminuir a Lx e testar os efeitos na estrutura de ionização
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Convegiu bem
+Discussão: Linhas de N V e C IV ficaram mais tênues. Houve uma ligeira diminuição das ionizações mais energéticas
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_chg.v.XR - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Alteração de velocidade de produção dos choques de RX de 400km/s para 700km/s para verificar os efeiros na ionização
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Convegiu bem
+Discussão: Linhas de N V e C IV ficaram mais tênues também
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_vXR.100 - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Alteração de velocidade de produção dos choques de RX de 400km/s para 100km/s para verificar os efeiros na ionização
+Observações: O logg é 2.7 e beta é 2.
+Resultados: 
+Discussão: Isso foi motivado pelo fato de Okinosova et al. 2016 dizer que os RX em estrelas OB são prouzidos nessa faixa de velocidade
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_23p3kK - Baseado no modelo Clo_23p5kK
+Mudanças: Diminuição da Temperatura de 23.5kK para 23.3Kk
+Observações: O logg é 2.7 e beta é 2.
+Resultados: Convergiu bem
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_g.2p8 - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Aumento do logg para 2.8 para ver se a borda das linhas de H se ajustam melhor
+Observações: Subi a massa para 11 e beta é 2.
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------
+Estrela Alvo: HD167756
+Modelo: Clo_24kK_g.2p75 - Baseado no modelo Clo_24kK_add.Mg2_g.2p7_A
+Mudanças: Aumento do logg para 2.75 para ver se a borda das linhas de H se ajustam melhor
+Observações: Mantive a massa e beta é 2.
+Resultados: Não convergiu
+Discussão: 
+-----------------------------------------------------------------------------

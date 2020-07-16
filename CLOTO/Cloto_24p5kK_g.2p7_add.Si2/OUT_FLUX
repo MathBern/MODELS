@@ -1,0 +1,34 @@
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ ../RVTJ          [RVTJ]          Input RVTJ filename
+ Unable to find file
+ File is ../RVTJ
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ Error in RD_NCHAR - KEY deos not match
+ KEY=RVTJ
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ ../RVTJ          [RVTJ]          Input RVTJ filename
+ Unable to find file
+ File is ../RVTJ
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ Error in RD_NCHAR - KEY deos not match
+ KEY=RVTJ
+ Error in RD_HYD_BF_DATA
+ Unable to open HYD_L_DATA
+ Error in RD_HYD_BF_DATA
+ Unable to open HYD_L_DATA
