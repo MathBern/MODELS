@@ -1,0 +1,11 @@
+rd_obsT2
+{FILE=/home/matheus/CMFGEN/MODELS/PEARL/Pearl_L.3up-R.3up/obs/obs_cont}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{REM_BP=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=t}
+{COLS=1,2}

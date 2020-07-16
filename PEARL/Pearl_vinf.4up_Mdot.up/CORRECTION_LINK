@@ -1,0 +1,134 @@
+ 
+ 
+ 5 largest reductions at depth:  31
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      8.6211E-04     SkIII       7        677
+      3.7927E-04     SkIII      42        712
+      3.3606E-04     SkIII       8        678
+      2.6665E-04     SkIII      40        710
+      2.5785E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  31
+ 
+     -3.2092E-04        N2      13        329
+     -2.6658E-04       CIV       4        255
+     -2.5855E-04       CIV       7        258
+     -2.5651E-04       CIV      14        265
+     -2.5614E-04       CIV       8        259
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  32
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      8.2435E-04     SkIII       7        677
+      3.6538E-04     SkIII      42        712
+      3.1408E-04     SkIII       8        678
+      2.5708E-04     SkIII      40        710
+      2.4933E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  32
+ 
+     -3.1829E-04        N2      13        329
+     -2.4617E-04       CIV       4        255
+     -2.2818E-04       CIV       7        258
+     -2.2623E-04       CIV      14        265
+     -2.2548E-04       CIV       8        259
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  30
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      8.0814E-04     SkIII       7        677
+      3.6343E-04     SkIII      42        712
+      3.2481E-04     SkIII       8        678
+      2.5921E-04     SkIII      40        710
+      2.5065E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  30
+ 
+     -3.0038E-04        N2      13        329
+     -2.7251E-04       CIV       4        255
+     -2.6505E-04       CIV       7        258
+     -2.6287E-04       CIV      14        265
+     -2.6253E-04       CIV       8        259
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  33
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      6.7050E-04     SkIII       7        677
+      3.1238E-04     SkIII      42        712
+      2.5602E-04     SkIII       8        678
+      2.2378E-04     SkIII      40        710
+      2.1726E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  33
+ 
+     -2.8027E-04        N2      13        329
+     -2.1373E-04       CIV       4        255
+     -1.9033E-04       CIV       7        258
+     -1.8861E-04       CIV      14        265
+     -1.8755E-04       CIV       8        259
+ 
+ 5 largest reductions at depth:  29
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      7.1054E-04     SkIII       7        677
+      3.3449E-04     SkIII      42        712
+      3.0025E-04     SkIII       8        678
+      2.4458E-04     SkIII      40        710
+      2.3970E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  29
+ 
+     -2.6911E-04        N2      13        329
+     -2.6495E-04       CIV       4        255
+     -2.5623E-04      NIII      12        387
+     -2.4665E-04       CIV       7        258
+     -2.4458E-04       CIV      14        265
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  28
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      5.6287E-04     SkIII       7        677
+      2.8057E-04     SkIII      42        712
+      2.5424E-04     SkIII       8        678
+      2.0997E-04     SkIII      40        710
+      2.0908E-04     SkIII       9        679
+ 
+ 5 largest increases at depth:  28
+ 
+     -2.2513E-04       CIV       4        255
+     -2.1945E-04        N2      13        329
+     -1.9664E-04      NIII      12        387
+     -1.8634E-04       CIV       7        258
+     -1.8496E-04       CIV      11        262
+ 
+ 5 largest reductions at depth:   1
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      5.7353E-04       He2       2        102
+      1.7758E-04      OIII      19        590
+      9.8117E-05      OIII      14        585
+      5.2615E-05      OIII      16        587
+      4.9186E-05        N2       1        317
+ 
+ 5 largest increases at depth:   1
+ 
+     -9.3149E-05       FeV      43        995
+     -8.7563E-05       FeV      46        998
+     -8.4105E-05       FeV      41        993
+     -8.0294E-05       FeV      40        992
+     -7.9533E-05       FeV      45        997
+ 
+ 

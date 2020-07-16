@@ -1,0 +1,60 @@
+  
+ Overhead is    7.9870223999023438E-006
+    Count rate for wall clock is           1000000000
+ Maximum count for wall clock is  9223372036854775807
+  
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.214573         0.214561
+     linear                     0.019851         0.019840
+     cnvlv                      0.167025         0.167014
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.429304         0.429277
+     linear                     0.039134         0.039112
+     cnvlv                      0.333061         0.333040
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.639831         0.639792
+     linear                     0.058638         0.058594
+     cnvlv                      0.499027         0.498996
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.851750         0.851583
+     linear                     0.078277         0.078213
+     cnvlv                      0.665219         0.665069
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      1.061876         1.061695
+     linear                     0.097399         0.097325
+     cnvlv                      0.831452         0.831292
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      1.276629         1.276435
+     linear                     0.116900         0.116814
+     cnvlv                      1.001603         1.001430
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      1.490258         1.490053
+     linear                     0.136218         0.136122
+     cnvlv                      1.166956         1.166774
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      1.697757         1.697535
+     linear                     0.155787         0.155680
+     cnvlv                      1.332985         1.332788
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      1.911341         1.911105
+     linear                     0.175374         0.175255
+     cnvlv                      1.498774         1.498564
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      2.120921         2.120671
+     linear                     0.194504         0.194373
+     cnvlv                      1.663908         1.663686
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      2.330478         2.330209
+     linear                     0.214056         0.213914
+     cnvlv                      1.829932         1.829693
