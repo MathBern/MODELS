@@ -1,0 +1,32 @@
+  
+ Overhead is    1.9073486328125000E-006
+    Count rate for wall clock is           1000000000
+ Maximum count for wall clock is  9223372036854775807
+  
+        Identifier           Elapsed             CPU
+                               Time              Time
+     INS_LINE_OBS               0.018541         0.011197
+     SET_PROF_STORE             0.006538         0.006535
+        Identifier           Elapsed             CPU
+                               Time              Time
+     INS_LINE_OBS               0.018541         0.011197
+     SET_PROF_STORE             0.006538         0.006535
+     MLCF                      59.274813       118.501259
+     ADD_LINE                   0.009713        -0.009377
+     SET_PROF                   1.656938         3.533132
+     C_OPAC                    24.188914        48.172966
+     OP_TOT                     0.054025         0.078925
+     COMP_JCONT                33.072608        65.979384
+     CONT_VEL                  33.051911        65.934581
+     FG_J_CMF                  28.643387        57.287163
+     FG_BIG_SEC                28.218189        56.406355
+     FG_CHI_BEG                 0.265919         0.511076
+     FG_SOL_INT                26.769657        53.505761
+     J_LOOP                     1.135746         2.162260
+     MOM_J_CMF                  4.194542         8.122915
+     FLUX_DIST                  0.141832         0.250814
+     OBS_FRAME_SUB              8.553255        16.445967
+     MON_INTERP                 2.164744         3.963333
+     ML                         6.372527        12.438690
+     SOB_EW                  1027.045790      2001.576780
+     JFEAU                    218.179915       421.328066

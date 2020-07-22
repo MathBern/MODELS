@@ -1,0 +1,812 @@
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ ../RVTJ          [RVTJ]          Input RVTJ filename
+ Model completed on 22-Jul-2020 09:59:21
+  2.30000E+01     [MASS]          Stars mass
+       F          [ONLY_OBS_LINES]Observed lines only?
+ 
+ CMF_FLUX_V5 is adopting the following SL_OPTION: 
+ 
+ Fractional abundance of HYD   is  1.000000E+00
+     Number of HI levels is      30
+ Fractional abundance of HE    is  3.000000E-01
+     Number of HeI levels is     69
+     Number of He2 levels is     30
+ Fractional abundance of CARB  is  7.000000E-05
+     Number of C2 levels is      39
+     Number of CIII levels is   243
+     Number of CIV levels is     64
+ Fractional abundance of NIT   is  2.450000E-04
+     Number of N2 levels is     105
+     Number of NIII levels is   287
+     Number of NIV levels is     70
+     Number of NV levels is      49
+ Fractional abundance of OXY   is  4.570000E-04
+     Number of O2 levels is     296
+     Number of OIII levels is   104
+     Number of OIV levels is     64
+     Number of OV levels is      56
+ Fractional abundance of SIL   is  7.887990E-05
+     Number of Sk2 levels is     80
+     Number of SkIII levels is   50
+     Number of SkIV levels is    66
+ Fractional abundance of IRON  is  4.885890E-05
+     Number of FeIII levels is  607
+     Number of FeIV levels is  1000
+     Number of FeV levels is   1000
+     Number of FeSIX levels is 1000
+  
+ Warning: possible error in ADD_AUTO_RATES
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+  
+ **********************************************************************
+ **********************************************************************
+  
+ Warning--- you should not use Lemke stark profiles for IR Bracket lines as they contain an error
+ See: Repolust et al 2005, A&A 440, 261 (page 4)
+  
+ **********************************************************************
+ **********************************************************************
+  
+
+ WARNING: file with accurate wavelengths not found
+ Warning from INS_LINE_V5
+   429 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+ Minimum frequency spacing is: 5.47E-01km/s
+  
+ Number of line frequencies is:  247967
+ Number of continuum frequencies is:       749572
+ 
+ The continuum will be evaluated at 13164 frequencies
+ Calling INS_LINE_OBS_V4
+ Finished calling INS_LINE_OBS_V4
+ Setting pofile storage
+ Maximum number of profiles to be stored is           30
+ Maximum number of frequncies per profile is        6560
+ Finished set profile storage
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Unable to open EDDFACTOR_INFO
+ Error occurred in READ_DIRECT_INFO: IOS=           2
+ Error --- unable to open EDDFACTOR_INFO -- will compute new f
+ Error opening ES_J_CONV - will compute new J
+ Using OLD_DEFAULT method for two-photon decay
+ Calling FG_J_CMF_V12
+ 
+ Using thick boundary condition in FG_J_CMF_V12
+ R(1)=  3.30010238E+04   RMAX=  3.30010238E+05
+ V(1)=  9.71136445E+02   VMAX=  9.82975551E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V12 is   257
+ Calling MOM_J_CMF_V8
+ 
+ Tau(Nu=1.3162E+01) at outer boundary is: 3.246E+02
+ Tau(Nu=1.1604E+01) at outer boundary is: 6.800E+01
+ Tau(Nu=5.9557E+00) at outer boundary is: 2.187E+02
+ Tau(Nu=3.2900E+00) at outer boundary is: 5.149E-03
+
+ Tau(Nu=8.3000E-01) at outer boundary is: 5.616E-04
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8361.34715806A   Lam_ST(1)=  -137.12089229A   Lam_END(NF)=   141.84902796A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7860E-01    1.4805E+01    4.6949E+00    7.9826E-01    1.3947E-01
+    5.9282E-01    1.4934E+01    4.7258E+00    8.2719E-01    1.3947E-01
+    5.0438E-01    1.5067E+01    4.7573E+00    8.5772E-01    1.3946E-01
+    4.6424E-01    1.5131E+01    4.7725E+00    8.7282E-01    1.3946E-01
+    4.4490E-01    1.5163E+01    4.7801E+00    8.8049E-01    1.3946E-01
+
+    4.3857E-01    1.5174E+01    4.7826E+00    8.8305E-01    1.3946E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8376.82305494A   Lam_ST(1)=  -137.41475703A   Lam_END(NF)=   142.09844754A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3369E-01    1.4934E+01    4.7258E+00    8.2872E-01    1.3972E-01
+    5.4426E-01    1.5067E+01    4.7573E+00    8.5931E-01    1.3972E-01
+    5.0263E-01    1.5131E+01    4.7725E+00    8.7444E-01    1.3972E-01
+    4.8240E-01    1.5163E+01    4.7801E+00    8.8212E-01    1.3972E-01
+
+    4.7576E-01    1.5174E+01    4.7826E+00    8.8469E-01    1.3972E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8394.74924856A   Lam_ST(1)=  -137.63890708A   Lam_END(NF)=   142.41441779A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7570E-01    1.4934E+01    4.7258E+00    8.3049E-01    1.4002E-01
+    5.8708E-01    1.5067E+01    4.7573E+00    8.6115E-01    1.4002E-01
+    5.4456E-01    1.5131E+01    4.7725E+00    8.7631E-01    1.4002E-01
+    5.2365E-01    1.5163E+01    4.7801E+00    8.8401E-01    1.4002E-01
+
+    5.1676E-01    1.5174E+01    4.7826E+00    8.8658E-01    1.4002E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8415.67639048A   Lam_ST(1)=  -138.01908136A   Lam_END(NF)=   142.76628846A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3166E-01    1.5067E+01    4.7573E+00    8.6330E-01    1.4037E-01
+    5.8900E-01    1.5131E+01    4.7725E+00    8.7849E-01    1.4037E-01
+    5.6773E-01    1.5163E+01    4.7801E+00    8.8621E-01    1.4037E-01
+
+    5.6068E-01    1.5174E+01    4.7826E+00    8.8879E-01    1.4037E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8440.32050643A   Lam_ST(1)=  -138.42479838A   Lam_END(NF)=   143.19630327A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7837E-01    1.5067E+01    4.7573E+00    8.6582E-01    1.4078E-01
+    6.3652E-01    1.5131E+01    4.7725E+00    8.8106E-01    1.4078E-01
+    6.1530E-01    1.5163E+01    4.7801E+00    8.8881E-01    1.4078E-01
+
+    6.0823E-01    1.5174E+01    4.7826E+00    8.9139E-01    1.4078E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8469.62702296A   Lam_ST(1)=  -138.92362424A   Lam_END(NF)=   143.72308795A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.8486E-01    1.5131E+01    4.7725E+00    8.8412E-01    1.4127E-01
+    6.6431E-01    1.5163E+01    4.7801E+00    8.9189E-01    1.4127E-01
+
+    6.5740E-01    1.5174E+01    4.7826E+00    8.9449E-01    1.4127E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15086.98268336A   Lam_ST(1)=  -247.39461850A   Lam_END(NF)=   255.94605787A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.8868E-01    1.4407E+01    4.5463E+00    1.2139E+00    2.5170E-01
+    6.5724E-01    1.4455E+01    4.5751E+00    1.2548E+00    2.5169E-01
+    6.1874E-01    1.4512E+01    4.6043E+00    1.2978E+00    2.5169E-01
+    5.6685E-01    1.4589E+01    4.6341E+00    1.3429E+00    2.5168E-01
+    5.0190E-01    1.4689E+01    4.6643E+00    1.3905E+00    2.5167E-01
+    4.2995E-01    1.4805E+01    4.6949E+00    1.4404E+00    2.5166E-01
+    3.5910E-01    1.4934E+01    4.7258E+00    1.4926E+00    2.5165E-01
+    2.9569E-01    1.5067E+01    4.7573E+00    1.5477E+00    2.5164E-01
+    2.6912E-01    1.5131E+01    4.7725E+00    1.5749E+00    2.5164E-01
+    2.5668E-01    1.5163E+01    4.7801E+00    1.5887E+00    2.5164E-01
+
+    2.5266E-01    1.5174E+01    4.7826E+00    1.5934E+00    2.5164E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15137.44360282A   Lam_ST(1)=  -248.21259585A   Lam_END(NF)=   256.77734963A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9604E-01    1.4455E+01    4.5751E+00    1.2590E+00    2.5254E-01
+    6.5867E-01    1.4512E+01    4.6043E+00    1.3021E+00    2.5253E-01
+    6.0716E-01    1.4589E+01    4.6341E+00    1.3474E+00    2.5252E-01
+    5.4112E-01    1.4689E+01    4.6643E+00    1.3951E+00    2.5251E-01
+    4.6621E-01    1.4805E+01    4.6949E+00    1.4452E+00    2.5250E-01
+    3.9107E-01    1.4934E+01    4.7258E+00    1.4975E+00    2.5249E-01
+    3.2290E-01    1.5067E+01    4.7573E+00    1.5528E+00    2.5248E-01
+    2.9413E-01    1.5131E+01    4.7725E+00    1.5802E+00    2.5248E-01
+    2.8064E-01    1.5163E+01    4.7801E+00    1.5940E+00    2.5248E-01
+
+    2.7628E-01    1.5174E+01    4.7826E+00    1.5987E+00    2.5248E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15196.08241865A   Lam_ST(1)=  -249.28450218A   Lam_END(NF)=   257.85893188A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9911E-01    1.4512E+01    4.6043E+00    1.3071E+00    2.5351E-01
+    6.4927E-01    1.4589E+01    4.6341E+00    1.3526E+00    2.5350E-01
+    5.8348E-01    1.4689E+01    4.6643E+00    1.4005E+00    2.5349E-01
+    5.0659E-01    1.4805E+01    4.6949E+00    1.4508E+00    2.5348E-01
+    4.2756E-01    1.4934E+01    4.7258E+00    1.5034E+00    2.5347E-01
+    3.5451E-01    1.5067E+01    4.7573E+00    1.5588E+00    2.5346E-01
+    3.2336E-01    1.5131E+01    4.7725E+00    1.5863E+00    2.5346E-01
+    3.0870E-01    1.5163E+01    4.7801E+00    1.6002E+00    2.5346E-01
+
+    3.0395E-01    1.5174E+01    4.7826E+00    1.6049E+00    2.5346E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15264.79492316A   Lam_ST(1)=  -250.34583513A   Lam_END(NF)=   258.94104804A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9184E-01    1.4589E+01    4.6341E+00    1.3588E+00    2.5464E-01
+    6.2737E-01    1.4689E+01    4.6643E+00    1.4069E+00    2.5463E-01
+    5.4948E-01    1.4805E+01    4.6949E+00    1.4573E+00    2.5462E-01
+    4.6712E-01    1.4934E+01    4.7258E+00    1.5101E+00    2.5461E-01
+    3.8921E-01    1.5067E+01    4.7573E+00    1.5659E+00    2.5461E-01
+    3.5559E-01    1.5131E+01    4.7725E+00    1.5935E+00    2.5461E-01
+    3.3970E-01    1.5163E+01    4.7801E+00    1.6075E+00    2.5460E-01
+
+    3.3454E-01    1.5174E+01    4.7826E+00    1.6121E+00    2.5460E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15346.06925461A   Lam_ST(1)=  -251.73574775A   Lam_END(NF)=   260.31426988A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7334E-01    1.4689E+01    4.6643E+00    1.4144E+00    2.5599E-01
+    5.9622E-01    1.4805E+01    4.6949E+00    1.4651E+00    2.5598E-01
+    5.1179E-01    1.4934E+01    4.7258E+00    1.5182E+00    2.5597E-01
+    4.2949E-01    1.5067E+01    4.7573E+00    1.5742E+00    2.5596E-01
+    3.9337E-01    1.5131E+01    4.7725E+00    1.6019E+00    2.5596E-01
+    3.7619E-01    1.5163E+01    4.7801E+00    1.6160E+00    2.5596E-01
+
+    3.7060E-01    1.5174E+01    4.7826E+00    1.6207E+00    2.5596E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15443.22672003A   Lam_ST(1)=  -253.27244930A   Lam_END(NF)=   262.00143979A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.4435E-01    1.4805E+01    4.6949E+00    1.4744E+00    2.5760E-01
+    5.5944E-01    1.4934E+01    4.7258E+00    1.5278E+00    2.5759E-01
+    4.7354E-01    1.5067E+01    4.7573E+00    1.5842E+00    2.5758E-01
+    4.3504E-01    1.5131E+01    4.7725E+00    1.6121E+00    2.5758E-01
+    4.1658E-01    1.5163E+01    4.7801E+00    1.6262E+00    2.5758E-01
+
+    4.1056E-01    1.5174E+01    4.7826E+00    1.6310E+00    2.5758E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15560.78725403A   Lam_ST(1)=  -255.17436450A   Lam_END(NF)=   264.09685808A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9416E-01    1.4805E+01    4.6949E+00    1.4856E+00    2.5956E-01
+    6.1129E-01    1.4934E+01    4.7258E+00    1.5394E+00    2.5955E-01
+    5.2344E-01    1.5067E+01    4.7573E+00    1.5963E+00    2.5954E-01
+    4.8299E-01    1.5131E+01    4.7725E+00    1.6244E+00    2.5954E-01
+    4.6341E-01    1.5163E+01    4.7801E+00    1.6386E+00    2.5954E-01
+
+    4.5700E-01    1.5174E+01    4.7826E+00    1.6434E+00    2.5954E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15705.04052462A   Lam_ST(1)=  -257.57297843A   Lam_END(NF)=   266.46456431A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.6472E-01    1.4934E+01    4.7258E+00    1.5537E+00    2.6196E-01
+    5.7706E-01    1.5067E+01    4.7573E+00    1.6111E+00    2.6195E-01
+    5.3534E-01    1.5131E+01    4.7725E+00    1.6394E+00    2.6195E-01
+    5.1487E-01    1.5163E+01    4.7801E+00    1.6538E+00    2.6195E-01
+
+    5.0812E-01    1.5174E+01    4.7826E+00    1.6586E+00    2.6195E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15884.96933698A   Lam_ST(1)=  -260.56297197A   Lam_END(NF)=   269.54749714A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3467E-01    1.5067E+01    4.7573E+00    1.6295E+00    2.6495E-01
+    5.9303E-01    1.5131E+01    4.7725E+00    1.6582E+00    2.6495E-01
+    5.7225E-01    1.5163E+01    4.7801E+00    1.6728E+00    2.6495E-01
+
+    5.6535E-01    1.5174E+01    4.7826E+00    1.6776E+00    2.6495E-01
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ ../RVTJ          [RVTJ]          Input RVTJ filename
+ Model completed on 22-Jul-2020 09:59:21
+  2.30000E+01     [MASS]          Stars mass
+       F          [ONLY_OBS_LINES]Observed lines only?
+ 
+ CMF_FLUX_V5 is adopting the following SL_OPTION: 
+ 
+ Fractional abundance of HYD   is  1.000000E+00
+     Number of HI levels is      30
+ Fractional abundance of HE    is  3.000000E-01
+     Number of HeI levels is     69
+     Number of He2 levels is     30
+ Fractional abundance of CARB  is  7.000000E-05
+     Number of C2 levels is      39
+     Number of CIII levels is   243
+     Number of CIV levels is     64
+ Fractional abundance of NIT   is  2.450000E-04
+     Number of N2 levels is     105
+     Number of NIII levels is   287
+     Number of NIV levels is     70
+     Number of NV levels is      49
+ Fractional abundance of OXY   is  4.570000E-04
+     Number of O2 levels is     296
+     Number of OIII levels is   104
+     Number of OIV levels is     64
+     Number of OV levels is      56
+ Fractional abundance of SIL   is  7.887990E-05
+     Number of Sk2 levels is     80
+     Number of SkIII levels is   50
+     Number of SkIV levels is    66
+ Fractional abundance of IRON  is  4.885890E-05
+     Number of FeIII levels is  607
+     Number of FeIV levels is  1000
+     Number of FeV levels is   1000
+     Number of FeSIX levels is 1000
+  
+ Warning: possible error in ADD_AUTO_RATES
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+  
+ **********************************************************************
+ **********************************************************************
+  
+ Warning--- you should not use Lemke stark profiles for IR Bracket lines as they contain an error
+ See: Repolust et al 2005, A&A 440, 261 (page 4)
+  
+ **********************************************************************
+ **********************************************************************
+  
+
+ WARNING: file with accurate wavelengths not found
+ Warning from INS_LINE_V5
+   429 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+ Minimum frequency spacing is: 5.47E-01km/s
+  
+ Number of line frequencies is:  247967
+ Number of continuum frequencies is:       749572
+ 
+ The continuum will be evaluated at 13164 frequencies
+ Calling INS_LINE_OBS_V4
+ Finished calling INS_LINE_OBS_V4
+ Setting pofile storage
+ Maximum number of profiles to be stored is           30
+ Maximum number of frequncies per profile is        6560
+ Finished set profile storage
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V12
+ 
+ Using thick boundary condition in FG_J_CMF_V12
+ R(1)=  3.30010238E+04   RMAX=  3.30010238E+05
+ V(1)=  9.71136445E+02   VMAX=  9.82975551E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V12 is   257
+ Calling MOM_J_CMF_V8
+ 
+ Tau(Nu=1.3162E+01) at outer boundary is: 3.246E+02
+ Tau(Nu=1.1604E+01) at outer boundary is: 6.800E+01
+ Tau(Nu=5.9557E+00) at outer boundary is: 2.187E+02
+ Tau(Nu=3.2900E+00) at outer boundary is: 5.149E-03
+
+ Tau(Nu=8.3000E-01) at outer boundary is: 5.616E-04
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8361.34715806A   Lam_ST(1)=  -137.12089229A   Lam_END(NF)=   141.84902796A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7860E-01    1.4805E+01    4.6949E+00    7.9826E-01    1.3947E-01
+    5.9282E-01    1.4934E+01    4.7258E+00    8.2719E-01    1.3947E-01
+    5.0438E-01    1.5067E+01    4.7573E+00    8.5772E-01    1.3946E-01
+    4.6424E-01    1.5131E+01    4.7725E+00    8.7282E-01    1.3946E-01
+    4.4490E-01    1.5163E+01    4.7801E+00    8.8049E-01    1.3946E-01
+
+    4.3857E-01    1.5174E+01    4.7826E+00    8.8305E-01    1.3946E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8376.82305494A   Lam_ST(1)=  -137.41475703A   Lam_END(NF)=   142.09844754A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3369E-01    1.4934E+01    4.7258E+00    8.2872E-01    1.3972E-01
+    5.4426E-01    1.5067E+01    4.7573E+00    8.5931E-01    1.3972E-01
+    5.0263E-01    1.5131E+01    4.7725E+00    8.7444E-01    1.3972E-01
+    4.8240E-01    1.5163E+01    4.7801E+00    8.8212E-01    1.3972E-01
+
+    4.7576E-01    1.5174E+01    4.7826E+00    8.8469E-01    1.3972E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8394.74924856A   Lam_ST(1)=  -137.63890708A   Lam_END(NF)=   142.41441779A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7570E-01    1.4934E+01    4.7258E+00    8.3049E-01    1.4002E-01
+    5.8708E-01    1.5067E+01    4.7573E+00    8.6115E-01    1.4002E-01
+    5.4456E-01    1.5131E+01    4.7725E+00    8.7631E-01    1.4002E-01
+    5.2365E-01    1.5163E+01    4.7801E+00    8.8401E-01    1.4002E-01
+
+    5.1676E-01    1.5174E+01    4.7826E+00    8.8658E-01    1.4002E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8415.67639048A   Lam_ST(1)=  -138.01908136A   Lam_END(NF)=   142.76628846A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3166E-01    1.5067E+01    4.7573E+00    8.6330E-01    1.4037E-01
+    5.8900E-01    1.5131E+01    4.7725E+00    8.7849E-01    1.4037E-01
+    5.6773E-01    1.5163E+01    4.7801E+00    8.8621E-01    1.4037E-01
+
+    5.6068E-01    1.5174E+01    4.7826E+00    8.8879E-01    1.4037E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8440.32050643A   Lam_ST(1)=  -138.42479838A   Lam_END(NF)=   143.19630327A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7837E-01    1.5067E+01    4.7573E+00    8.6582E-01    1.4078E-01
+    6.3652E-01    1.5131E+01    4.7725E+00    8.8106E-01    1.4078E-01
+    6.1530E-01    1.5163E+01    4.7801E+00    8.8881E-01    1.4078E-01
+
+    6.0823E-01    1.5174E+01    4.7826E+00    8.9139E-01    1.4078E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave=  8469.62702296A   Lam_ST(1)=  -138.92362424A   Lam_END(NF)=   143.72308795A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.8486E-01    1.5131E+01    4.7725E+00    8.8412E-01    1.4127E-01
+    6.6431E-01    1.5163E+01    4.7801E+00    8.9189E-01    1.4127E-01
+
+    6.5740E-01    1.5174E+01    4.7826E+00    8.9449E-01    1.4127E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15086.98268336A   Lam_ST(1)=  -247.39461850A   Lam_END(NF)=   255.94605787A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.8868E-01    1.4407E+01    4.5463E+00    1.2139E+00    2.5170E-01
+    6.5724E-01    1.4455E+01    4.5751E+00    1.2548E+00    2.5169E-01
+    6.1874E-01    1.4512E+01    4.6043E+00    1.2978E+00    2.5169E-01
+    5.6685E-01    1.4589E+01    4.6341E+00    1.3429E+00    2.5168E-01
+    5.0190E-01    1.4689E+01    4.6643E+00    1.3905E+00    2.5167E-01
+    4.2995E-01    1.4805E+01    4.6949E+00    1.4404E+00    2.5166E-01
+    3.5910E-01    1.4934E+01    4.7258E+00    1.4926E+00    2.5165E-01
+    2.9569E-01    1.5067E+01    4.7573E+00    1.5477E+00    2.5164E-01
+    2.6912E-01    1.5131E+01    4.7725E+00    1.5749E+00    2.5164E-01
+    2.5668E-01    1.5163E+01    4.7801E+00    1.5887E+00    2.5164E-01
+
+    2.5266E-01    1.5174E+01    4.7826E+00    1.5934E+00    2.5164E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15137.44360282A   Lam_ST(1)=  -248.21259585A   Lam_END(NF)=   256.77734963A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9604E-01    1.4455E+01    4.5751E+00    1.2590E+00    2.5254E-01
+    6.5867E-01    1.4512E+01    4.6043E+00    1.3021E+00    2.5253E-01
+    6.0716E-01    1.4589E+01    4.6341E+00    1.3474E+00    2.5252E-01
+    5.4112E-01    1.4689E+01    4.6643E+00    1.3951E+00    2.5251E-01
+    4.6621E-01    1.4805E+01    4.6949E+00    1.4452E+00    2.5250E-01
+    3.9107E-01    1.4934E+01    4.7258E+00    1.4975E+00    2.5249E-01
+    3.2290E-01    1.5067E+01    4.7573E+00    1.5528E+00    2.5248E-01
+    2.9413E-01    1.5131E+01    4.7725E+00    1.5802E+00    2.5248E-01
+    2.8064E-01    1.5163E+01    4.7801E+00    1.5940E+00    2.5248E-01
+
+    2.7628E-01    1.5174E+01    4.7826E+00    1.5987E+00    2.5248E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15196.08241865A   Lam_ST(1)=  -249.28450218A   Lam_END(NF)=   257.85893188A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9911E-01    1.4512E+01    4.6043E+00    1.3071E+00    2.5351E-01
+    6.4927E-01    1.4589E+01    4.6341E+00    1.3526E+00    2.5350E-01
+    5.8348E-01    1.4689E+01    4.6643E+00    1.4005E+00    2.5349E-01
+    5.0659E-01    1.4805E+01    4.6949E+00    1.4508E+00    2.5348E-01
+    4.2756E-01    1.4934E+01    4.7258E+00    1.5034E+00    2.5347E-01
+    3.5451E-01    1.5067E+01    4.7573E+00    1.5588E+00    2.5346E-01
+    3.2336E-01    1.5131E+01    4.7725E+00    1.5863E+00    2.5346E-01
+    3.0870E-01    1.5163E+01    4.7801E+00    1.6002E+00    2.5346E-01
+
+    3.0395E-01    1.5174E+01    4.7826E+00    1.6049E+00    2.5346E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15264.79492316A   Lam_ST(1)=  -250.34583513A   Lam_END(NF)=   258.94104804A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9184E-01    1.4589E+01    4.6341E+00    1.3588E+00    2.5464E-01
+    6.2737E-01    1.4689E+01    4.6643E+00    1.4069E+00    2.5463E-01
+    5.4948E-01    1.4805E+01    4.6949E+00    1.4573E+00    2.5462E-01
+    4.6712E-01    1.4934E+01    4.7258E+00    1.5101E+00    2.5461E-01
+    3.8921E-01    1.5067E+01    4.7573E+00    1.5659E+00    2.5461E-01
+    3.5559E-01    1.5131E+01    4.7725E+00    1.5935E+00    2.5461E-01
+    3.3970E-01    1.5163E+01    4.7801E+00    1.6075E+00    2.5460E-01
+
+    3.3454E-01    1.5174E+01    4.7826E+00    1.6121E+00    2.5460E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15346.06925461A   Lam_ST(1)=  -251.73574775A   Lam_END(NF)=   260.31426988A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.7334E-01    1.4689E+01    4.6643E+00    1.4144E+00    2.5599E-01
+    5.9622E-01    1.4805E+01    4.6949E+00    1.4651E+00    2.5598E-01
+    5.1179E-01    1.4934E+01    4.7258E+00    1.5182E+00    2.5597E-01
+    4.2949E-01    1.5067E+01    4.7573E+00    1.5742E+00    2.5596E-01
+    3.9337E-01    1.5131E+01    4.7725E+00    1.6019E+00    2.5596E-01
+    3.7619E-01    1.5163E+01    4.7801E+00    1.6160E+00    2.5596E-01
+
+    3.7060E-01    1.5174E+01    4.7826E+00    1.6207E+00    2.5596E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15443.22672003A   Lam_ST(1)=  -253.27244930A   Lam_END(NF)=   262.00143979A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.4435E-01    1.4805E+01    4.6949E+00    1.4744E+00    2.5760E-01
+    5.5944E-01    1.4934E+01    4.7258E+00    1.5278E+00    2.5759E-01
+    4.7354E-01    1.5067E+01    4.7573E+00    1.5842E+00    2.5758E-01
+    4.3504E-01    1.5131E+01    4.7725E+00    1.6121E+00    2.5758E-01
+    4.1658E-01    1.5163E+01    4.7801E+00    1.6262E+00    2.5758E-01
+
+    4.1056E-01    1.5174E+01    4.7826E+00    1.6310E+00    2.5758E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15560.78725403A   Lam_ST(1)=  -255.17436450A   Lam_END(NF)=   264.09685808A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9416E-01    1.4805E+01    4.6949E+00    1.4856E+00    2.5956E-01
+    6.1129E-01    1.4934E+01    4.7258E+00    1.5394E+00    2.5955E-01
+    5.2344E-01    1.5067E+01    4.7573E+00    1.5963E+00    2.5954E-01
+    4.8299E-01    1.5131E+01    4.7725E+00    1.6244E+00    2.5954E-01
+    4.6341E-01    1.5163E+01    4.7801E+00    1.6386E+00    2.5954E-01
+
+    4.5700E-01    1.5174E+01    4.7826E+00    1.6434E+00    2.5954E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15705.04052462A   Lam_ST(1)=  -257.57297843A   Lam_END(NF)=   266.46456431A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.6472E-01    1.4934E+01    4.7258E+00    1.5537E+00    2.6196E-01
+    5.7706E-01    1.5067E+01    4.7573E+00    1.6111E+00    2.6195E-01
+    5.3534E-01    1.5131E+01    4.7725E+00    1.6394E+00    2.6195E-01
+    5.1487E-01    1.5163E+01    4.7801E+00    1.6538E+00    2.6195E-01
+
+    5.0812E-01    1.5174E+01    4.7826E+00    1.6586E+00    2.6195E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 15884.96933698A   Lam_ST(1)=  -260.56297197A   Lam_END(NF)=   269.54749714A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.3467E-01    1.5067E+01    4.7573E+00    1.6295E+00    2.6495E-01
+    5.9303E-01    1.5131E+01    4.7725E+00    1.6582E+00    2.6495E-01
+    5.7225E-01    1.5163E+01    4.7801E+00    1.6728E+00    2.6495E-01
+
+    5.6535E-01    1.5174E+01    4.7826E+00    1.6776E+00    2.6495E-01
+ Possible error in CONV_STRK_V2
+ Profile normalization constant differs from 1 by more than 30%
+ Wave= 16113.80375210A   Lam_ST(1)=  -264.29588987A   Lam_END(NF)=   273.37708913A
+   Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
+    6.9326E-01    1.5067E+01    4.7573E+00    1.6530E+00    2.6877E-01
+    6.5323E-01    1.5131E+01    4.7725E+00    1.6821E+00    2.6877E-01
+    6.3280E-01    1.5163E+01    4.7801E+00    1.6969E+00    2.6876E-01
+    6.2596E-01    1.5174E+01    4.7826E+00    1.7018E+00    2.6876E-01
+ Average number of calls to FG_J_CMF is   1.4808690826231503     
+ LS loop  1 is finished. Number of points along ray=  342
+ LS loop  2 is finished. Number of points along ray=  352
+ LS loop  3 is finished. Number of points along ray=  363
+ LS loop  4 is finished. Number of points along ray=  322
+ LS loop  5 is finished. Number of points along ray=  333
+ LS loop  6 is finished. Number of points along ray=  346
+ LS loop  7 is finished. Number of points along ray=  362
+ LS loop  8 is finished. Number of points along ray=  326
+ LS loop  9 is finished. Number of points along ray=  339
+ LS loop 10 is finished. Number of points along ray=  363
+ LS loop 11 is finished. Number of points along ray=  328
+ LS loop 12 is finished. Number of points along ray=  353
+ LS loop 13 is finished. Number of points along ray=  323
+ LS loop 14 is finished. Number of points along ray=  344
+ LS loop 15 is finished. Number of points along ray=  362
+ LS loop 16 is finished. Number of points along ray=  635
+ LS loop 17 is finished. Number of points along ray=  631
+ LS loop 18 is finished. Number of points along ray=  629
+ LS loop 19 is finished. Number of points along ray=  641
+ LS loop 20 is finished. Number of points along ray=  661
+ LS loop 21 is finished. Number of points along ray=  701
+ LS loop 22 is finished. Number of points along ray=  633
+ LS loop 23 is finished. Number of points along ray=  673
+ LS loop 24 is finished. Number of points along ray=  619
+ LS loop 25 is finished. Number of points along ray=  671
+ LS loop 26 is finished. Number of points along ray=  613
+ LS loop 27 is finished. Number of points along ray=  673
+ LS loop 28 is finished. Number of points along ray=  605
+ LS loop 29 is finished. Number of points along ray=  547
+ LS loop 30 is finished. Number of points along ray=  493
+ LS loop 31 is finished. Number of points along ray=  615
+ LS loop 32 is finished. Number of points along ray=  545
+ LS loop 33 is finished. Number of points along ray=  489
+ LS loop 34 is finished. Number of points along ray=  443
+ LS loop 35 is finished. Number of points along ray=  411
+ LS loop 36 is finished. Number of points along ray=  383
+ LS loop 37 is finished. Number of points along ray=  357
+ LS loop 38 is finished. Number of points along ray=  339
+ LS loop 39 is finished. Number of points along ray=  323
+ LS loop 40 is finished. Number of points along ray=  307
+ LS loop 41 is finished. Number of points along ray=  297
+ LS loop 42 is finished. Number of points along ray=  287
+ LS loop 43 is finished. Number of points along ray=  281
+ LS loop 44 is finished. Number of points along ray=  275
+ LS loop 45 is finished. Number of points along ray=  269
+ LS loop 46 is finished. Number of points along ray=  265
+ LS loop 47 is finished. Number of points along ray=  261
+ LS loop 48 is finished. Number of points along ray=  257
+ LS loop 49 is finished. Number of points along ray=  253
+ LS loop 50 is finished. Number of points along ray=  249
+ LS loop 51 is finished. Number of points along ray=  245
+ LS loop 52 is finished. Number of points along ray=  241
+ LS loop 53 is finished. Number of points along ray=  237
+ LS loop 54 is finished. Number of points along ray=  235
+ LS loop 55 is finished. Number of points along ray=  229
+ LS loop 56 is finished. Number of points along ray=  225
+ LS loop 57 is finished. Number of points along ray=  219
+ LS loop 58 is finished. Number of points along ray=  213
+ LS loop 59 is finished. Number of points along ray=  205
+ LS loop 60 is finished. Number of points along ray=  197
+ LS loop 61 is finished. Number of points along ray=  187
+ LS loop 62 is finished. Number of points along ray=  175
+ LS loop 63 is finished. Number of points along ray=  169
+ LS loop 64 is finished. Number of points along ray=  157
+ LS loop 65 is finished. Number of points along ray=  151
+ LS loop 66 is finished. Number of points along ray=  141
+ LS loop 67 is finished. Number of points along ray=  133
+ LS loop 68 is finished. Number of points along ray=  129
+ LS loop 69 is finished. Number of points along ray=  119
+ LS loop 70 is finished. Number of points along ray=  115
+ LS loop 71 is finished. Number of points along ray=  111
+ LS loop 72 is finished. Number of points along ray=  107
+ LS loop 73 is finished. Number of points along ray=   99
+ LS loop 74 is finished. Number of points along ray=   95
+ LS loop 75 is finished. Number of points along ray=   91
+ LS loop 76 is finished. Number of points along ray=   87
+ LS loop 77 is finished. Number of points along ray=   83
+ LS loop 78 is finished. Number of points along ray=   77
+ LS loop 79 is finished. Number of points along ray=   69
+ LS loop 80 is finished. Number of points along ray=   55
+ LS loop 81 is finished. Number of points along ray=   39
+ LS loop 82 is finished. Number of points along ray=   27
+ LS loop 83 is finished. Number of points along ray=   19
+ LS loop 84 is finished. Number of points along ray=   11
+ Using OLD_DEFAULT method for two-photon decay
+ Program date is: 17-Oct-2016 
+  
+ Append (ask) to so that subsequent FILE names are not defaulted
+ Append (scrat) to get scratch output.
+  
+ ../RVTJ          [RVTJ]          Input RVTJ filename
+ Model completed on 22-Jul-2020 09:59:21
+  2.30000E+01     [MASS]          Stars mass
+       F          [ONLY_OBS_LINES]Observed lines only?
+ 
+ CMF_FLUX_V5 is adopting the following SL_OPTION: 
+ 
+ Fractional abundance of HYD   is  1.000000E+00
+     Number of HI levels is      30
+ Fractional abundance of HE    is  3.000000E-01
+     Number of HeI levels is     69
+     Number of He2 levels is     30
+ Fractional abundance of CARB  is  7.000000E-05
+     Number of C2 levels is      39
+     Number of CIII levels is   243
+     Number of CIV levels is     64
+ Fractional abundance of NIT   is  2.450000E-04
+     Number of N2 levels is     105
+     Number of NIII levels is   287
+     Number of NIV levels is     70
+     Number of NV levels is      49
+ Fractional abundance of OXY   is  4.570000E-04
+     Number of O2 levels is     296
+     Number of OIII levels is   104
+     Number of OIV levels is     64
+     Number of OV levels is      56
+ Fractional abundance of SIL   is  7.887990E-05
+     Number of Sk2 levels is     80
+     Number of SkIII levels is   50
+     Number of SkIV levels is    66
+ Fractional abundance of IRON  is  4.885890E-05
+     Number of FeIII levels is  607
+     Number of FeIV levels is  1000
+     Number of FeV levels is   1000
+     Number of FeSIX levels is 1000
+  
+ Warning: possible error in ADD_AUTO_RATES
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+  
+ **********************************************************************
+ **********************************************************************
+  
+ Warning--- you should not use Lemke stark profiles for IR Bracket lines as they contain an error
+ See: Repolust et al 2005, A&A 440, 261 (page 4)
+  
+ **********************************************************************
+ **********************************************************************
+  
+
+ WARNING: file with accurate wavelengths not found
+ Warning from INS_LINE_V5
+   429 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+  
+ Number of line frequencies is:  247967
+ Number of continuum frequencies is:         7593
+ 
+ The continuum will be evaluated at  7593 frequencies
+ Calling INS_LINE_OBS_V4
+ Finished calling INS_LINE_OBS_V4
+ Setting pofile storage
+ Maximum number of profiles to be stored is            0
+ Maximum number of frequncies per profile is           1
+ Finished set profile storage
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Error opening ES_J_CONV - will compute new J
+ Using OLD_DEFAULT method for two-photon decay
+ Calling FG_J_CMF_V12
+ 
+ Using thick boundary condition in FG_J_CMF_V12
+ R(1)=  3.30010238E+04   RMAX=  3.30010238E+05
+ V(1)=  9.71136445E+02   VMAX=  9.82975551E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V12 is   257
+ Calling MOM_J_CMF_V8
+ 
+ Tau(Nu=1.3178E+01) at outer boundary is: 3.233E+02
+ Tau(Nu=1.1610E+01) at outer boundary is: 6.800E+01
+ Tau(Nu=5.9557E+00) at outer boundary is: 2.187E+02
+ Tau(Nu=3.2900E+00) at outer boundary is: 5.149E-03
+ Tau(Nu=8.3002E-01) at outer boundary is: 5.616E-04
+ Average number of calls to FG_J_CMF is   2.3367575398393257     
+ LS loop  1 is finished. Number of points along ray=  342
+ LS loop  2 is finished. Number of points along ray=  352
+ LS loop  3 is finished. Number of points along ray=  363
+ LS loop  4 is finished. Number of points along ray=  322
+ LS loop  5 is finished. Number of points along ray=  333
+ LS loop  6 is finished. Number of points along ray=  346
+ LS loop  7 is finished. Number of points along ray=  362
+ LS loop  8 is finished. Number of points along ray=  326
+ LS loop  9 is finished. Number of points along ray=  339
+ LS loop 10 is finished. Number of points along ray=  363
+ LS loop 11 is finished. Number of points along ray=  328
+ LS loop 12 is finished. Number of points along ray=  353
+ LS loop 13 is finished. Number of points along ray=  323
+ LS loop 14 is finished. Number of points along ray=  344
+ LS loop 15 is finished. Number of points along ray=  362
+ LS loop 16 is finished. Number of points along ray=  635
+ LS loop 17 is finished. Number of points along ray=  631
+ LS loop 18 is finished. Number of points along ray=  629
+ LS loop 19 is finished. Number of points along ray=  641
+ LS loop 20 is finished. Number of points along ray=  661
+ LS loop 21 is finished. Number of points along ray=  701
+ LS loop 22 is finished. Number of points along ray=  633
+ LS loop 23 is finished. Number of points along ray=  673
+ LS loop 24 is finished. Number of points along ray=  619
+ LS loop 25 is finished. Number of points along ray=  671
+ LS loop 26 is finished. Number of points along ray=  613
+ LS loop 27 is finished. Number of points along ray=  673
+ LS loop 28 is finished. Number of points along ray=  605
+ LS loop 29 is finished. Number of points along ray=  547
+ LS loop 30 is finished. Number of points along ray=  493
+ LS loop 31 is finished. Number of points along ray=  615
+ LS loop 32 is finished. Number of points along ray=  545
+ LS loop 33 is finished. Number of points along ray=  489
+ LS loop 34 is finished. Number of points along ray=  443
+ LS loop 35 is finished. Number of points along ray=  411
+ LS loop 36 is finished. Number of points along ray=  383
+ LS loop 37 is finished. Number of points along ray=  357
+ LS loop 38 is finished. Number of points along ray=  339
+ LS loop 39 is finished. Number of points along ray=  323
+ LS loop 40 is finished. Number of points along ray=  307
+ LS loop 41 is finished. Number of points along ray=  297
+ LS loop 42 is finished. Number of points along ray=  287
+ LS loop 43 is finished. Number of points along ray=  281
+ LS loop 44 is finished. Number of points along ray=  275
+ LS loop 45 is finished. Number of points along ray=  269
+ LS loop 46 is finished. Number of points along ray=  265
+ LS loop 47 is finished. Number of points along ray=  261
+ LS loop 48 is finished. Number of points along ray=  257
+ LS loop 49 is finished. Number of points along ray=  253
+ LS loop 50 is finished. Number of points along ray=  249
+ LS loop 51 is finished. Number of points along ray=  245
+ LS loop 52 is finished. Number of points along ray=  241
+ LS loop 53 is finished. Number of points along ray=  237
+ LS loop 54 is finished. Number of points along ray=  235
+ LS loop 55 is finished. Number of points along ray=  229
+ LS loop 56 is finished. Number of points along ray=  225
+ LS loop 57 is finished. Number of points along ray=  219
+ LS loop 58 is finished. Number of points along ray=  213
+ LS loop 59 is finished. Number of points along ray=  205
+ LS loop 60 is finished. Number of points along ray=  197
+ LS loop 61 is finished. Number of points along ray=  187
+ LS loop 62 is finished. Number of points along ray=  175
+ LS loop 63 is finished. Number of points along ray=  169
+ LS loop 64 is finished. Number of points along ray=  157
+ LS loop 65 is finished. Number of points along ray=  151
+ LS loop 66 is finished. Number of points along ray=  141
+ LS loop 67 is finished. Number of points along ray=  133
+ LS loop 68 is finished. Number of points along ray=  129
+ LS loop 69 is finished. Number of points along ray=  119
+ LS loop 70 is finished. Number of points along ray=  115
+ LS loop 71 is finished. Number of points along ray=  111
+ LS loop 72 is finished. Number of points along ray=  107
+ LS loop 73 is finished. Number of points along ray=   99
+ LS loop 74 is finished. Number of points along ray=   95
+ LS loop 75 is finished. Number of points along ray=   91
+ LS loop 76 is finished. Number of points along ray=   87
+ LS loop 77 is finished. Number of points along ray=   83
+ LS loop 78 is finished. Number of points along ray=   77
+ LS loop 79 is finished. Number of points along ray=   69
+ LS loop 80 is finished. Number of points along ray=   55
+ LS loop 81 is finished. Number of points along ray=   39
+ LS loop 82 is finished. Number of points along ray=   27
+ LS loop 83 is finished. Number of points along ray=   19
+ LS loop 84 is finished. Number of points along ray=   11
