@@ -5,28 +5,28 @@
   
         Identifier           Elapsed             CPU
                                Time              Time
-     INS_LINE_OBS               0.026142         0.014010
-     SET_PROF_STORE             0.008091         0.008089
+     INS_LINE_OBS               0.010934         0.010931
+     SET_PROF_STORE             0.006309         0.006306
         Identifier           Elapsed             CPU
                                Time              Time
-     INS_LINE_OBS               0.026142         0.014010
-     SET_PROF_STORE             0.008091         0.008089
-     MLCF                      64.374394       128.730179
-     ADD_LINE                   0.009205        -0.005164
-     SET_PROF                   1.128393         2.300794
-     C_OPAC                    19.196395        38.338047
-     OP_TOT                     0.050963         0.085291
-     COMP_JCONT                43.743952        87.331532
-     CONT_VEL                  43.726902        87.297817
-     FG_J_CMF                  36.971361        73.902716
-     FG_BIG_SEC                36.617275        73.188760
-     FG_CHI_BEG                 0.238328         0.424762
-     FG_SOL_INT                35.437639        70.770402
-     J_LOOP                     0.899570         1.768253
-     MOM_J_CMF                  6.603599        13.052055
-     FLUX_DIST                  0.114726         0.248142
-     OBS_FRAME_SUB             10.465830        19.325453
-     MON_INTERP                 1.879342         3.366062
-     ML                         8.573608        15.927189
-     SOB_EW                   792.523584      1575.616377
-     JFEAU                    177.228369       316.420130
+     INS_LINE_OBS               0.010934         0.010931
+     SET_PROF_STORE             0.006309         0.006306
+     MLCF                      40.158763       160.588642
+     ADD_LINE                   0.009511         0.014862
+     SET_PROF                   1.100728         4.060991
+     C_OPAC                    10.786620        43.583522
+     OP_TOT                     0.053431         0.094757
+     COMP_JCONT                27.955408       111.558675
+     CONT_VEL                  27.938816       111.493599
+     FG_J_CMF                  20.875168        83.425362
+     FG_BIG_SEC                20.522861        82.096817
+     FG_CHI_BEG                 0.244549         0.898418
+     FG_SOL_INT                19.245675        76.738731
+     J_LOOP                     0.991011         4.108429
+     MOM_J_CMF                  6.904532        27.506786
+     FLUX_DIST                  0.118089         0.530339
+     OBS_FRAME_SUB              5.936370        21.627531
+     MON_INTERP                 1.202630         3.822422
+     ML                         4.719933        17.715351
+     SOB_EW                   573.625169      2261.774549
+     JFEAU                    185.986287       570.079447
