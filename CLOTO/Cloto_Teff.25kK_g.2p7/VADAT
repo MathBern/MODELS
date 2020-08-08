@@ -16,7 +16,7 @@ T            [DO_CL]		!Allow for clumping in the model?
 EXPO         [CL_LAW]		!Law to evaluate clumping factors.
 2            [N_CL_PAR]		!Number of clumping parameters
 0.05         [CL_PAR_1]		!1st clumping  parameter (X at Vinf)
-30	     [CL_PAR_2]
+30	         [CL_PAR_2]
 
 1.000        [HYD/X]            !H/X abundance (by number)
 0.2500       [HE/X]             !He/X abundance (by number)

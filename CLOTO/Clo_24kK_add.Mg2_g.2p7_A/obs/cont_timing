@@ -1,32 +1,32 @@
   
- Overhead is    2.8610229492187500E-006
+ Overhead is    1.9073486328125000E-006
     Count rate for wall clock is           1000000000
  Maximum count for wall clock is  9223372036854775807
   
         Identifier           Elapsed             CPU
                                Time              Time
-     INS_LINE_OBS               0.057233         0.015918
-     SET_PROF_STORE             0.007994         0.007991
+     INS_LINE_OBS               0.010772         0.010767
+     SET_PROF_STORE             0.006363         0.006360
         Identifier           Elapsed             CPU
                                Time              Time
-     INS_LINE_OBS               0.057233         0.015918
-     SET_PROF_STORE             0.007994         0.007991
-     MLCF                      51.349079       250.544737
-     ADD_LINE                   0.010646         0.000128
-     SET_PROF                   1.597954         8.733641
-     C_OPAC                    15.508784        81.192263
-     OP_TOT                     0.061498         0.208196
-     COMP_JCONT                33.865051       158.417003
-     CONT_VEL                  33.843440       158.274581
-     FG_J_CMF                  24.697049       116.458482
-     FG_BIG_SEC                24.005009       113.332942
-     FG_CHI_BEG                 0.300838         1.287771
-     FG_SOL_INT                22.267524       104.947099
-     J_LOOP                     1.387756         6.644168
-     MOM_J_CMF                  8.922017        40.553339
-     FLUX_DIST                  0.148356         0.836621
-     OBS_FRAME_SUB              9.485649        38.505948
-     MON_INTERP                 1.937660         7.258419
-     ML                         7.530692        31.192181
-     SOB_EW                   835.131577      3777.420804
-     JFEAU                    271.290872      1364.130691
+     INS_LINE_OBS               0.010772         0.010767
+     SET_PROF_STORE             0.006363         0.006360
+     MLCF                      84.557262        84.556898
+     ADD_LINE                   0.009643        -0.009234
+     SET_PROF                   1.476770         1.456228
+     C_OPAC                    43.549238        43.525704
+     OP_TOT                     0.053198         0.034132
+     COMP_JCONT                39.181888        39.163018
+     CONT_VEL                  39.162537        39.142726
+     FG_J_CMF                  36.196972        36.157634
+     FG_BIG_SEC                35.864705        35.824851
+     FG_CHI_BEG                 0.250137         0.210043
+     FG_SOL_INT                34.630136        34.586909
+     J_LOOP                     0.943601         0.902182
+     MOM_J_CMF                  2.774168         2.732440
+     FLUX_DIST                  0.138895         0.119942
+     OBS_FRAME_SUB             16.975226        16.975142
+     MON_INTERP                 3.533999         3.531937
+     ML                        13.426596        13.424820
+     SOB_EW                  1588.582224      1588.530409
+     JFEAU                    223.604678       222.924608

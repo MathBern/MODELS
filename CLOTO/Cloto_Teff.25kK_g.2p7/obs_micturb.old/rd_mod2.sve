@@ -1,0 +1,6 @@
+rd_mod2
+{FILE=../../Cloto_Teff.25kK/obs/obs_fin}
+{OVER=F}
+{SCALE=1.0D0}
+{XFAC=1.0D0}
+{RAD_VEL=0.0D0}

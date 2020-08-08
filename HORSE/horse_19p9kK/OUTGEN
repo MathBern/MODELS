@@ -3815,3 +3815,69 @@ SOUND_SPEED    1.3070E+01
  INC_VEC:  -2.92E-05 -2.91E-05 -2.91E-05 -2.91E-05 -2.90E-05 -2.90E-05 -2.90E-05 -2.90E-05 -2.90E-05 -2.89E-05
  The minimum value of scale for Major species is:  1.0000E+00
  Unable to open fle with clump values
+
+
+ Model started on:               02-Aug-2020 12:03:40
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+  
+ ********************************************************************************
+ Error in RD_F_TO_S_IDS_V2: Currently treating O2_F_TO_S
+ NS=  53   Maximum NS in F_TO_S is 176
+ ********************************************************************************
+  
+
+
+ Model started on:               02-Aug-2020 12:04:02
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+  
+ ********************************************************************************
+ Error in RD_F_TO_S_IDS_V2: Currently treating O2_F_TO_S
+ NS=  53   Maximum NS in F_TO_S is 176
+ ********************************************************************************
+  

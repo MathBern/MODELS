@@ -1,6 +1,6 @@
 
 
- Model Started on:               30-Jul-2020 09:34:29
+ Model Started on:               02-Aug-2020 12:05:37
  Main program last changed on:   05-May-2017 
 
            70     !Number of depth points
@@ -43,7 +43,7 @@
  
 
            70     [NUM_ITS]            Number of iterations to perform
-            T     [DO_LAM_IT]          Do LAMBDA iterations ?
+            F     [DO_LAM_IT]          Do LAMBDA iterations ?
             T     [DO_GT_AUTO]         Do a grey temperature iteration after revising USE_FIXED_J?
             F     [DO_T_AUTO]          Allow temperature to vary when sufficent convergence has been obtained?
 

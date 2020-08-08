@@ -1,0 +1,15 @@
+  
+ Overhead is    7.9870223999023438E-006
+    Count rate for wall clock is           1000000000
+ Maximum count for wall clock is  9223372036854775807
+  
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.031604         0.031594
+     linear                     0.005749         0.005738
+     cnvlv                      0.013746         0.013737
+        Identifier           Elapsed             CPU
+                               Time              Time
+     mainc                      0.062980         0.062906
+     linear                     0.011505         0.011469
+     cnvlv                      0.027284         0.027261

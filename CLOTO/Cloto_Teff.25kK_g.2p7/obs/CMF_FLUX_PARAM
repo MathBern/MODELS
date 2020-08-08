@@ -25,9 +25,9 @@ INT/INS      [FG_OPT]
 T            [THK_CONT]         !Thick boundary condition for continuum ?
 T            [TRAP_J]           !Use trapazoidal wights to compute J ?
  
-5.0D0        [VTURB_FIX]        !Turbulent Velocity if GLOBAL_PROF=FOP_FIX
-5.0D0        [VTURB_MIN]        !Turbulent Velocity
-120.0D0      [VTURB_MAX]        !Turbulent Velocity
+20.0D0        [VTURB_FIX]        !Turbulent Velocity if GLOBAL_PROF=FOP_FIX
+20.0D0        [VTURB_MIN]        !Turbulent Velocity
+200.0D0       [VTURB_MAX]        !Turbulent Velocity
  
 6.0          [MAX_DOP]          !Max. half-width of resonace zone
 0.5D0        [FRAC_DOP]         !Spacing in CMF resonace zone [in Doppler widths]
@@ -45,7 +45,7 @@ T            [TRAP_J]           !Use trapazoidal wights to compute J ?
 20.0D0       [TAU_MAX]          !
 0.1          [ES_DTAU]          !
 STAU         [INT_METH]         !
-1	     [N_INS_OBS]
+1	         [N_INS_OBS]
   
 F            [FLUX_CAL_ONLY]    !Do a flux calculation only?
 F            [EXT_FRM_SOL]	!Extend formal solutiona factor of 10 in R

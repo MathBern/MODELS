@@ -1,0 +1,185 @@
+ 
+ 
+ 5 largest reductions at depth:  50
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      6.0466E-05        OV      14        651
+      5.9248E-05        OV      13        650
+      5.8449E-05        OV      12        649
+      5.8367E-05        OV      15        652
+      5.8330E-05        OV      11        648
+ 
+ 5 largest increases at depth:  50
+ 
+     -2.8289E-04      NSIX       1        518
+     -2.7821E-04     FeSEV       1       1203
+     -2.7690E-04      OSIX       1        670
+     -2.5693E-04        OV      19        656
+     -2.5217E-04        NV      38        514
+ 
+ 5 largest reductions at depth:  35
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.3408E-04      CIII       4        156
+      3.9541E-04      CIII      29        181
+      3.6689E-04      CIII      32        184
+      3.0121E-04      CIII      13        165
+      2.6954E-04      CIII      35        187
+ 
+ 5 largest increases at depth:  35
+ 
+     -5.4618E-05      OIII      23        594
+     -5.1114E-05      FeIV      91        995
+     -5.0737E-05      NIII      56        431
+     -5.0692E-05       NIV       5        437
+     -5.0574E-05      OIII      24        595
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  51
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      8.0950E-05        OV      26        663
+      8.0489E-05        OV      32        669
+      8.0396E-05        OV      31        668
+      8.0295E-05        OV      30        667
+      8.0084E-05        OV      25        662
+ 
+ 5 largest increases at depth:  51
+ 
+     -2.7920E-04      OSIX       1        670
+     -1.2932E-04     FeSEV       1       1203
+     -3.8003E-05      NSIX       1        518
+     -1.3794E-05       Sk2       1        671
+     -1.2157E-05       Sk2       2        672
+ 
+ 5 largest reductions at depth:  34
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.3166E-04      CIII       4        156
+      3.9148E-04      CIII      29        181
+      3.6390E-04      CIII      32        184
+      3.0074E-04      CIII      13        165
+      2.7073E-04      CIII      35        187
+ 
+ 5 largest increases at depth:  34
+ 
+     -5.4738E-05      OIII      23        594
+     -5.2334E-05      OIII      24        595
+     -5.2145E-05      FeIV      91        995
+     -5.1429E-05      FeIV      86        990
+     -5.0745E-05       NIV       5        437
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  49
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      3.3331E-05     FeSIX      42       1185
+      3.3172E-05     FeSIX      43       1186
+      3.3035E-05     FeSIX      44       1187
+      3.2969E-05     FeSIX      38       1181
+      3.2852E-05     FeSIX      39       1182
+ 
+ 5 largest increases at depth:  49
+ 
+     -2.7878E-04        NV      30        506
+     -2.7877E-04        NV      31        507
+     -2.7877E-04        NV      32        508
+     -2.7877E-04        NV      33        509
+     -2.7876E-04        NV      34        510
+ 
+ 5 largest reductions at depth:  36
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.2732E-04      CIII       4        156
+      3.8959E-04      CIII      29        181
+      3.6058E-04      CIII      32        184
+      2.9542E-04      CIII      13        165
+      2.5973E-04      CIII      35        187
+ 
+ 5 largest increases at depth:  36
+ 
+     -5.4684E-05      OIII      23        594
+     -5.2122E-05      NIII      56        431
+     -5.1253E-05       NIV       5        437
+     -5.0876E-05      FeIV      91        995
+     -5.0591E-05       NIV       3        435
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  48
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      8.2175E-06       FeV     133       1137
+      7.5992E-06     FeSIX      27       1170
+      7.1290E-06       FeV      78       1082
+      7.1198E-06        NV       5        481
+      7.0257E-06     FeSIX      19       1162
+ 
+ 5 largest increases at depth:  48
+ 
+     -2.7081E-04        NV      21        497
+     -2.7080E-04        NV      24        500
+     -2.7080E-04        NV      25        501
+     -2.7080E-04        NV      17        493
+     -2.7080E-04        NV      22        498
+ 
+ 5 largest reductions at depth:  33
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.2256E-04      CIII       4        156
+      3.8173E-04      CIII      29        181
+      3.5532E-04      CIII      32        184
+      2.9532E-04      CIII      13        165
+      2.6613E-04      CIII      35        187
+ 
+ 5 largest increases at depth:  33
+ 
+     -5.3961E-05      OIII      23        594
+     -5.2552E-05      OIII      24        595
+     -5.2120E-05      FeIV      91        995
+     -5.1391E-05      FeIV      86        990
+     -4.9758E-05       NIV       5        437
+ 
+ 
+ 
+ 
+ 5 largest reductions at depth:  47
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.5573E-06       Sk2      20        690
+      4.3217E-06       HeI       1         32
+      3.4028E-06        HI       1          1
+      2.6905E-06       Sk2       1        671
+      2.3668E-06        C2       1        132
+ 
+ 5 largest increases at depth:  47
+ 
+     -2.6034E-04        OV      10        647
+     -2.6032E-04        OV      19        656
+     -2.6032E-04        OV      26        663
+     -2.6031E-04        OV      24        661
+     -2.6031E-04        OV      25        662
+ 
+ 5 largest reductions at depth:  37
+ 
+        SOL(J,L)   Species      SL     I(STEQ)
+      4.0786E-04      CIII       4        156
+      3.7057E-04      CIII      29        181
+      3.4173E-04      CIII      32        184
+      2.8110E-04      CIII      13        165
+      2.3890E-04      CIII      35        187
+ 
+ 5 largest increases at depth:  37
+ 
+     -5.5188E-05      OIII      23        594
+     -5.4596E-05      NIII      56        431
+     -5.2867E-05       NIV       5        437
+     -5.2817E-05        OV       6        643
+     -5.2177E-05       NIV       3        435
+ 
+ 

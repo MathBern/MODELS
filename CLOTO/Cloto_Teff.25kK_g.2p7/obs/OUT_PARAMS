@@ -21,9 +21,9 @@
             T     [THK_CONT]           Use thick boundary condition for continuum ?
             T     [TRAP_J]             Use trapazoidal weights to compute J?
 
-  5.00000E+00     [VTURB_FIX]          Doppler velocity for DOP_FIX Doppler profiles (km/s)
-  5.00000E+00     [VTURB_MIN]          Minimum turbulent velocity for Doppler profile (km/s)
-  1.20000E+02     [VTURB_MAX]          Maximum turbulent velocity for Doppler profile (km/s)
+  2.00000E+01     [VTURB_FIX]          Doppler velocity for DOP_FIX Doppler profiles (km/s)
+  2.00000E+01     [VTURB_MIN]          Minimum turbulent velocity for Doppler profile (km/s)
+  2.00000E+02     [VTURB_MAX]          Maximum turbulent velocity for Doppler profile (km/s)
 
   6.00000E+00     [MAX_DOP]            Maximum half-width of resonance zone (in Doppler widths)
   5.00000E-01     [FRAC_DOP]           Spacing in resonance zone (in Doppler widths)
