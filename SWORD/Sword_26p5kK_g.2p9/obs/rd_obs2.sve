@@ -1,0 +1,12 @@
+rd_obs2
+{FILE=/home/matheus/CMFGEN/OBSERVED_SPECTRA/HD37128_all_norm11.nspec}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{REM_BP=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=F}
+{COLS=1,2}
+{WR=F}
