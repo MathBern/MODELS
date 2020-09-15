@@ -1,0 +1,17 @@
+Machine name is :
+Linux math 5.4.0-45-generic #49~18.04.2-Ubuntu SMP Wed Aug 26 16:29:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Program started on:
+seg set 14 10:41:54 -03 2020
+ 
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Program finished on:
+seg set 14 11:20:08 -03 2020
+ 
+ 
+Continuum calculation started on:
+seg set 14 11:20:08 -03 2020
+ 
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Program finished on:
+seg set 14 11:38:38 -03 2020

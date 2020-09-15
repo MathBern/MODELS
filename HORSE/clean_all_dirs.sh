@@ -41,6 +41,14 @@ for d in */; do
     rm -f *SCRA* BA* POINT* SCRTEMP fort* *RRR* NETRATE LINEHEAT TOTRATE *RRR*
     find * -type l -maxdepth 0 -exec rm -vf {} ';' #rmlinks
     rm MOM_J_ERRORS
+    rm core
+    cd ..
+    
+    cd lte
+    rm -f *SCRA* BA* POINT* SCRTEMP fort* *RRR* NETRATE LINEHEAT TOTRATE *RRR*
+    find * -type l -maxdepth 0 -exec rm -vf {} ';' #rmlinks
+    rm MOM_J_ERRORS
+    rm POPIRON
     cd ..
     
     cd ..

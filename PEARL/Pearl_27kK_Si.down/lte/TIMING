@@ -1,0 +1,10 @@
+  
+ Overhead is    6.6757202148437500E-006
+    Count rate for wall clock is           1000000000
+ Maximum count for wall clock is  9223372036854775807
+  
+        Identifier           Elapsed             CPU
+                               Time              Time
+     INS_OBS                    1.454099         1.453930
+     FULL_OPAC                863.369985      1619.794027
+     DTDR_OPAC                710.181771      1335.611471
