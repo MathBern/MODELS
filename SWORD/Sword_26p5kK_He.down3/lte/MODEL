@@ -1,6 +1,6 @@
 
 
- Model Started on:               14-Sep-2020 21:44:56
+ Model Started on:               15-Sep-2020 16:37:47
  Main program last changed on:   16-Feb-2006 
 
           925     !Number of depth points
@@ -42,18 +42,18 @@
  
 
 
-  2.31746E+02     [RSTAR]              Stellar radius (in 10^10 cm)
-  1.86544E+02     [RMAX]               Maximum radius (in R*)
+  2.12396E+02     [RSTAR]              Stellar radius (in 10^10 cm)
+  1.48696E+02     [RMAX]               Maximum radius (in R*)
             T     [DO_HYDRO]           Adjust hydrostatic structure
             7     [VEL_LAW]            Velocity Law to be used
    RVSIG_COL      [VEL_OPT]            Velocity option: RVSIG_COL or deKOTER
-  1.52774E+03     [VINF]               Terminal velocity (km/s)
+  1.52757E+03     [VINF]               Terminal velocity (km/s)
   6.26090E-07     [MDOT]               Mass Loss rate (Msun/yr)
   5.66022E+05     [LSTAR]              Stellar luminosity (Lsun)
   2.65000E+00     [TEFF]               Effective temperature (10^4 K)
   2.90000E+00     [LOGG]               Log surface gravity (cgs units)
   1.80000E+00     [BETA]               Beta exponent for velocity law
-  3.68843E+01     [MASS]               Stellar mass (Msun)
+  3.76043E+01     [MASS]               Stellar mass (Msun)
             T     [DO_CL]              Calculate a model with clumping?
        EXPO       [CL_LAW]             Which clumping law is being utilized?
             2     [N_CL_PAR]           Number of clumping parameters

@@ -1,0 +1,43 @@
+Machine name is :
+Linux math 5.4.0-45-generic #49~18.04.2-Ubuntu SMP Wed Aug 26 16:29:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Program started on:
+ter set 15 17:57:43 -03 2020
+ 
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x1493f976a32a
+#1  0x1493f9769503
+#2  0x1493f8bb7fcf
+#3  0x55ce9570ecd2
+#4  0x55ce9565e5bc
+#5  0x55ce95657e92
+#6  0x55ce95657ef8
+#7  0x1493f8b9ab96
+#8  0x55ce9564dd39
+#9  0xffffffffffffffff
+Program finished on:
+ter set 15 17:57:43 -03 2020
+ 
+ 
+Continuum calculation started on:
+ter set 15 17:57:43 -03 2020
+ 
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x1488fb93832a
+#1  0x1488fb937503
+#2  0x1488fad85fcf
+#3  0x558160030cd2
+#4  0x55815ff805bc
+#5  0x55815ff79e92
+#6  0x55815ff79ef8
+#7  0x1488fad68b96
+#8  0x55815ff6fd39
+#9  0xffffffffffffffff
+Program finished on:
+ter set 15 17:57:44 -03 2020
