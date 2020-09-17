@@ -1,0 +1,609 @@
+
+ Reading in atomic data
+
+ Warning -- FORMAT Date not found in oscilator file:HI_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:He2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:HeI_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:CIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:C2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:NV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:NIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:OV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:O2_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:SkIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:SkIII_F_OSCDAT
+ ***Warning**** --- 30260 weak transitions cut in GENOSC_V9 --- FeSIX_F_OSCDAT
+ ***Warning**** --- 34246 weak transitions cut in GENOSC_V9 --- FeV_F_OSCDAT
+ ***Warning**** --- 34324 weak transitions cut in GENOSC_V9 --- FeIV_F_OSCDAT
+ Warning -- FORMAT Date not found in oscilator file:FeIII_F_OSCDAT
+ ***Warning**** ---  3124 weak transitions cut in GENOSC_V9 --- FeIII_F_OSCDAT
+  
+ *************** Warning -- Warning -- Warning ****************
+ Max. cont. freq may be too small in in SET_X_FREQ_V2
+ Max. cont. should generally be set to 1000 when X-rays present
+ Need to allow for ionization from inner shells. Generally can
+ ignore ionization from n=1 (=PQN) state of iron group elements
+ since these can also ionize from n=2 sate. A list of effected
+ ionization routes follows:
+
+  IZ=26    NE=24   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=23   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.72E+03
+  IZ=26    NE=22   PQN= 1   ANG= 0      Edge Freq(10^15 Hz)=  1.73E+03
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 70   T=8.1366E+00   ED=2.4298E+15
+   FeSEV  may need to be included in the model (IF ~ 2.0E-02)
+ 
+                   Temperature (10^4 K) is 8.137E+00
+           Atom/ion density (per cm^3)) is 2.222E+15
+                 Electrons per atom/ion is 1.093E+00
+ Total thermal kinetic energy (ev/atom) is 2.202E+01
+  Approximate internal energy (ev/atom) is 1.969E+01
+ App. missing internal energy (ev/atom) is 8.736E-05
+             Radiation energy (ev/atom) is 2.926E+02
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  61 depths.
+ C2      g.s. eq. replaced by ionization eq. at  53 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  52 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at  56 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  64 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  53 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  66 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  61 depths.
+ C2      g.s. eq. replaced by ionization eq. at  53 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  52 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at  56 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  64 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  53 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  66 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  61 depths.
+ C2      g.s. eq. replaced by ionization eq. at  40 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  68 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  41 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   1 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  58 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  64 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  53 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  61 depths.
+ C2      g.s. eq. replaced by ionization eq. at  41 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  68 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  42 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   1 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  58 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  64 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  53 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  62 depths.
+ C2      g.s. eq. replaced by ionization eq. at  55 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  70 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  54 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at  57 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  67 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  65 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  65 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  62 depths.
+ C2      g.s. eq. replaced by ionization eq. at  55 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  70 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  54 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at  57 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  67 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  43 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  65 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  44 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  65 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  62 depths.
+ C2      g.s. eq. replaced by ionization eq. at  54 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  70 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  54 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  65 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at  57 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  64 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  63 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  66 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  64 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  64 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ He2     g.s. eq. replaced by ionization eq. at  59 depths.
+ C2      g.s. eq. replaced by ionization eq. at  42 depths.
+ CIII    g.s. eq. replaced by ionization eq. at  69 depths.
+ CIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ N2      g.s. eq. replaced by ionization eq. at  44 depths.
+ NIII    g.s. eq. replaced by ionization eq. at  61 depths.
+ NIV     g.s. eq. replaced by ionization eq. at  70 depths.
+ NV      g.s. eq. replaced by ionization eq. at  70 depths.
+ O2      g.s. eq. replaced by ionization eq. at   3 depths.
+ OIII    g.s. eq. replaced by ionization eq. at  59 depths.
+ OIV     g.s. eq. replaced by ionization eq. at  64 depths.
+ OV      g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIII   g.s. eq. replaced by ionization eq. at  70 depths.
+ SkIV    g.s. eq. replaced by ionization eq. at  70 depths.
+ FeIII   g.s. eq. replaced by ionization eq. at  55 depths.
+ FeIV    g.s. eq. replaced by ionization eq. at  62 depths.
+ FeV     g.s. eq. replaced by ionization eq. at  64 depths.
+ FeSIX   g.s. eq. replaced by ionization eq. at  70 depths.
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+ Begin COMP_GREY_V4    70    15    85
+ 
+
+
+  Equation selection in generate_full_matrix_v3.f
+
+ 
+
+
+ Checking whether some low ionization stages may be omitted from the model.
+ Checking whether some high ionization stages may be omitted from the model.
+ Checking whether lower ionization stages need to be included in model
+ 
+ Checking whether additional higher ionization stages  need to be included in the model.
+ NB: If XzV needs to be included it will also be necessary to include XzIV, as this was
+      only included as the ground state.
+ Parameters at check depth: Depth= 70   T=8.1162E+00   ED=2.3760E+15
+   FeSEV  may need to be included in the model (IF ~ 1.9E-02)
+ 
+                   Temperature (10^4 K) is 8.116E+00
+           Atom/ion density (per cm^3)) is 2.173E+15
+                 Electrons per atom/ion is 1.093E+00
+ Total thermal kinetic energy (ev/atom) is 2.196E+01
+  Approximate internal energy (ev/atom) is 1.969E+01
+ App. missing internal energy (ev/atom) is 8.433E-05
+             Radiation energy (ev/atom) is 2.962E+02
