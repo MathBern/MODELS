@@ -1,6 +1,6 @@
 
-Model Started on:               19-Sep-2020 10:09:38
-Model Finalized on:             20-Sep-2020 00:29:54
+Model Started on:               21-Sep-2020 18:14:02
+Model Finalized on:             22-Sep-2020 07:18:11
 Main program last changed on:   05-May-2017 
 
 ND[70]              NC[15]              NP[85]              NT[1205]
@@ -17,12 +17,12 @@ OV[56/32]
                                         FeIII[607/65]       FeIV[1000/100]
 FeV[1000/139]       FeSIX[1000/59]
  
-L*=3.369E+05        Mdot=8.000E-07      R*=368.633          RMAX/R*=255.616
-Tau=99.231          R*/Rsun=52.965      T*(K)=1.910E+04     V(km/s)=3.813E-03   Log g=2.332
-Tau=20.000          R /Rsun=57.713      Teff(K)=1.830E+04   V(km/s)=1.668E-02   Log g=2.258
-Tau=10.000          R /Rsun=59.121      Teff(K)=1.808E+04   V(km/s)=1.947E-02   Log g=2.237
-Tau=6.667E-01       R /Rsun=61.679      Teff(K)=1.770E+04   V(km/s)=7.666E-02   Log g=2.200
-Eta=5.747E-02       Ek/L(%)=4.698E-03
+L*=3.369E+05        Mdot=6.000E-07      R*=368.974          RMAX/R*=254.782
+Tau=99.583          R*/Rsun=53.014      T*(K)=1.909E+04     V(km/s)=2.849E-03   Log g=2.332
+Tau=20.000          R /Rsun=57.743      Teff(K)=1.829E+04   V(km/s)=1.237E-02   Log g=2.257
+Tau=10.000          R /Rsun=59.138      Teff(K)=1.808E+04   V(km/s)=1.452E-02   Log g=2.237
+Tau=6.667E-01       R /Rsun=61.683      Teff(K)=1.770E+04   V(km/s)=5.682E-02   Log g=2.200
+Eta=4.310E-02       Ek/L(%)=3.523E-03
  
 Vinf1=493.719       Beta1=1.600         SCL_HT/RP=0.000E+00
 VCORE=0.000E+00     VPHOT=0.000E+00
@@ -61,4 +61,4 @@ Running clumped model: EXPO
 Filling factor at boundary is:  5.000E-02
 CL_P_1=5.000E-02    CL_P_2=30.000
  
-Maximum correcion (%) on last iteration:  5.397E-02
+Maximum correcion (%) on last iteration:  3.773E-02

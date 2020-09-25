@@ -1,0 +1,64 @@
+
+Model Started on:               25-Sep-2020 08:12:21
+Model Finalized on:             25-Sep-2020 09:50:22
+Main program last changed on:   05-May-2017 
+
+ND[70]              NC[15]              NP[85]              NT[1205]
+NUM_BNDS[1]         NCF[124552]         NLINES[145592]
+ 
+HI[30/30]
+HeI[69/69]          He2[30/30]
+                    C2[39/21]           CIII[243/99]        CIV[64/64]
+                    N2[105/59]          NIII[287/57]        NIV[70/44]
+NV[49/41]
+                    O2[296/53]          OIII[104/36]        OIV[64/30]
+OV[56/32]
+                    Sk2[80/52]          SkIII[50/50]        SkIV[66/66]
+                                        FeIII[607/65]       FeIV[1000/100]
+FeV[1000/139]       FeSIX[1000/59]
+ 
+L*=3.369E+05        Mdot=3.000E-07      R*=369.094          RMAX/R*=258.103
+Tau=99.659          R*/Rsun=53.031      T*(K)=1.909E+04     V(km/s)=1.424E-03   Log g=2.331
+Tau=20.000          R /Rsun=57.758      Teff(K)=1.829E+04   V(km/s)=6.169E-03   Log g=2.257
+Tau=10.000          R /Rsun=59.148      Teff(K)=1.808E+04   V(km/s)=7.229E-03   Log g=2.236
+Tau=6.667E-01       R /Rsun=61.680      Teff(K)=1.770E+04   V(km/s)=2.816E-02   Log g=2.200
+Eta=2.155E-02       Ek/L(%)=1.762E-03
+ 
+Vinf1=493.682       Beta1=1.600         SCL_HT/RP=0.000E+00
+VCORE=0.000E+00     VPHOT=0.000E+00
+ 
+Mean atomic mass (amu) is:  1.3332
+ 
+   SPECIES     Rel. # Fraction     Mass Fraction    Z/Z(sun)      Z(sun)
+     HYD           1.000             6.692E-01      9.55E-01     7.01E-01
+     HE            0.120             3.212E-01      1.15E+00     2.80E-01
+     CARB          7.000E-05         5.622E-04      1.84E-01     3.05E-03
+     NIT           2.450E-04         2.295E-03      2.09E+00     1.10E-03
+     OXY           4.570E-04         4.893E-03      5.13E-01     9.54E-03
+     FLU           0.000E+00         0.000E+00      0.00E+00     4.83E-07
+     NEON          0.000E+00         0.000E+00      0.00E+00     1.74E-03
+     SOD           0.000E+00         0.000E+00      0.00E+00     3.45E-05
+     MAG           0.000E+00         0.000E+00      0.00E+00     6.47E-04
+     ALUM          0.000E+00         0.000E+00      0.00E+00     5.58E-05
+     SIL           3.250E-05         6.112E-04      8.75E-01     6.99E-04
+     PHOS          0.000E+00         0.000E+00      0.00E+00     6.12E-06
+     SUL           0.000E+00         0.000E+00      0.00E+00     3.65E-04
+     CHL           0.000E+00         0.000E+00      0.00E+00     7.87E-06
+     ARG           0.000E+00         0.000E+00      0.00E+00     1.02E-04
+     POT           0.000E+00         0.000E+00      0.00E+00     3.61E-06
+     CAL           0.000E+00         0.000E+00      0.00E+00     6.44E-05
+     SCAN          0.000E+00         0.000E+00      0.00E+00     3.97E-08
+     TIT           0.000E+00         0.000E+00      0.00E+00     3.28E-06
+     VAN           0.000E+00         0.000E+00      0.00E+00     3.57E-07
+     CHRO          0.000E+00         0.000E+00      0.00E+00     1.70E-05
+     MAN           0.000E+00         0.000E+00      0.00E+00     9.44E-06
+     IRON          3.160E-05         1.180E-03      8.70E-01     1.36E-03
+     COB           0.000E+00         0.000E+00      0.00E+00     3.43E-06
+     NICK          0.000E+00         0.000E+00      0.00E+00     7.32E-05
+     BAR           0.000E+00         0.000E+00      0.00E+00     1.30E-08
+ 
+Running clumped model: EXPO
+Filling factor at boundary is:  5.000E-02
+CL_P_1=5.000E-02    CL_P_2=30.000
+ 
+Maximum correcion (%) on last iteration:  3.666E-02

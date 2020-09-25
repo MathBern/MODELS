@@ -1,6 +1,6 @@
 
 
- Model Started on:               19-Sep-2020 10:09:38
+ Model Started on:               21-Sep-2020 18:14:02
  Main program last changed on:   05-May-2017 
 
            70     !Number of depth points
@@ -47,13 +47,13 @@
             T     [DO_GT_AUTO]         Do a grey temperature iteration after revising USE_FIXED_J?
             F     [DO_T_AUTO]          Allow temperature to vary when sufficent convergence has been obtained?
 
-  3.72758E+02     [RSTAR]              Stellar radius (in 10^10 cm)
-  1.46514E+02     [RMAX]               Maximum radius (in R*)
+  3.73369E+02     [RSTAR]              Stellar radius (in 10^10 cm)
+  1.46274E+02     [RMAX]               Maximum radius (in R*)
             T     [DO_HYDRO]           Adjust hydrostatic structure
             7     [VEL_LAW]            Velocity Law to be used
    RVSIG_COL      [VEL_OPT]            Velocity option: RVSIG_COL or deKOTER
   4.93719E+02     [VINF]               Terminal velocity (km/s)
-  8.00000E-07     [MDOT]               Mass Loss rate (Msun/yr)
+  6.00000E-07     [MDOT]               Mass Loss rate (Msun/yr)
   3.36894E+05     [LSTAR]              Stellar luminosity (Lsun)
   1.77000E+00     [TEFF]               Effective temperature (10^4 K)
   2.20000E+00     [LOGG]               Log surface gravity (cgs units)

@@ -4,7 +4,7 @@
  Append (scrat) to get scratch output.
   
  ../RVTJ          [RVTJ]          Input RVTJ filename
- Model completed on 20-Sep-2020 00:29:54
+ Model completed on 22-Sep-2020 07:18:11
   2.30000E+01     [MASS]          Stars mass
        F          [ONLY_OBS_LINES]Observed lines only?
  
@@ -69,14 +69,14 @@
  Minimum frequency spacing is: 2.01E+00km/s
   
  Number of line frequencies is:  247967
- Number of continuum frequencies is:       270198
+ Number of continuum frequencies is:       270298
  
- The continuum will be evaluated at 14765 frequencies
+ The continuum will be evaluated at 14783 frequencies
  Calling INS_LINE_OBS_V4
  Finished calling INS_LINE_OBS_V4
  Setting pofile storage
  Maximum number of profiles to be stored is           30
- Maximum number of frequncies per profile is        1926
+ Maximum number of frequncies per profile is        1927
  Finished set profile storage
  Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
  Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
@@ -88,121 +88,121 @@
  Calling FG_J_CMF_V12
  
  Using thick boundary condition in FG_J_CMF_V12
- R(1)=  9.42285046E+04   RMAX=  9.42285046E+05
- V(1)=  4.90133528E+02   VMAX=  4.93353721E+02
+ R(1)=  9.40078487E+04   RMAX=  9.40078487E+05
+ V(1)=  4.90139550E+02   VMAX=  4.93352241E+02
  Using depth 1 and   9 to extrapolate opacities
- Maximum number of points along ray in FG_J_CMF_V12 is   109
+ Maximum number of points along ray in FG_J_CMF_V12 is   108
  Calling MOM_J_CMF_V8
  
- Tau(Nu=1.3161E+01) at outer boundary is: 1.394E+02
- Tau(Nu=1.1605E+01) at outer boundary is: 6.711E+01
- Tau(Nu=5.9534E+00) at outer boundary is: 2.152E+02
- Tau(Nu=3.2900E+00) at outer boundary is: 1.051E-02
+ Tau(Nu=1.3160E+01) at outer boundary is: 1.051E+02
+ Tau(Nu=1.1605E+01) at outer boundary is: 5.367E+01
+ Tau(Nu=5.9533E+00) at outer boundary is: 1.725E+02
+ Tau(Nu=3.2900E+00) at outer boundary is: 6.897E-03
 
- Tau(Nu=8.3000E-01) at outer boundary is: 4.992E-04
+ Tau(Nu=8.3000E-01) at outer boundary is: 3.743E-04
  Possible error in CONV_STRK_V2
  Profile normalization constant differs from 1 by more than 30%
- Wave= 15086.98268336A   Lam_ST(1)=  -247.40289940A   Lam_END(NF)=   256.18457120A
+ Wave= 15086.98268336A   Lam_ST(1)=  -247.40887624A   Lam_END(NF)=   256.17869141A
    Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
-    6.4824E-01    1.4467E+01    4.7116E+00    1.4684E+00    1.0065E+00
-    5.9904E-01    1.4541E+01    4.7282E+00    1.4967E+00    1.0065E+00
-    5.7476E-01    1.4577E+01    4.7365E+00    1.5110E+00    1.0065E+00
+    6.2118E-01    1.4508E+01    4.7208E+00    1.4839E+00    1.0065E+00
+    5.8808E-01    1.4557E+01    4.7320E+00    1.5032E+00    1.0065E+00
+    5.7176E-01    1.4582E+01    4.7376E+00    1.5130E+00    1.0065E+00
 
-    5.6679E-01    1.4589E+01    4.7393E+00    1.5158E+00    1.0065E+00
+    5.6632E-01    1.4590E+01    4.7395E+00    1.5162E+00    1.0065E+00
  Possible error in CONV_STRK_V2
  Profile normalization constant differs from 1 by more than 30%
- Wave= 15137.44360282A   Lam_ST(1)=  -248.16332832A   Lam_END(NF)=   256.85151602A
+ Wave= 15137.44360282A   Lam_ST(1)=  -248.18267878A   Lam_END(NF)=   256.84860195A
    Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
-    6.8708E-01    1.4467E+01    4.7116E+00    1.4733E+00    1.0099E+00
-    6.3894E-01    1.4541E+01    4.7282E+00    1.5017E+00    1.0099E+00
-    6.1481E-01    1.4577E+01    4.7365E+00    1.5161E+00    1.0099E+00
+    6.6075E-01    1.4508E+01    4.7208E+00    1.4888E+00    1.0099E+00
+    6.2809E-01    1.4557E+01    4.7320E+00    1.5082E+00    1.0099E+00
+    6.1182E-01    1.4582E+01    4.7376E+00    1.5180E+00    1.0099E+00
 
-    6.0683E-01    1.4589E+01    4.7393E+00    1.5209E+00    1.0099E+00
+    6.0637E-01    1.4590E+01    4.7395E+00    1.5213E+00    1.0099E+00
  Possible error in CONV_STRK_V2
  Profile normalization constant differs from 1 by more than 30%
- Wave= 15196.08241865A   Lam_ST(1)=  -249.05252206A   Lam_END(NF)=   258.05112644A
+ Wave= 15196.08241865A   Lam_ST(1)=  -248.96092549A   Lam_END(NF)=   258.05880142A
    Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
-    6.8038E-01    1.4541E+01    4.7282E+00    1.5075E+00    1.0138E+00
-    6.5693E-01    1.4577E+01    4.7365E+00    1.5220E+00    1.0138E+00
+    6.6978E-01    1.4557E+01    4.7320E+00    1.5141E+00    1.0138E+00
+    6.5392E-01    1.4582E+01    4.7376E+00    1.5239E+00    1.0138E+00
 
-    6.4911E-01    1.4589E+01    4.7393E+00    1.5268E+00    1.0138E+00
+    6.4857E-01    1.4590E+01    4.7395E+00    1.5272E+00    1.0138E+00
  Possible error in CONV_STRK_V2
  Profile normalization constant differs from 1 by more than 30%
- Wave= 15264.79492316A   Lam_ST(1)=  -250.29995028A   Lam_END(NF)=   259.19756335A
+ Wave= 15264.79492316A   Lam_ST(1)=  -250.28737102A   Lam_END(NF)=   259.19150816A
    Norm Const.       Log(Ne)        Log(T)    dLAM_THERM     dLAM_TURB
-    6.9941E-01    1.4577E+01    4.7365E+00    1.5288E+00    1.0184E+00
-    6.9191E-01    1.4589E+01    4.7393E+00    1.5337E+00    1.0184E+00
- Average number of calls to FG_J_CMF is   1.7322111932730813     
- LS loop  1 is finished. Number of points along ray=  286
- LS loop  2 is finished. Number of points along ray=  295
- LS loop  3 is finished. Number of points along ray=  304
- LS loop  4 is finished. Number of points along ray=  312
- LS loop  5 is finished. Number of points along ray=  325
- LS loop  6 is finished. Number of points along ray=  287
- LS loop  7 is finished. Number of points along ray=  295
- LS loop  8 is finished. Number of points along ray=  307
- LS loop  9 is finished. Number of points along ray=  318
- LS loop 10 is finished. Number of points along ray=  331
- LS loop 11 is finished. Number of points along ray=  292
- LS loop 12 is finished. Number of points along ray=  299
- LS loop 13 is finished. Number of points along ray=  309
- LS loop 14 is finished. Number of points along ray=  316
- LS loop 15 is finished. Number of points along ray=  322
- LS loop 16 is finished. Number of points along ray=  645
- LS loop 17 is finished. Number of points along ray=  641
- LS loop 18 is finished. Number of points along ray=  643
- LS loop 19 is finished. Number of points along ray=  651
- LS loop 20 is finished. Number of points along ray=  571
- LS loop 21 is finished. Number of points along ray=  593
- LS loop 22 is finished. Number of points along ray=  629
+    6.9658E-01    1.4582E+01    4.7376E+00    1.5308E+00    1.0184E+00
+    6.9145E-01    1.4590E+01    4.7395E+00    1.5341E+00    1.0184E+00
+ Average number of calls to FG_J_CMF is   1.7011039667330132     
+ LS loop  1 is finished. Number of points along ray=  297
+ LS loop  2 is finished. Number of points along ray=  304
+ LS loop  3 is finished. Number of points along ray=  315
+ LS loop  4 is finished. Number of points along ray=  325
+ LS loop  5 is finished. Number of points along ray=  285
+ LS loop  6 is finished. Number of points along ray=  296
+ LS loop  7 is finished. Number of points along ray=  305
+ LS loop  8 is finished. Number of points along ray=  317
+ LS loop  9 is finished. Number of points along ray=  330
+ LS loop 10 is finished. Number of points along ray=  291
+ LS loop 11 is finished. Number of points along ray=  298
+ LS loop 12 is finished. Number of points along ray=  307
+ LS loop 13 is finished. Number of points along ray=  315
+ LS loop 14 is finished. Number of points along ray=  324
+ LS loop 15 is finished. Number of points along ray=  328
+ LS loop 16 is finished. Number of points along ray=  659
+ LS loop 17 is finished. Number of points along ray=  655
+ LS loop 18 is finished. Number of points along ray=  655
+ LS loop 19 is finished. Number of points along ray=  555
+ LS loop 20 is finished. Number of points along ray=  573
+ LS loop 21 is finished. Number of points along ray=  599
+ LS loop 22 is finished. Number of points along ray=  633
  LS loop 23 is finished. Number of points along ray=  563
  LS loop 24 is finished. Number of points along ray=  613
  LS loop 25 is finished. Number of points along ray=  557
- LS loop 26 is finished. Number of points along ray=  625
- LS loop 27 is finished. Number of points along ray=  557
- LS loop 28 is finished. Number of points along ray=  499
- LS loop 29 is finished. Number of points along ray=  443
- LS loop 30 is finished. Number of points along ray=  573
- LS loop 31 is finished. Number of points along ray=  503
- LS loop 32 is finished. Number of points along ray=  443
- LS loop 33 is finished. Number of points along ray=  397
- LS loop 34 is finished. Number of points along ray=  361
- LS loop 35 is finished. Number of points along ray=  331
- LS loop 36 is finished. Number of points along ray=  311
- LS loop 37 is finished. Number of points along ray=  289
- LS loop 38 is finished. Number of points along ray=  275
- LS loop 39 is finished. Number of points along ray=  259
- LS loop 40 is finished. Number of points along ray=  247
- LS loop 41 is finished. Number of points along ray=  237
- LS loop 42 is finished. Number of points along ray=  227
+ LS loop 26 is finished. Number of points along ray=  621
+ LS loop 27 is finished. Number of points along ray=  555
+ LS loop 28 is finished. Number of points along ray=  495
+ LS loop 29 is finished. Number of points along ray=  439
+ LS loop 30 is finished. Number of points along ray=  567
+ LS loop 31 is finished. Number of points along ray=  497
+ LS loop 32 is finished. Number of points along ray=  437
+ LS loop 33 is finished. Number of points along ray=  389
+ LS loop 34 is finished. Number of points along ray=  357
+ LS loop 35 is finished. Number of points along ray=  327
+ LS loop 36 is finished. Number of points along ray=  305
+ LS loop 37 is finished. Number of points along ray=  285
+ LS loop 38 is finished. Number of points along ray=  267
+ LS loop 39 is finished. Number of points along ray=  255
+ LS loop 40 is finished. Number of points along ray=  245
+ LS loop 41 is finished. Number of points along ray=  235
+ LS loop 42 is finished. Number of points along ray=  225
  LS loop 43 is finished. Number of points along ray=  219
- LS loop 44 is finished. Number of points along ray=  213
+ LS loop 44 is finished. Number of points along ray=  211
  LS loop 45 is finished. Number of points along ray=  207
- LS loop 46 is finished. Number of points along ray=  203
- LS loop 47 is finished. Number of points along ray=  199
- LS loop 48 is finished. Number of points along ray=  195
- LS loop 49 is finished. Number of points along ray=  191
- LS loop 50 is finished. Number of points along ray=  187
- LS loop 51 is finished. Number of points along ray=  183
- LS loop 52 is finished. Number of points along ray=  179
- LS loop 53 is finished. Number of points along ray=  175
- LS loop 54 is finished. Number of points along ray=  171
- LS loop 55 is finished. Number of points along ray=  167
+ LS loop 46 is finished. Number of points along ray=  201
+ LS loop 47 is finished. Number of points along ray=  197
+ LS loop 48 is finished. Number of points along ray=  193
+ LS loop 49 is finished. Number of points along ray=  189
+ LS loop 50 is finished. Number of points along ray=  185
+ LS loop 51 is finished. Number of points along ray=  181
+ LS loop 52 is finished. Number of points along ray=  177
+ LS loop 53 is finished. Number of points along ray=  173
+ LS loop 54 is finished. Number of points along ray=  169
+ LS loop 55 is finished. Number of points along ray=  165
  LS loop 56 is finished. Number of points along ray=  163
  LS loop 57 is finished. Number of points along ray=  163
- LS loop 58 is finished. Number of points along ray=  161
- LS loop 59 is finished. Number of points along ray=  161
- LS loop 60 is finished. Number of points along ray=  157
- LS loop 61 is finished. Number of points along ray=  151
- LS loop 62 is finished. Number of points along ray=  145
+ LS loop 58 is finished. Number of points along ray=  159
+ LS loop 59 is finished. Number of points along ray=  159
+ LS loop 60 is finished. Number of points along ray=  155
+ LS loop 61 is finished. Number of points along ray=  149
+ LS loop 62 is finished. Number of points along ray=  147
  LS loop 63 is finished. Number of points along ray=  143
  LS loop 64 is finished. Number of points along ray=  137
- LS loop 65 is finished. Number of points along ray=  133
- LS loop 66 is finished. Number of points along ray=  129
- LS loop 67 is finished. Number of points along ray=  123
- LS loop 68 is finished. Number of points along ray=  121
+ LS loop 65 is finished. Number of points along ray=  131
+ LS loop 66 is finished. Number of points along ray=  131
+ LS loop 67 is finished. Number of points along ray=  125
+ LS loop 68 is finished. Number of points along ray=  119
  LS loop 69 is finished. Number of points along ray=  117
- LS loop 70 is finished. Number of points along ray=  111
+ LS loop 70 is finished. Number of points along ray=  113
  LS loop 71 is finished. Number of points along ray=  107
  LS loop 72 is finished. Number of points along ray=  103
  LS loop 73 is finished. Number of points along ray=   97
@@ -223,7 +223,7 @@
  Append (scrat) to get scratch output.
   
  ../RVTJ          [RVTJ]          Input RVTJ filename
- Model completed on 20-Sep-2020 00:29:54
+ Model completed on 22-Sep-2020 07:18:11
   2.30000E+01     [MASS]          Stars mass
        F          [ONLY_OBS_LINES]Observed lines only?
  
@@ -303,88 +303,88 @@
  Calling FG_J_CMF_V12
  
  Using thick boundary condition in FG_J_CMF_V12
- R(1)=  9.42285046E+04   RMAX=  9.42285046E+05
- V(1)=  4.90133528E+02   VMAX=  4.93353721E+02
+ R(1)=  9.40078487E+04   RMAX=  9.40078487E+05
+ V(1)=  4.90139550E+02   VMAX=  4.93352241E+02
  Using depth 1 and   9 to extrapolate opacities
- Maximum number of points along ray in FG_J_CMF_V12 is   109
+ Maximum number of points along ray in FG_J_CMF_V12 is   108
  Calling MOM_J_CMF_V8
  
- Tau(Nu=1.3178E+01) at outer boundary is: 1.389E+02
- Tau(Nu=1.1610E+01) at outer boundary is: 6.711E+01
- Tau(Nu=5.9557E+00) at outer boundary is: 2.152E+02
- Tau(Nu=3.2900E+00) at outer boundary is: 1.051E-02
- Tau(Nu=8.3002E-01) at outer boundary is: 4.992E-04
- Average number of calls to FG_J_CMF is   2.2449624654286842     
- LS loop  1 is finished. Number of points along ray=  286
- LS loop  2 is finished. Number of points along ray=  295
- LS loop  3 is finished. Number of points along ray=  304
- LS loop  4 is finished. Number of points along ray=  312
- LS loop  5 is finished. Number of points along ray=  325
- LS loop  6 is finished. Number of points along ray=  287
- LS loop  7 is finished. Number of points along ray=  295
- LS loop  8 is finished. Number of points along ray=  307
- LS loop  9 is finished. Number of points along ray=  318
- LS loop 10 is finished. Number of points along ray=  331
- LS loop 11 is finished. Number of points along ray=  292
- LS loop 12 is finished. Number of points along ray=  299
- LS loop 13 is finished. Number of points along ray=  309
- LS loop 14 is finished. Number of points along ray=  316
- LS loop 15 is finished. Number of points along ray=  322
- LS loop 16 is finished. Number of points along ray=  645
- LS loop 17 is finished. Number of points along ray=  641
- LS loop 18 is finished. Number of points along ray=  643
- LS loop 19 is finished. Number of points along ray=  651
- LS loop 20 is finished. Number of points along ray=  571
- LS loop 21 is finished. Number of points along ray=  593
- LS loop 22 is finished. Number of points along ray=  629
+ Tau(Nu=1.3178E+01) at outer boundary is: 1.047E+02
+ Tau(Nu=1.1610E+01) at outer boundary is: 5.367E+01
+ Tau(Nu=5.9557E+00) at outer boundary is: 1.725E+02
+ Tau(Nu=3.2900E+00) at outer boundary is: 6.897E-03
+ Tau(Nu=8.3002E-01) at outer boundary is: 3.743E-04
+ Average number of calls to FG_J_CMF is   2.2061108916106940     
+ LS loop  1 is finished. Number of points along ray=  297
+ LS loop  2 is finished. Number of points along ray=  304
+ LS loop  3 is finished. Number of points along ray=  315
+ LS loop  4 is finished. Number of points along ray=  325
+ LS loop  5 is finished. Number of points along ray=  285
+ LS loop  6 is finished. Number of points along ray=  296
+ LS loop  7 is finished. Number of points along ray=  305
+ LS loop  8 is finished. Number of points along ray=  317
+ LS loop  9 is finished. Number of points along ray=  330
+ LS loop 10 is finished. Number of points along ray=  291
+ LS loop 11 is finished. Number of points along ray=  298
+ LS loop 12 is finished. Number of points along ray=  307
+ LS loop 13 is finished. Number of points along ray=  315
+ LS loop 14 is finished. Number of points along ray=  324
+ LS loop 15 is finished. Number of points along ray=  328
+ LS loop 16 is finished. Number of points along ray=  659
+ LS loop 17 is finished. Number of points along ray=  655
+ LS loop 18 is finished. Number of points along ray=  655
+ LS loop 19 is finished. Number of points along ray=  555
+ LS loop 20 is finished. Number of points along ray=  573
+ LS loop 21 is finished. Number of points along ray=  599
+ LS loop 22 is finished. Number of points along ray=  633
  LS loop 23 is finished. Number of points along ray=  563
  LS loop 24 is finished. Number of points along ray=  613
  LS loop 25 is finished. Number of points along ray=  557
- LS loop 26 is finished. Number of points along ray=  625
- LS loop 27 is finished. Number of points along ray=  557
- LS loop 28 is finished. Number of points along ray=  499
- LS loop 29 is finished. Number of points along ray=  443
- LS loop 30 is finished. Number of points along ray=  573
- LS loop 31 is finished. Number of points along ray=  503
- LS loop 32 is finished. Number of points along ray=  443
- LS loop 33 is finished. Number of points along ray=  397
- LS loop 34 is finished. Number of points along ray=  361
- LS loop 35 is finished. Number of points along ray=  331
- LS loop 36 is finished. Number of points along ray=  311
- LS loop 37 is finished. Number of points along ray=  289
- LS loop 38 is finished. Number of points along ray=  275
- LS loop 39 is finished. Number of points along ray=  259
- LS loop 40 is finished. Number of points along ray=  247
- LS loop 41 is finished. Number of points along ray=  237
- LS loop 42 is finished. Number of points along ray=  227
+ LS loop 26 is finished. Number of points along ray=  621
+ LS loop 27 is finished. Number of points along ray=  555
+ LS loop 28 is finished. Number of points along ray=  495
+ LS loop 29 is finished. Number of points along ray=  439
+ LS loop 30 is finished. Number of points along ray=  567
+ LS loop 31 is finished. Number of points along ray=  497
+ LS loop 32 is finished. Number of points along ray=  437
+ LS loop 33 is finished. Number of points along ray=  389
+ LS loop 34 is finished. Number of points along ray=  357
+ LS loop 35 is finished. Number of points along ray=  327
+ LS loop 36 is finished. Number of points along ray=  305
+ LS loop 37 is finished. Number of points along ray=  285
+ LS loop 38 is finished. Number of points along ray=  267
+ LS loop 39 is finished. Number of points along ray=  255
+ LS loop 40 is finished. Number of points along ray=  245
+ LS loop 41 is finished. Number of points along ray=  235
+ LS loop 42 is finished. Number of points along ray=  225
  LS loop 43 is finished. Number of points along ray=  219
- LS loop 44 is finished. Number of points along ray=  213
+ LS loop 44 is finished. Number of points along ray=  211
  LS loop 45 is finished. Number of points along ray=  207
- LS loop 46 is finished. Number of points along ray=  203
- LS loop 47 is finished. Number of points along ray=  199
- LS loop 48 is finished. Number of points along ray=  195
- LS loop 49 is finished. Number of points along ray=  191
- LS loop 50 is finished. Number of points along ray=  187
- LS loop 51 is finished. Number of points along ray=  183
- LS loop 52 is finished. Number of points along ray=  179
- LS loop 53 is finished. Number of points along ray=  175
- LS loop 54 is finished. Number of points along ray=  171
- LS loop 55 is finished. Number of points along ray=  167
+ LS loop 46 is finished. Number of points along ray=  201
+ LS loop 47 is finished. Number of points along ray=  197
+ LS loop 48 is finished. Number of points along ray=  193
+ LS loop 49 is finished. Number of points along ray=  189
+ LS loop 50 is finished. Number of points along ray=  185
+ LS loop 51 is finished. Number of points along ray=  181
+ LS loop 52 is finished. Number of points along ray=  177
+ LS loop 53 is finished. Number of points along ray=  173
+ LS loop 54 is finished. Number of points along ray=  169
+ LS loop 55 is finished. Number of points along ray=  165
  LS loop 56 is finished. Number of points along ray=  163
  LS loop 57 is finished. Number of points along ray=  163
- LS loop 58 is finished. Number of points along ray=  161
- LS loop 59 is finished. Number of points along ray=  161
- LS loop 60 is finished. Number of points along ray=  157
- LS loop 61 is finished. Number of points along ray=  151
- LS loop 62 is finished. Number of points along ray=  145
+ LS loop 58 is finished. Number of points along ray=  159
+ LS loop 59 is finished. Number of points along ray=  159
+ LS loop 60 is finished. Number of points along ray=  155
+ LS loop 61 is finished. Number of points along ray=  149
+ LS loop 62 is finished. Number of points along ray=  147
  LS loop 63 is finished. Number of points along ray=  143
  LS loop 64 is finished. Number of points along ray=  137
- LS loop 65 is finished. Number of points along ray=  133
- LS loop 66 is finished. Number of points along ray=  129
- LS loop 67 is finished. Number of points along ray=  123
- LS loop 68 is finished. Number of points along ray=  121
+ LS loop 65 is finished. Number of points along ray=  131
+ LS loop 66 is finished. Number of points along ray=  131
+ LS loop 67 is finished. Number of points along ray=  125
+ LS loop 68 is finished. Number of points along ray=  119
  LS loop 69 is finished. Number of points along ray=  117
- LS loop 70 is finished. Number of points along ray=  111
+ LS loop 70 is finished. Number of points along ray=  113
  LS loop 71 is finished. Number of points along ray=  107
  LS loop 72 is finished. Number of points along ray=  103
  LS loop 73 is finished. Number of points along ray=   97
