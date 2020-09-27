@@ -1,15 +1,15 @@
-246.93418248  [RSTAR]            !Rp 125
-160.04768079  [RMAX]             !Rmax/Rp
+225.54241315  [RSTAR]            !Rp 125
+163.60409832  [RMAX]             !Rmax/Rp
 T             [DO_HYDRO]
 
 7             [VEL_LAW]          !Velocity Law
 RVSIG_COL     [VEL_OPT]
-1.478608E+03  [VINF]             !Terminal (km\s)
+1.478554E+03  [VINF]             !Terminal (km\s)
 1.8           [BETA]             !Gamma (i.e. Beta=speed of velocity law)
 0.30000E-6    [MDOT]             !Mass loss rate
-565216.4668   [LSTAR]            !Luminosity (Lo)
-50.03957316   [MASS]             !Stars Mass (Mo)
-2.60D0        [TEFF]
+500000.0000   [LSTAR]            !Luminosity (Lo)
+42.28041026   [MASS]             !Stars Mass (Mo)
+2.63D0        [TEFF]
 3.00D0        [LOGG]
 
 T            [DO_CL]		!Allow for clumping in the model?
