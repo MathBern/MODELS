@@ -1,0 +1,3121 @@
+
+
+ Model started on:               30-Sep-2020 10:41:58
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+ Error opening POINT1 in SCR_READ
+ Error opening POINT2 in SCR_READ
+ Error on reading Pointers in READ_SCRTEMP
+ Starting a new model.
+ *_IN files will be used to start model
+ Setting ITS_DONE keyword in HYDRO_DEFAULTS to 0
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13743 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124891
+  
+ Warning from SET_FREQUENCY_GRID
+   421 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   984.12300000000005     
+ Maximum red  profile extent is  9.962E-01 1.143E+03 km/s
+ Maximum red  wing    extent is  9.785E-01 6.436E+03 km/s
+ Maximum blue profile extent is  1.004E+00 1.143E+03 km/s
+ Maximum blue wing    extent is  1.017E+00 5.143E+03 km/s
+ Using NON-GRID option for new model.
+ Warning ED in GETELEC_V2 is non-monotonic
+ We estimated the gammas using the grid index.
+ Warning - core radius not identical in REGRIDWSC
+ Rescaling to make Rcore identical
+ Departure coefficients assumed to be function of Ne.
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ Warning - opacity assumed to be r**(-2) in TORSCL
+ Warning - opacity assumed to be r**(-2) in TORSCL
+  
+ Thompson scattering optical depth at inner boundary is: 3.937E+01
+ Rosseland optical depth at inner boundary is:           9.431E+01
+ Rosseland optical depth at outer boundary is:           2.667E-05
+  
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  2.71E+01 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  5.91E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  6.80E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  6.70E+00 %
+ Callng COMP_GREY_V4 in SET_NEW
+
+ Begin COMP_GREY_V4    70    15    85
+ Largest correction to T in GREY initialization loop is  6.70E+00 %
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   1
+ 
+ Unable to open EDDFACTOR_INFO
+ Error occurred in READ_DIRECT_INFO: IOS=           2
+ Error --- unable to open EDDFACTOR_INFO -- will compute new f
+ The value of DTDR is :  0.30549076139290798     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 T
+ Using OLD_DEFAULT method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.52548775E+04   RMAX=  2.52548775E+05
+ V(1)=  9.84123000E+02   VMAX=  9.98373924E+02
+ Using depth 1 and   8 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.08529043    
+  
+ Number of weak lines is      107500
+  
+ Luminosity of star (d=1,ND)(iteration 1) is:    1.35764610E+05    1.55909857E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   46 is  1.19E+08  (LAMBDA)          --- iteration    1
+ Maximum % decrease at depth   37 is  1.00E+02  (LAMBDA)          --- iteration    1
+ Maximm changes as returned by SOLVEBA_V9 is   118927249.32929869     
+ DEC_VEC:   1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00  1.00E+00
+ INC_VEC:  -1.19E+06 -8.52E+05 -3.98E+05 -3.89E+05 -3.46E+05 -3.10E+05 -2.69E+05 -2.58E+05 -2.58E+05 -2.58E+05
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   2
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30725753148958262     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.04901075    
+  
+ Number of weak lines is      107576
+  
+ Luminosity of star (d=1,ND)(iteration 2) is:    1.35711572E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   46 is  5.00E+01  (LAMBDA)          --- iteration    2
+ Maximum % decrease at depth   37 is  3.96E+01  (LAMBDA)          --- iteration    2
+ Maximm changes as returned by SOLVEBA_V9 is   65.694401372551226     
+ DEC_VEC:   3.96E-01  3.92E-01  3.34E-01  3.34E-01  3.11E-01  3.09E-01  3.08E-01  3.08E-01  3.07E-01  3.06E-01
+ INC_VEC:  -5.00E-01 -4.44E-01 -4.24E-01 -4.22E-01 -4.20E-01 -4.09E-01 -4.08E-01 -3.98E-01 -3.77E-01 -3.75E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   3
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30724276706007708     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.98915851    
+  
+ Number of weak lines is      107579
+  
+ Luminosity of star (d=1,ND)(iteration 3) is:    1.35590723E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   46 is  2.07E+01  (LAMBDA)          --- iteration    3
+ Maximum % decrease at depth   37 is  2.07E+01  (LAMBDA)          --- iteration    3
+ Maximm changes as returned by SOLVEBA_V9 is   26.180819125860253     
+ DEC_VEC:   2.07E-01  2.04E-01  2.04E-01  2.00E-01  1.99E-01  1.98E-01  1.97E-01  1.97E-01  1.96E-01  1.95E-01
+ INC_VEC:  -2.07E-01 -1.91E-01 -1.82E-01 -1.77E-01 -1.65E-01 -1.61E-01 -1.60E-01 -1.58E-01 -1.58E-01 -1.45E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   4
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30724248147196531     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.93993163    
+  
+ Number of weak lines is      107581
+  
+ Luminosity of star (d=1,ND)(iteration 4) is:    1.35534768E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   47 is  4.00E+02  (BA computed)     --- iteration    4
+ Maximum % decrease at depth   40 is  2.75E+02  (BA computed)     --- iteration    4
+ Maximm changes as returned by SOLVEBA_V9 is   10000000.000000000     
+ DEC_VEC:   2.75E+00  2.66E+00  2.66E+00  2.64E+00  2.64E+00  2.64E+00  2.62E+00  2.60E+00  2.59E+00  2.58E+00
+ INC_VEC:  -4.00E+00 -3.98E+00 -3.96E+00 -3.84E+00 -3.64E+00 -3.62E+00 -3.61E+00 -3.56E+00 -3.52E+00 -3.50E+00
+ The minimum value of scale for Major species is:  5.8571E-01
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   5
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30722011071607669     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.78986478    
+  
+ Number of weak lines is      107619
+  
+ Luminosity of star (d=1,ND)(iteration 5) is:    1.39514079E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   48 is  6.64E+02  (LAMBDA)          --- iteration    5
+ Maximum % decrease at depth   44 is  2.88E+01  (LAMBDA)          --- iteration    5
+ Maximm changes as returned by SOLVEBA_V9 is   663.87259510878948     
+ DEC_VEC:   2.88E-01  2.69E-01  2.69E-01  2.68E-01  2.64E-01  2.61E-01  2.60E-01  2.59E-01  2.59E-01  2.59E-01
+ INC_VEC:  -6.64E+00 -6.25E+00 -6.16E+00 -6.10E+00 -5.95E+00 -5.80E+00 -5.74E+00 -5.69E+00 -5.69E+00 -5.66E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   6
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30722937421006741     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.87793350    
+  
+ Number of weak lines is      107677
+  
+ Luminosity of star (d=1,ND)(iteration 6) is:    1.39927135E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   47 is  3.50E+02  (BA computed)     --- iteration    6
+ Maximum % decrease at depth   38 is  1.69E+02  (BA computed)     --- iteration    6
+ Maximm changes as returned by SOLVEBA_V9 is   10000000.000000000     
+ DEC_VEC:   1.69E+00  1.68E+00  1.66E+00  1.66E+00  1.66E+00  1.66E+00  1.65E+00  1.65E+00  1.64E+00  1.64E+00
+ INC_VEC:  -3.50E+00 -3.31E+00 -3.11E+00 -3.10E+00 -3.05E+00 -3.05E+00 -3.05E+00 -3.04E+00 -2.99E+00 -2.99E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   7
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30725588751193184     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.54766154    
+  
+ Number of weak lines is      107695
+  
+ Luminosity of star (d=1,ND)(iteration 7) is:    1.43016661E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   39 is  3.62E+02  (LAMBDA)          --- iteration    7
+ Maximum % decrease at depth   43 is  2.64E+01  (LAMBDA)          --- iteration    7
+ Maximm changes as returned by SOLVEBA_V9 is   362.44006437816540     
+ DEC_VEC:   2.64E-01  2.49E-01  2.48E-01  2.46E-01  2.46E-01  2.38E-01  2.37E-01  2.37E-01  2.37E-01  2.37E-01
+ INC_VEC:  -3.62E+00 -3.57E+00 -3.57E+00 -3.54E+00 -3.45E+00 -3.44E+00 -3.42E+00 -3.34E+00 -3.33E+00 -3.32E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   8
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30725879394754552     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.81954670    
+  
+ Number of weak lines is      107705
+  
+ Luminosity of star (d=1,ND)(iteration 8) is:    1.43333487E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   46 is  1.95E+02  (BA computed)     --- iteration    8
+ Maximum % decrease at depth   39 is  9.24E+01  (BA computed)     --- iteration    8
+ Maximm changes as returned by SOLVEBA_V9 is   1212.2897947131744     
+ DEC_VEC:   9.24E-01  9.18E-01  9.17E-01  9.09E-01  9.08E-01  9.08E-01  9.07E-01  9.07E-01  9.07E-01  9.04E-01
+ INC_VEC:  -1.95E+00 -1.82E+00 -1.78E+00 -1.76E+00 -1.76E+00 -1.75E+00 -1.72E+00 -1.72E+00 -1.69E+00 -1.68E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is   9
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30726510657171191     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.31495476    
+  
+ Number of weak lines is      107740
+  
+ Luminosity of star (d=1,ND)(iteration 9) is:    1.45658454E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   39 is  3.21E+02  (LAMBDA)          --- iteration    9
+ Maximum % decrease at depth   34 is  2.10E+01  (LAMBDA)          --- iteration    9
+ Maximm changes as returned by SOLVEBA_V9 is   321.45486298787358     
+ DEC_VEC:   2.10E-01  2.09E-01  2.07E-01  2.05E-01  1.99E-01  1.98E-01  1.92E-01  1.89E-01  1.87E-01  1.86E-01
+ INC_VEC:  -3.21E+00 -3.21E+00 -3.21E+00 -3.20E+00 -3.20E+00 -3.19E+00 -3.17E+00 -3.17E+00 -3.16E+00 -3.15E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  10
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30726800946837624     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.78149748    
+  
+ Number of weak lines is      107755
+  
+ Luminosity of star (d=1,ND)(iteration 10) is:    1.45962509E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   46 is  1.37E+02  (BA computed)     --- iteration   10
+ Maximum % decrease at depth   38 is  6.32E+01  (BA computed)     --- iteration   10
+ Maximm changes as returned by SOLVEBA_V9 is   171.96650439615081     
+ DEC_VEC:   6.32E-01  6.32E-01  6.25E-01  6.24E-01  6.24E-01  6.20E-01  6.20E-01  6.19E-01  6.17E-01  6.15E-01
+ INC_VEC:  -1.37E+00 -1.34E+00 -1.31E+00 -1.29E+00 -1.29E+00 -1.26E+00 -1.25E+00 -1.24E+00 -1.24E+00 -1.24E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  11
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30727501843676891     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.29564190    
+  
+ Number of weak lines is      107787
+  
+ Luminosity of star (d=1,ND)(iteration 11) is:    1.47682472E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   45 is  7.48E+01  (BA not computed) --- iteration   11
+ Maximum % decrease at depth   38 is  4.95E+01  (BA not computed) --- iteration   11
+ Maximm changes as returned by SOLVEBA_V9 is   98.166379000355590     
+ DEC_VEC:   4.95E-01  4.92E-01  4.91E-01  4.91E-01  4.90E-01  4.86E-01  4.86E-01  4.84E-01  4.84E-01  4.83E-01
+ INC_VEC:  -7.48E-01 -7.41E-01 -7.40E-01 -7.24E-01 -7.24E-01 -7.22E-01 -7.13E-01 -7.09E-01 -7.02E-01 -7.00E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  12
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30728323545003478     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.27400684    
+  
+ Number of weak lines is      107805
+  
+ Luminosity of star (d=1,ND)(iteration 12) is:    1.49133221E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   45 is  7.75E+01  (BA not computed) --- iteration   12
+ Maximum % decrease at depth   35 is  2.41E+01  (BA not computed) --- iteration   12
+ Maximm changes as returned by SOLVEBA_V9 is   77.508381347806548     
+ DEC_VEC:   2.41E-01  2.40E-01  2.40E-01  2.39E-01  2.39E-01  2.35E-01  2.35E-01  2.34E-01  2.33E-01  2.33E-01
+ INC_VEC:  -7.75E-01 -7.60E-01 -7.56E-01 -7.47E-01 -7.45E-01 -7.45E-01 -7.44E-01 -7.37E-01 -7.36E-01 -7.33E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  13
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30729056816733552     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.24907327    
+  
+ Number of weak lines is      107824
+  
+ Luminosity of star (d=1,ND)(iteration 13) is:    1.50390050E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   45 is  2.32E+02  (BA computed)     --- iteration   13
+ Maximum % decrease at depth   33 is  1.34E+01  (BA computed)     --- iteration   13
+ Maximm changes as returned by SOLVEBA_V9 is   231.96443636254696     
+ DEC_VEC:   1.34E-01  1.33E-01  1.28E-01  1.28E-01  1.27E-01  1.26E-01  1.25E-01  1.24E-01  1.24E-01  1.22E-01
+ INC_VEC:  -2.32E+00 -2.21E+00 -2.20E+00 -2.17E+00 -2.16E+00 -2.10E+00 -2.10E+00 -2.03E+00 -2.03E+00 -2.01E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  14
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30729723235715617     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.18306375    
+  
+ Number of weak lines is      107853
+  
+ Luminosity of star (d=1,ND)(iteration 14) is:    1.51394464E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   44 is  4.42E+01  (BA not computed) --- iteration   14
+ Maximum % decrease at depth   35 is  1.72E+01  (BA not computed) --- iteration   14
+ Maximm changes as returned by SOLVEBA_V9 is   44.201155305786088     
+ DEC_VEC:   1.72E-01  1.69E-01  1.69E-01  1.68E-01  1.67E-01  1.67E-01  1.67E-01  1.67E-01  1.66E-01  1.65E-01
+ INC_VEC:  -4.42E-01 -4.35E-01 -4.34E-01 -4.21E-01 -4.15E-01 -4.13E-01 -4.11E-01 -4.02E-01 -3.99E-01 -3.97E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  15
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.30730343784557840     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.06939650    
+  
+ Number of weak lines is      107864
+  
+ Luminosity of star (d=1,ND)(iteration 15) is:    1.52196178E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   43 is  4.06E+01  (BA not computed) --- iteration   15
+ Maximum % decrease at depth   34 is  1.25E+01  (BA not computed) --- iteration   15
+ Maximm changes as returned by SOLVEBA_V9 is   40.560179690461865     
+ DEC_VEC:   1.25E-01  1.24E-01  1.21E-01  1.21E-01  1.21E-01  1.21E-01  1.19E-01  1.18E-01  1.17E-01  1.17E-01
+ INC_VEC:  -4.06E-01 -3.94E-01 -3.91E-01 -3.81E-01 -3.79E-01 -3.63E-01 -3.59E-01 -3.58E-01 -3.57E-01 -3.57E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+
+ Updating hydrostatic structure of the model
+ Reference radius: based on effective temperature and luminosity of star
+ Reference radius is   198.51775188491689     
+   Connection velocity is   7.3810520000000004     
+     Connection radius is   205.27386996887827     
+        Maximum radius is   28515.406244011509     
+      Connection INDEX is          33
+           Sound speed is   14.656947513634517     
+  Modified sound speed is   14.656947513634517     
+       Scale height is  0.79411856866374575     
+       Connection dVdR   9.2227330976921778     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4733E+01
+       Scale height is  0.79411856866374575     
+       Connection dVdR   9.2219467610213517     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4726E+01
+       Scale height is  0.79411856866374575     
+       Connection dVdR   9.2219158503925414     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4726E+01
+       Scale height is  0.79411856866374575     
+       Connection dVdR   9.2219146516197501     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4726E+01
+ OUT_BND_OPT=SPECIFY         
+ Beginning DC interpolation in ADJUST_POPS
+ Revised hydrostatic structure and output new RVSIG_COL file
+ Updated RSTAR, RMAX and MASS in VADAT
+  
+ Thompson scattering optical depth at inner boundary is: 4.246E+01
+ Rosseland optical depth at inner boundary is:           1.062E+02
+ Rosseland optical depth at outer boundary is:           1.174E-06
+  
+ Calling COMP_GREY_V2 in GREY_T_ITERATE
+ Iteration 1 --- Largest correction to T in GREY initialization loop is 4.17E+00%
+ Iteration 2 --- Largest correction to T in GREY initialization loop is 1.10E+00%
+ Iteration 3 --- Largest correction to T in GREY initialization loop is 5.65E-01%
+ Iteration 4 --- Largest correction to T in GREY initialization loop is 5.68E-01%
+ Iteration 5 --- Largest correction to T in GREY initialization loop is 5.68E-01%
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  17
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33970893295926835     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Warning: Updating RGRID in FG_J_CMF_V13
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  2.85154062E+04   RMAX=  2.85154062E+05
+ V(1)=  9.70372879E+02   VMAX=  9.82739577E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   3.03375745    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      107012
+  
+ Luminosity of star (d=1,ND)(iteration 17) is:    1.54008717E+05    1.56830758E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   32 is  5.08E+01  (LAMBDA)          --- iteration   17
+ Maximum % decrease at depth   32 is  8.86E+01  (LAMBDA)          --- iteration   17
+ Maximm changes as returned by SOLVEBA_V9 is   778.17757987122411     
+ DEC_VEC:   8.86E-01  8.86E-01  8.84E-01  8.83E-01  8.77E-01  8.68E-01  8.67E-01  8.66E-01  8.63E-01  8.62E-01
+ INC_VEC:  -5.08E-01 -3.91E-01 -3.90E-01 -3.77E-01 -3.73E-01 -3.53E-01 -3.48E-01 -3.38E-01 -3.37E-01 -3.30E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  18
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33967978568741869     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.76961505    
+  
+ Number of weak lines is      107016
+  
+ Luminosity of star (d=1,ND)(iteration 18) is:    1.54325158E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   32 is  8.56E+01  (BA computed)     --- iteration   18
+ Maximum % decrease at depth   31 is  8.19E+01  (BA computed)     --- iteration   18
+ Maximm changes as returned by SOLVEBA_V9 is   453.48767058348858     
+ DEC_VEC:   8.19E-01  8.17E-01  8.15E-01  7.93E-01  7.92E-01  7.89E-01  7.71E-01  7.62E-01  7.59E-01  7.58E-01
+ INC_VEC:  -8.56E-01 -8.44E-01 -8.34E-01 -8.20E-01 -8.13E-01 -8.07E-01 -8.05E-01 -7.98E-01 -7.98E-01 -7.93E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  19
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33963723735763518     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.05428743    
+  
+ Number of weak lines is      107027
+  
+ Luminosity of star (d=1,ND)(iteration 19) is:    1.55146496E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   31 is  1.55E+02  (BA not computed) --- iteration   19
+ Maximum % decrease at depth   33 is  1.77E+01  (BA not computed) --- iteration   19
+ Maximm changes as returned by SOLVEBA_V9 is   154.93307274894099     
+ DEC_VEC:   1.77E-01  1.64E-01  1.63E-01  1.60E-01  1.59E-01  1.54E-01  1.54E-01  1.54E-01  1.53E-01  1.51E-01
+ INC_VEC:  -1.55E+00 -1.29E+00 -1.28E+00 -1.27E+00 -1.25E+00 -1.17E+00 -1.05E+00 -1.02E+00 -9.87E-01 -9.64E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  20
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33961673532417791     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.92781711    
+  
+ Number of weak lines is      107029
+  
+ Luminosity of star (d=1,ND)(iteration 20) is:    1.55663480E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   45 is  2.53E+01  (BA not computed) --- iteration   20
+ Maximum % decrease at depth   34 is  1.02E+01  (BA not computed) --- iteration   20
+ Maximm changes as returned by SOLVEBA_V9 is   25.270504382770032     
+ DEC_VEC:   1.02E-01  9.40E-02  9.10E-02  8.84E-02  8.52E-02  8.25E-02  8.21E-02  8.06E-02  8.02E-02  8.01E-02
+ INC_VEC:  -2.53E-01 -2.52E-01 -2.50E-01 -2.41E-01 -2.41E-01 -2.38E-01 -2.37E-01 -2.35E-01 -2.35E-01 -2.32E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  21
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33962477535955793     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.88067198    
+  
+ Number of weak lines is      107037
+  
+ Luminosity of star (d=1,ND)(iteration 21) is:    1.56014165E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   44 is  3.75E+01  (BA computed)     --- iteration   21
+ Maximum % decrease at depth   33 is  6.14E+00  (BA computed)     --- iteration   21
+ Maximm changes as returned by SOLVEBA_V9 is   37.508477359489945     
+ DEC_VEC:   6.14E-02  5.61E-02  5.44E-02  5.22E-02  4.96E-02  4.92E-02  4.87E-02  4.82E-02  4.74E-02  4.72E-02
+ INC_VEC:  -3.75E-01 -3.74E-01 -3.72E-01 -3.68E-01 -3.60E-01 -3.50E-01 -3.47E-01 -3.45E-01 -3.42E-01 -3.30E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  22
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33963965332453355     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.85914922    
+  
+ Number of weak lines is      107043
+  
+ Luminosity of star (d=1,ND)(iteration 22) is:    1.56264287E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  1.62E+01  (BA not computed) --- iteration   22
+ Maximum % decrease at depth   34 is  5.42E+00  (BA not computed) --- iteration   22
+ Maximm changes as returned by SOLVEBA_V9 is   16.245452863659217     
+ DEC_VEC:   5.42E-02  4.78E-02  4.73E-02  4.65E-02  4.49E-02  4.43E-02  4.37E-02  4.30E-02  4.11E-02  4.09E-02
+ INC_VEC:  -1.62E-01 -1.60E-01 -1.60E-01 -1.58E-01 -1.58E-01 -1.57E-01 -1.55E-01 -1.54E-01 -1.53E-01 -1.53E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  23
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33964821309640925     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.84962893    
+  
+ Number of weak lines is      107044
+  
+ Luminosity of star (d=1,ND)(iteration 23) is:    1.56450004E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  1.50E+01  (BA not computed) --- iteration   23
+ Maximum % decrease at depth   33 is  4.26E+00  (BA not computed) --- iteration   23
+ Maximm changes as returned by SOLVEBA_V9 is   15.049987701715933     
+ DEC_VEC:   4.26E-02  4.14E-02  4.11E-02  3.77E-02  3.70E-02  3.66E-02  3.64E-02  3.61E-02  3.56E-02  3.55E-02
+ INC_VEC:  -1.50E-01 -1.47E-01 -1.47E-01 -1.46E-01 -1.45E-01 -1.42E-01 -1.41E-01 -1.40E-01 -1.40E-01 -1.39E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  24
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33965601755875147     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.84315920    
+  
+ Number of weak lines is      107045
+  
+ Luminosity of star (d=1,ND)(iteration 24) is:    1.56594201E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   42 is  1.86E+01  (BA computed)     --- iteration   24
+ Maximum % decrease at depth   34 is  3.20E+00  (BA computed)     --- iteration   24
+ Maximm changes as returned by SOLVEBA_V9 is   18.592103581617291     
+ DEC_VEC:   3.20E-02  3.02E-02  2.95E-02  2.87E-02  2.87E-02  2.84E-02  2.80E-02  2.78E-02  2.78E-02  2.68E-02
+ INC_VEC:  -1.86E-01 -1.83E-01 -1.78E-01 -1.75E-01 -1.75E-01 -1.73E-01 -1.71E-01 -1.68E-01 -1.66E-01 -1.65E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  25
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33966249887101013     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.83131695    
+  
+ Number of weak lines is      107047
+  
+ Luminosity of star (d=1,ND)(iteration 25) is:    1.56705164E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   41 is  1.08E+01  (BA not computed) --- iteration   25
+ Maximum % decrease at depth   34 is  2.80E+00  (BA not computed) --- iteration   25
+ Maximm changes as returned by SOLVEBA_V9 is   10.786776890217125     
+ DEC_VEC:   2.80E-02  2.77E-02  2.75E-02  2.67E-02  2.62E-02  2.59E-02  2.56E-02  2.52E-02  2.52E-02  2.51E-02
+ INC_VEC:  -1.08E-01 -1.07E-01 -1.05E-01 -1.05E-01 -1.04E-01 -1.02E-01 -1.02E-01 -1.02E-01 -1.02E-01 -1.01E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+
+ Updating hydrostatic structure of the model
+ Reference radius: based on effective temperature and luminosity of star
+ Reference radius is   198.51775188491689     
+   Connection velocity is   9.0497855608593039     
+     Connection radius is   203.13615549591191     
+        Maximum radius is   31712.815386360686     
+      Connection INDEX is          33
+           Sound speed is   14.657074032827476     
+  Modified sound speed is   14.657074032827476     
+       Scale height is  0.79790908219956669     
+       Connection dVdR   11.252774925532472     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4698E+01
+       Scale height is  0.79790908219956669     
+       Connection dVdR   11.252759040594031     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4698E+01
+ OUT_BND_OPT=SPECIFY         
+ Beginning DC interpolation in ADJUST_POPS
+ Revised hydrostatic structure and output new RVSIG_COL file
+ Updated RSTAR, RMAX and MASS in VADAT
+  
+ Thompson scattering optical depth at inner boundary is: 4.066E+01
+ Rosseland optical depth at inner boundary is:           9.852E+01
+ Rosseland optical depth at outer boundary is:           1.035E-06
+  
+ Calling COMP_GREY_V2 in GREY_T_ITERATE
+ Iteration 1 --- Largest correction to T in GREY initialization loop is 5.26E-01%
+ Iteration 2 --- Largest correction to T in GREY initialization loop is 2.86E-01%
+ Iteration 3 --- Largest correction to T in GREY initialization loop is 2.39E-01%
+ Iteration 4 --- Largest correction to T in GREY initialization loop is 2.40E-01%
+ Iteration 5 --- Largest correction to T in GREY initialization loop is 2.40E-01%
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  27
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33551288746705915     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Warning: Updating RGRID in FG_J_CMF_V13
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  3.17128154E+04   RMAX=  3.17128154E+05
+ V(1)=  9.71789119E+02   VMAX=  9.82871581E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   3.05708981    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      107251
+  
+ Luminosity of star (d=1,ND)(iteration 27) is:    1.56097126E+05    1.56830753E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   38 is  5.54E+02  (LAMBDA)          --- iteration   27
+ Maximum % decrease at depth   53 is  6.22E+01  (LAMBDA)          --- iteration   27
+ Maximm changes as returned by SOLVEBA_V9 is   553.77500026448081     
+ DEC_VEC:   6.22E-01  6.15E-01  6.13E-01  6.11E-01  6.06E-01  6.06E-01  5.98E-01  5.97E-01  5.96E-01  5.96E-01
+ INC_VEC:  -5.54E+00 -5.49E+00 -5.42E+00 -5.35E+00 -5.04E+00 -4.62E+00 -4.51E+00 -4.41E+00 -4.35E+00 -4.31E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  28
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33543100225767308     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.82457507    
+  
+ Number of weak lines is      107253
+  
+ Luminosity of star (d=1,ND)(iteration 28) is:    1.56437066E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   32 is  5.36E+01  (BA computed)     --- iteration   28
+ Maximum % decrease at depth   38 is  5.07E+01  (BA computed)     --- iteration   28
+ Maximm changes as returned by SOLVEBA_V9 is   102.73948176406947     
+ DEC_VEC:   5.07E-01  4.43E-01  4.22E-01  4.19E-01  4.14E-01  4.12E-01  4.09E-01  4.03E-01  4.01E-01  3.97E-01
+ INC_VEC:  -5.36E-01 -5.20E-01 -5.19E-01 -4.79E-01 -4.75E-01 -4.75E-01 -4.74E-01 -4.71E-01 -4.60E-01 -4.57E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  29
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33539037812148398     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.87250483    
+  
+ Number of weak lines is      107252
+  
+ Luminosity of star (d=1,ND)(iteration 29) is:    1.56967266E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  2.19E+01  (BA not computed) --- iteration   29
+ Maximum % decrease at depth   37 is  1.73E+01  (BA not computed) --- iteration   29
+ Maximm changes as returned by SOLVEBA_V9 is   21.861153463333544     
+ DEC_VEC:   1.73E-01  1.66E-01  1.51E-01  1.51E-01  1.49E-01  1.46E-01  1.42E-01  1.40E-01  1.35E-01  1.35E-01
+ INC_VEC:  -2.19E-01 -2.17E-01 -2.11E-01 -2.06E-01 -2.01E-01 -1.94E-01 -1.92E-01 -1.91E-01 -1.90E-01 -1.86E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  30
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33538379205539953     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.83652139    
+  
+ Number of weak lines is      107253
+  
+ Luminosity of star (d=1,ND)(iteration 30) is:    1.57168699E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  1.69E+01  (BA not computed) --- iteration   30
+ Maximum % decrease at depth   38 is  7.44E+00  (BA not computed) --- iteration   30
+ Maximm changes as returned by SOLVEBA_V9 is   16.941035711063950     
+ DEC_VEC:   7.44E-02  7.41E-02  6.74E-02  6.70E-02  6.70E-02  6.68E-02  6.59E-02  6.51E-02  6.45E-02  6.43E-02
+ INC_VEC:  -1.69E-01 -1.63E-01 -1.61E-01 -1.57E-01 -1.55E-01 -1.52E-01 -1.52E-01 -1.50E-01 -1.45E-01 -1.43E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  31
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33538055334716910     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.82065964    
+  
+ Number of weak lines is      107252
+  
+ Luminosity of star (d=1,ND)(iteration 31) is:    1.57259208E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   42 is  1.95E+01  (BA computed)     --- iteration   31
+ Maximum % decrease at depth    1 is  4.39E+00  (BA computed)     --- iteration   31
+ Maximm changes as returned by SOLVEBA_V9 is   19.470664902882806     
+ DEC_VEC:   4.39E-02  4.37E-02  4.30E-02  3.91E-02  3.68E-02  3.60E-02  3.36E-02  3.35E-02  3.35E-02  3.22E-02
+ INC_VEC:  -1.95E-01 -1.83E-01 -1.82E-01 -1.81E-01 -1.72E-01 -1.70E-01 -1.68E-01 -1.66E-01 -1.59E-01 -1.58E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  32
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33537855602067340     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.79570985    
+  
+ Number of weak lines is      107251
+  
+ Luminosity of star (d=1,ND)(iteration 32) is:    1.57295015E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  8.16E+00  (BA not computed) --- iteration   32
+ Maximum % decrease at depth    1 is  3.31E+00  (BA not computed) --- iteration   32
+ Maximm changes as returned by SOLVEBA_V9 is   7.2104991200540338     
+ DEC_VEC:   3.31E-02  2.98E-02  2.93E-02  2.69E-02  2.66E-02  2.54E-02  2.35E-02  2.34E-02  2.33E-02  2.29E-02
+ INC_VEC:  -8.16E-02 -7.87E-02 -7.81E-02 -7.67E-02 -7.58E-02 -7.51E-02 -7.46E-02 -7.27E-02 -7.27E-02 -7.21E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  33
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33537747626005937     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.78806317    
+  
+ Number of weak lines is      107250
+  
+ Luminosity of star (d=1,ND)(iteration 33) is:    1.57303714E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   15 is  8.28E+00  (BA not computed) --- iteration   33
+ Maximum % decrease at depth   11 is  2.85E+00  (BA not computed) --- iteration   33
+ Maximm changes as returned by SOLVEBA_V9 is   5.7523973359553029     
+ DEC_VEC:   2.85E-02  2.39E-02  2.36E-02  2.30E-02  2.30E-02  2.29E-02  2.29E-02  2.29E-02  2.29E-02  2.29E-02
+ INC_VEC:  -8.28E-02 -6.46E-02 -6.18E-02 -6.17E-02 -6.14E-02 -5.96E-02 -5.92E-02 -5.87E-02 -5.77E-02 -5.75E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  34
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33537698550057177     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.77162480    
+  
+ Number of weak lines is      107250
+  
+ Luminosity of star (d=1,ND)(iteration 34) is:    1.57297436E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   15 is  6.96E+00  (BA computed)     --- iteration   34
+ Maximum % decrease at depth    1 is  2.07E+00  (BA computed)     --- iteration   34
+ Maximm changes as returned by SOLVEBA_V9 is   5.1728097842001208     
+ DEC_VEC:   2.07E-02  2.07E-02  2.06E-02  2.06E-02  2.06E-02  2.06E-02  2.06E-02  2.06E-02  2.06E-02  2.05E-02
+ INC_VEC:  -6.96E-02 -5.89E-02 -5.71E-02 -5.56E-02 -5.46E-02 -5.40E-02 -5.26E-02 -5.22E-02 -5.20E-02 -5.17E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  35
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33537688378463537     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.76294529    
+  
+ Number of weak lines is      107250
+  
+ Luminosity of star (d=1,ND)(iteration 35) is:    1.57281242E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   15 is  5.19E+00  (BA not computed) --- iteration   35
+ Maximum % decrease at depth    7 is  2.28E+00  (BA not computed) --- iteration   35
+ Maximm changes as returned by SOLVEBA_V9 is   3.1432774803670807     
+ DEC_VEC:   2.28E-02  1.79E-02  1.78E-02  1.78E-02  1.78E-02  1.78E-02  1.77E-02  1.77E-02  1.77E-02  1.77E-02
+ INC_VEC:  -5.19E-02 -3.51E-02 -3.47E-02 -3.31E-02 -3.29E-02 -3.26E-02 -3.23E-02 -3.23E-02 -3.14E-02 -3.14E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+
+ Updating hydrostatic structure of the model
+ Reference radius: based on effective temperature and luminosity of star
+ Reference radius is   198.51775188491689     
+   Connection velocity is   10.585488666833244     
+     Connection radius is   203.21300797294899     
+        Maximum radius is   35349.796217682102     
+      Connection INDEX is          33
+           Sound speed is   14.809229584219498     
+  Modified sound speed is   14.809229584219498     
+       Scale height is  0.79633651961350316     
+       Connection dVdR   13.188551705089715     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4823E+01
+       Scale height is  0.79633651961350316     
+       Connection dVdR   13.188567879378942     
+ Warning - opacity assumed to be r**(-2) in TORSCL
+SOUND_SPEED    1.4823E+01
+ OUT_BND_OPT=SPECIFY         
+ Beginning DC interpolation in ADJUST_POPS
+ Revised hydrostatic structure and output new RVSIG_COL file
+ Updated RSTAR, RMAX and MASS in VADAT
+  
+ Thompson scattering optical depth at inner boundary is: 4.096E+01
+ Rosseland optical depth at inner boundary is:           9.990E+01
+ Rosseland optical depth at outer boundary is:           9.440E-07
+  
+ Calling COMP_GREY_V2 in GREY_T_ITERATE
+ Iteration 1 --- Largest correction to T in GREY initialization loop is 4.95E-01%
+ Iteration 2 --- Largest correction to T in GREY initialization loop is 2.61E-01%
+ Iteration 3 --- Largest correction to T in GREY initialization loop is 1.92E-01%
+ Iteration 4 --- Largest correction to T in GREY initialization loop is 1.93E-01%
+ Iteration 5 --- Largest correction to T in GREY initialization loop is 1.93E-01%
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  37
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501347322768804     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Warning: Updating RGRID in FG_J_CMF_V13
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  3.53497962E+04   RMAX=  3.53497962E+05
+ V(1)=  9.73081798E+02   VMAX=  9.83011388E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   2.78635764    
+
+ Error --- J(mom) and J(ray) differ by more than 20% for last frequency
+ Although this is ulikely to effect the colution, it is suggested that
+ you use a finer grid at the outer boundary
+ Tail J__COMP to see bundary error
+  
+ Number of weak lines is      107221
+  
+ Luminosity of star (d=1,ND)(iteration 37) is:    1.56533577E+05    1.56830754E+05
+
+ LAMBDA iteration used
+ BA matrix computed
+ Temperature held fixed at all depths.
+ Maximum % increase at depth   38 is  4.16E+02  (LAMBDA)          --- iteration   37
+ Maximum % decrease at depth   54 is  5.34E+01  (LAMBDA)          --- iteration   37
+ Maximm changes as returned by SOLVEBA_V9 is   415.75224963099532     
+ DEC_VEC:   5.34E-01  5.33E-01  5.30E-01  5.25E-01  5.25E-01  5.24E-01  5.22E-01  5.21E-01  5.20E-01  5.19E-01
+ INC_VEC:  -4.16E+00 -4.13E+00 -4.04E+00 -4.03E+00 -3.78E+00 -3.59E+00 -3.52E+00 -3.49E+00 -3.45E+00 -3.39E+00
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  38
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501216399238698     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.80739200    
+  
+ Number of weak lines is      107224
+  
+ Luminosity of star (d=1,ND)(iteration 38) is:    1.56848412E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   31 is  5.39E+01  (BA computed)     --- iteration   38
+ Maximum % decrease at depth   38 is  6.25E+01  (BA computed)     --- iteration   38
+ Maximm changes as returned by SOLVEBA_V9 is   166.74044627591687     
+ DEC_VEC:   6.25E-01  5.49E-01  5.04E-01  5.03E-01  4.85E-01  4.71E-01  4.70E-01  4.61E-01  4.60E-01  4.59E-01
+ INC_VEC:  -5.39E-01 -5.39E-01 -5.28E-01 -4.99E-01 -4.89E-01 -4.88E-01 -4.87E-01 -4.86E-01 -4.81E-01 -4.80E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  39
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501202974713001     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.82909095    
+  
+ Number of weak lines is      107223
+  
+ Luminosity of star (d=1,ND)(iteration 39) is:    1.57358355E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   31 is  1.52E+01  (BA not computed) --- iteration   39
+ Maximum % decrease at depth   37 is  2.49E+01  (BA not computed) --- iteration   39
+ Maximm changes as returned by SOLVEBA_V9 is   33.090083816513932     
+ DEC_VEC:   2.49E-01  2.17E-01  2.17E-01  2.13E-01  2.10E-01  2.00E-01  1.93E-01  1.89E-01  1.86E-01  1.86E-01
+ INC_VEC:  -1.52E-01 -1.46E-01 -1.45E-01 -1.43E-01 -1.43E-01 -1.42E-01 -1.42E-01 -1.39E-01 -1.37E-01 -1.37E-01
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  40
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33499453132038454     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.79313159    
+  
+ Number of weak lines is      107223
+  
+ Luminosity of star (d=1,ND)(iteration 40) is:    1.57517249E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  7.78E+00  (BA not computed) --- iteration   40
+ Maximum % decrease at depth   38 is  9.49E+00  (BA not computed) --- iteration   40
+ Maximm changes as returned by SOLVEBA_V9 is   9.5868007513846720     
+ DEC_VEC:   9.49E-02  9.40E-02  9.05E-02  8.98E-02  8.97E-02  8.95E-02  8.90E-02  8.86E-02  8.83E-02  8.75E-02
+ INC_VEC:  -7.78E-02 -7.44E-02 -7.39E-02 -7.36E-02 -7.05E-02 -7.03E-02 -6.94E-02 -6.93E-02 -6.81E-02 -6.71E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  41
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33500915812245147     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.77669322    
+  
+ Number of weak lines is      107222
+  
+ Luminosity of star (d=1,ND)(iteration 41) is:    1.57557126E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   42 is  6.83E+00  (BA computed)     --- iteration   41
+ Maximum % decrease at depth   36 is  4.69E+00  (BA computed)     --- iteration   41
+ Maximm changes as returned by SOLVEBA_V9 is   5.6512117002930093     
+ DEC_VEC:   4.69E-02  4.44E-02  4.41E-02  4.36E-02  4.11E-02  4.07E-02  4.04E-02  3.97E-02  3.92E-02  3.87E-02
+ INC_VEC:  -6.83E-02 -6.38E-02 -6.34E-02 -6.00E-02 -5.97E-02 -5.88E-02 -5.79E-02 -5.79E-02 -5.67E-02 -5.65E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  42
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501098731140577     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.76931882    
+  
+ Number of weak lines is      107221
+  
+ Luminosity of star (d=1,ND)(iteration 42) is:    1.57546183E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   15 is  3.65E+00  (BA not computed) --- iteration   42
+ Maximum % decrease at depth   38 is  4.36E+00  (BA not computed) --- iteration   42
+ Maximm changes as returned by SOLVEBA_V9 is   4.2042454671498817     
+ DEC_VEC:   4.36E-02  4.28E-02  4.15E-02  4.13E-02  4.11E-02  4.10E-02  4.09E-02  4.06E-02  4.05E-02  4.03E-02
+ INC_VEC:  -3.65E-02 -3.24E-02 -3.10E-02 -2.95E-02 -2.91E-02 -2.83E-02 -2.83E-02 -2.68E-02 -2.65E-02 -2.61E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  43
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501277822432757     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.74215114    
+  
+ Number of weak lines is      107220
+  
+ Luminosity of star (d=1,ND)(iteration 43) is:    1.57513657E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   15 is  4.50E+00  (BA not computed) --- iteration   43
+ Maximum % decrease at depth   37 is  3.22E+00  (BA not computed) --- iteration   43
+ Maximm changes as returned by SOLVEBA_V9 is   3.2500358370633720     
+ DEC_VEC:   3.22E-02  3.21E-02  3.20E-02  3.19E-02  3.18E-02  3.18E-02  3.18E-02  3.17E-02  3.16E-02  3.15E-02
+ INC_VEC:  -4.50E-02 -3.63E-02 -2.39E-02 -2.26E-02 -2.26E-02 -2.26E-02 -2.26E-02 -2.26E-02 -2.24E-02 -2.22E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  44
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501384250129268     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.73503292    
+  
+ Number of weak lines is      107219
+  
+ Luminosity of star (d=1,ND)(iteration 44) is:    1.57471483E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   15 is  4.46E+00  (BA not computed) --- iteration   44
+ Maximum % decrease at depth   38 is  2.61E+00  (BA not computed) --- iteration   44
+ Maximm changes as returned by SOLVEBA_V9 is   2.6042314718260293     
+ DEC_VEC:   2.61E-02  2.59E-02  2.59E-02  2.59E-02  2.56E-02  2.56E-02  2.55E-02  2.54E-02  2.54E-02  2.54E-02
+ INC_VEC:  -4.46E-02 -3.47E-02 -2.37E-02 -2.32E-02 -2.19E-02 -2.06E-02 -2.06E-02 -2.06E-02 -2.06E-02 -2.05E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ NUM_BAD_NG=           0
+ NG Acceleration performed using NG_BAND= 10
+ Max NG % increase at depth  15 is  1.24E+01
+ Max NG % decrease at depth  51 is  1.85E+01
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  46
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501259250775040     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.87540340    
+  
+ Number of weak lines is      107208
+  
+ Luminosity of star (d=1,ND)(iteration 46) is:    1.56954285E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth    6 is  4.74E+00  (BA not computed) --- iteration   46
+ Maximum % decrease at depth    9 is  8.11E+00  (BA not computed) --- iteration   46
+ Maximm changes as returned by SOLVEBA_V9 is   7.8189913979609189     
+ DEC_VEC:   8.11E-02  7.67E-02  7.65E-02  7.64E-02  7.64E-02  7.60E-02  7.39E-02  7.32E-02  7.30E-02  7.25E-02
+ INC_VEC:  -4.74E-02 -4.55E-02 -4.51E-02 -4.47E-02 -4.38E-02 -4.33E-02 -4.28E-02 -4.24E-02 -4.24E-02 -4.20E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  47
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501368074398163     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.76031101    
+  
+ Number of weak lines is      107208
+  
+ Luminosity of star (d=1,ND)(iteration 47) is:    1.56877730E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   50 is  1.41E+00  (BA not computed) --- iteration   47
+ Maximum % decrease at depth   49 is  2.30E+00  (BA not computed) --- iteration   47
+ Maximm changes as returned by SOLVEBA_V9 is   2.2702624940510816     
+ DEC_VEC:   2.30E-02  2.27E-02  2.26E-02  2.26E-02  2.25E-02  2.24E-02  2.23E-02  2.23E-02  2.23E-02  2.22E-02
+ INC_VEC:  -1.41E-02 -1.40E-02 -1.40E-02 -1.39E-02 -1.39E-02 -1.38E-02 -1.37E-02 -1.32E-02 -1.28E-02 -1.27E-02
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  48
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501439738631483     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.75164747    
+  
+ Number of weak lines is      107208
+  
+ Luminosity of star (d=1,ND)(iteration 48) is:    1.56843498E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   33 is  9.16E-01  (BA not computed) --- iteration   48
+ Maximum % decrease at depth   48 is  1.33E+00  (BA not computed) --- iteration   48
+ Maximm changes as returned by SOLVEBA_V9 is   1.2968082492506150     
+ DEC_VEC:   1.33E-02  1.33E-02  1.32E-02  1.32E-02  1.29E-02  1.29E-02  1.29E-02  1.29E-02  1.28E-02  1.28E-02
+ INC_VEC:  -9.16E-03 -8.97E-03 -8.51E-03 -8.30E-03 -8.30E-03 -8.27E-03 -8.20E-03 -8.19E-03 -8.07E-03 -8.06E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  49
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501504407818911     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.74700344    
+  
+ Number of weak lines is      107208
+  
+ Luminosity of star (d=1,ND)(iteration 49) is:    1.56822140E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth    9 is  1.58E+00  (BA not computed) --- iteration   49
+ Maximum % decrease at depth   34 is  1.14E+00  (BA not computed) --- iteration   49
+ Maximm changes as returned by SOLVEBA_V9 is   1.1279098432041779     
+ DEC_VEC:   1.14E-02  1.13E-02  1.13E-02  1.13E-02  1.13E-02  1.12E-02  1.12E-02  1.12E-02  1.12E-02  1.12E-02
+ INC_VEC:  -1.58E-02 -8.41E-03 -7.79E-03 -7.72E-03 -7.30E-03 -7.22E-03 -7.14E-03 -7.10E-03 -7.08E-03 -7.00E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  50
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501560688336218     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.74412084    
+  
+ Number of weak lines is      107208
+  
+ Luminosity of star (d=1,ND)(iteration 50) is:    1.56806548E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   33 is  6.85E-01  (BA not computed) --- iteration   50
+ Maximum % decrease at depth   35 is  1.04E+00  (BA not computed) --- iteration   50
+ Maximm changes as returned by SOLVEBA_V9 is   1.0306372768412233     
+ DEC_VEC:   1.04E-02  1.04E-02  1.03E-02  1.03E-02  1.03E-02  1.03E-02  1.03E-02  1.03E-02  1.02E-02  1.02E-02
+ INC_VEC:  -6.85E-03 -6.83E-03 -6.46E-03 -6.43E-03 -6.38E-03 -6.33E-03 -6.29E-03 -6.25E-03 -6.21E-03 -6.13E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  51
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501612115074159     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.73764324    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 51) is:    1.56794300E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  6.09E-01  (BA not computed) --- iteration   51
+ Maximum % decrease at depth   35 is  9.53E-01  (BA not computed) --- iteration   51
+ Maximm changes as returned by SOLVEBA_V9 is  0.94099718333153759     
+ DEC_VEC:   9.53E-03  9.48E-03  9.48E-03  9.44E-03  9.41E-03  9.39E-03  9.39E-03  9.37E-03  9.34E-03  9.32E-03
+ INC_VEC:  -6.09E-03 -6.08E-03 -5.76E-03 -5.76E-03 -5.72E-03 -5.69E-03 -5.68E-03 -5.58E-03 -5.57E-03 -5.45E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  52
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501660151621232     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.73412013    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 52) is:    1.56784295E+05    1.56830754E+05
+
+ BA matrix computed
+ Maximum % increase at depth   34 is  6.78E-01  (BA computed)     --- iteration   52
+ Maximum % decrease at depth   34 is  8.30E-01  (BA computed)     --- iteration   52
+ Maximm changes as returned by SOLVEBA_V9 is  0.80583397921979683     
+ DEC_VEC:   8.30E-03  8.16E-03  8.13E-03  8.09E-03  8.09E-03  8.09E-03  8.01E-03  8.01E-03  8.01E-03  7.99E-03
+ INC_VEC:  -6.78E-03 -6.65E-03 -6.44E-03 -6.39E-03 -6.35E-03 -6.33E-03 -6.29E-03 -6.28E-03 -6.19E-03 -6.14E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  53
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501705931830034     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.73188615    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 53) is:    1.56775824E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  5.64E-01  (BA not computed) --- iteration   53
+ Maximum % decrease at depth   36 is  8.41E-01  (BA not computed) --- iteration   53
+ Maximm changes as returned by SOLVEBA_V9 is  0.82705197695292243     
+ DEC_VEC:   8.41E-03  8.33E-03  8.33E-03  8.33E-03  8.31E-03  8.31E-03  8.26E-03  8.24E-03  8.23E-03  8.20E-03
+ INC_VEC:  -5.64E-03 -5.59E-03 -5.42E-03 -5.40E-03 -5.37E-03 -5.36E-03 -5.31E-03 -5.28E-03 -5.24E-03 -5.19E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  54
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501750169765732     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.73060513    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 54) is:    1.56768516E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  4.91E-01  (BA not computed) --- iteration   54
+ Maximum % decrease at depth    8 is  7.69E-01  (BA not computed) --- iteration   54
+ Maximm changes as returned by SOLVEBA_V9 is  0.74807807984435604     
+ DEC_VEC:   7.69E-03  7.59E-03  7.59E-03  7.59E-03  7.57E-03  7.57E-03  7.56E-03  7.45E-03  7.43E-03  7.43E-03
+ INC_VEC:  -4.91E-03 -4.89E-03 -4.73E-03 -4.73E-03 -4.72E-03 -4.71E-03 -4.62E-03 -4.62E-03 -4.61E-03 -4.54E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  55
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501793356319570     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72878754    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 55) is:    1.56762116E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth    8 is  1.22E+00  (BA not computed) --- iteration   55
+ Maximum % decrease at depth   35 is  6.90E-01  (BA not computed) --- iteration   55
+ Maximm changes as returned by SOLVEBA_V9 is  0.67930267579919879     
+ DEC_VEC:   6.90E-03  6.90E-03  6.86E-03  6.86E-03  6.83E-03  6.82E-03  6.77E-03  6.75E-03  6.75E-03  6.75E-03
+ INC_VEC:  -1.22E-02 -8.87E-03 -6.09E-03 -5.12E-03 -4.33E-03 -4.29E-03 -4.28E-03 -4.16E-03 -4.15E-03 -4.14E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  56
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501835826581267     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72590494    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 56) is:    1.56756443E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  3.77E-01  (BA not computed) --- iteration   56
+ Maximum % decrease at depth   35 is  6.26E-01  (BA not computed) --- iteration   56
+ Maximm changes as returned by SOLVEBA_V9 is  0.61725956264357551     
+ DEC_VEC:   6.26E-03  6.26E-03  6.21E-03  6.21E-03  6.17E-03  6.14E-03  6.14E-03  6.14E-03  6.13E-03  6.13E-03
+ INC_VEC:  -3.77E-03 -3.76E-03 -3.66E-03 -3.65E-03 -3.64E-03 -3.64E-03 -3.57E-03 -3.57E-03 -3.54E-03 -3.52E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  57
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501877816792131     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72237396    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 57) is:    1.56751324E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  3.32E-01  (BA not computed) --- iteration   57
+ Maximum % decrease at depth   35 is  5.68E-01  (BA not computed) --- iteration   57
+ Maximm changes as returned by SOLVEBA_V9 is  0.55423076113549852     
+ DEC_VEC:   5.68E-03  5.68E-03  5.62E-03  5.62E-03  5.61E-03  5.57E-03  5.57E-03  5.57E-03  5.52E-03  5.51E-03
+ INC_VEC:  -3.32E-03 -3.31E-03 -3.23E-03 -3.23E-03 -3.21E-03 -3.21E-03 -3.16E-03 -3.16E-03 -3.12E-03 -3.12E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  58
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501919497889621     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.71789801    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 58) is:    1.56746650E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  2.93E-01  (BA not computed) --- iteration   58
+ Maximum % decrease at depth   35 is  5.14E-01  (BA not computed) --- iteration   58
+ Maximm changes as returned by SOLVEBA_V9 is  0.50350705487963665     
+ DEC_VEC:   5.14E-03  5.14E-03  5.10E-03  5.08E-03  5.08E-03  5.05E-03  5.05E-03  5.04E-03  5.04E-03  5.01E-03
+ INC_VEC:  -2.93E-03 -2.93E-03 -2.86E-03 -2.85E-03 -2.84E-03 -2.84E-03 -2.80E-03 -2.80E-03 -2.79E-03 -2.78E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  59
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33501960998458297     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.71180475    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 59) is:    1.56742323E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  2.60E-01  (BA not computed) --- iteration   59
+ Maximum % decrease at depth   35 is  4.66E-01  (BA not computed) --- iteration   59
+ Maximm changes as returned by SOLVEBA_V9 is  0.45711059038092722     
+ DEC_VEC:   4.66E-03  4.66E-03  4.63E-03  4.59E-03  4.59E-03  4.59E-03  4.58E-03  4.58E-03  4.56E-03  4.55E-03
+ INC_VEC:  -2.60E-03 -2.60E-03 -2.54E-03 -2.53E-03 -2.52E-03 -2.52E-03 -2.49E-03 -2.49E-03 -2.49E-03 -2.49E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  60
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502002415913551     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70630395    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 60) is:    1.56738267E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  2.31E-01  (BA not computed) --- iteration   60
+ Maximum % decrease at depth   35 is  4.21E-01  (BA not computed) --- iteration   60
+ Maximm changes as returned by SOLVEBA_V9 is  0.41440558054625870     
+ DEC_VEC:   4.21E-03  4.21E-03  4.19E-03  4.18E-03  4.15E-03  4.15E-03  4.14E-03  4.14E-03  4.14E-03  4.13E-03
+ INC_VEC:  -2.31E-03 -2.31E-03 -2.26E-03 -2.25E-03 -2.24E-03 -2.24E-03 -2.23E-03 -2.22E-03 -2.22E-03 -2.22E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  61
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502043827272626     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70611179    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 61) is:    1.56734421E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  2.06E-01  (BA not computed) --- iteration   61
+ Maximum % decrease at depth   35 is  3.81E-01  (BA not computed) --- iteration   61
+ Maximm changes as returned by SOLVEBA_V9 is  0.37525824660682394     
+ DEC_VEC:   3.81E-03  3.81E-03  3.80E-03  3.79E-03  3.76E-03  3.75E-03  3.75E-03  3.75E-03  3.74E-03  3.74E-03
+ INC_VEC:  -2.06E-03 -2.06E-03 -2.01E-03 -2.01E-03 -2.00E-03 -2.00E-03 -1.99E-03 -1.99E-03 -1.98E-03 -1.98E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  62
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502085293328304     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70590353    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 62) is:    1.56730739E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  1.85E-01  (BA not computed) --- iteration   62
+ Maximum % decrease at depth   35 is  3.45E-01  (BA not computed) --- iteration   62
+ Maximm changes as returned by SOLVEBA_V9 is  0.33953415245800989     
+ DEC_VEC:   3.45E-03  3.44E-03  3.44E-03  3.43E-03  3.42E-03  3.41E-03  3.40E-03  3.40E-03  3.39E-03  3.38E-03
+ INC_VEC:  -1.85E-03 -1.84E-03 -1.79E-03 -1.79E-03 -1.79E-03 -1.79E-03 -1.78E-03 -1.78E-03 -1.77E-03 -1.77E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  63
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502126862461684     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70582342    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 63) is:    1.56727185E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  1.66E-01  (BA not computed) --- iteration   63
+ Maximum % decrease at depth   35 is  3.14E-01  (BA not computed) --- iteration   63
+ Maximm changes as returned by SOLVEBA_V9 is  0.30708408054549707     
+ DEC_VEC:   3.14E-03  3.11E-03  3.11E-03  3.10E-03  3.10E-03  3.09E-03  3.07E-03  3.07E-03  3.07E-03  3.06E-03
+ INC_VEC:  -1.66E-03 -1.65E-03 -1.60E-03 -1.60E-03 -1.60E-03 -1.60E-03 -1.60E-03 -1.60E-03 -1.59E-03 -1.59E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  64
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502168573050167     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70573545    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 64) is:    1.56723732E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  1.49E-01  (BA not computed) --- iteration   64
+ Maximum % decrease at depth   35 is  2.84E-01  (BA not computed) --- iteration   64
+ Maximm changes as returned by SOLVEBA_V9 is  0.27782339920095933     
+ DEC_VEC:   2.84E-03  2.81E-03  2.81E-03  2.81E-03  2.81E-03  2.80E-03  2.78E-03  2.78E-03  2.78E-03  2.77E-03
+ INC_VEC:  -1.49E-03 -1.49E-03 -1.44E-03 -1.44E-03 -1.44E-03 -1.43E-03 -1.43E-03 -1.43E-03 -1.43E-03 -1.43E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  65
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33502210455299342     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70560730    
+  
+ Number of weak lines is      107206
+  
+ Luminosity of star (d=1,ND)(iteration 65) is:    1.56720360E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  1.34E-01  (BA not computed) --- iteration   65
+ Maximum % decrease at depth   35 is  2.58E-01  (BA not computed) --- iteration   65
+ Maximm changes as returned by SOLVEBA_V9 is  0.25197996899901676     
+ DEC_VEC:   2.58E-03  2.55E-03  2.55E-03  2.54E-03  2.54E-03  2.53E-03  2.52E-03  2.51E-03  2.51E-03  2.51E-03
+ INC_VEC:  -1.34E-03 -1.34E-03 -1.29E-03 -1.29E-03 -1.29E-03 -1.29E-03 -1.29E-03 -1.29E-03 -1.29E-03 -1.29E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ NUM_BAD_NG=           0
+ NG Acceleration performed using NG_BAND= 10
+ Max NG % increase at depth  34 is  1.14E+00
+ Max NG % decrease at depth  52 is  2.87E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  67
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504681669412256     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72906780    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 67) is:    1.56634220E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   51 is  7.72E-01  (BA not computed) --- iteration   67
+ Maximum % decrease at depth   50 is  2.32E+00  (BA not computed) --- iteration   67
+ Maximm changes as returned by SOLVEBA_V9 is   2.2482625701824110     
+ DEC_VEC:   2.32E-02  2.32E-02  2.31E-02  2.31E-02  2.31E-02  2.27E-02  2.24E-02  2.23E-02  2.22E-02  2.20E-02
+ INC_VEC:  -7.72E-03 -7.72E-03 -7.72E-03 -7.71E-03 -7.71E-03 -7.71E-03 -7.71E-03 -7.71E-03 -7.71E-03 -7.71E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  68
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504741128276849     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72736228    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 68) is:    1.56610083E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   49 is  2.31E-01  (BA not computed) --- iteration   68
+ Maximum % decrease at depth   49 is  8.87E-01  (BA not computed) --- iteration   68
+ Maximm changes as returned by SOLVEBA_V9 is  0.86122581094702411     
+ DEC_VEC:   8.87E-03  8.75E-03  8.69E-03  8.65E-03  8.65E-03  8.60E-03  8.57E-03  8.56E-03  8.54E-03  8.54E-03
+ INC_VEC:  -2.31E-03 -2.18E-03 -2.03E-03 -1.97E-03 -1.95E-03 -1.89E-03 -1.86E-03 -1.81E-03 -1.80E-03 -1.79E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  69
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504799785869632     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72443974    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 69) is:    1.56597369E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   48 is  1.43E-01  (BA not computed) --- iteration   69
+ Maximum % decrease at depth   48 is  5.46E-01  (BA not computed) --- iteration   69
+ Maximm changes as returned by SOLVEBA_V9 is  0.50886158504575918     
+ DEC_VEC:   5.46E-03  5.46E-03  5.45E-03  5.43E-03  5.18E-03  5.16E-03  5.15E-03  5.13E-03  5.07E-03  5.06E-03
+ INC_VEC:  -1.43E-03 -1.37E-03 -1.31E-03 -1.25E-03 -1.20E-03 -1.19E-03 -1.17E-03 -1.15E-03 -1.15E-03 -1.14E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  70
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504857607832134     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72308648    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 70) is:    1.56588445E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   47 is  1.05E-01  (BA not computed) --- iteration   70
+ Maximum % decrease at depth   47 is  4.42E-01  (BA not computed) --- iteration   70
+ Maximm changes as returned by SOLVEBA_V9 is  0.41599543837059261     
+ DEC_VEC:   4.42E-03  4.40E-03  4.40E-03  4.30E-03  4.21E-03  4.21E-03  4.20E-03  4.19E-03  4.17E-03  4.14E-03
+ INC_VEC:  -1.05E-03 -1.01E-03 -1.01E-03 -9.13E-04 -9.03E-04 -8.97E-04 -8.93E-04 -8.75E-04 -8.75E-04 -8.52E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  71
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504914539695402     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.72180545    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 71) is:    1.56581445E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   46 is  8.32E-02  (BA not computed) --- iteration   71
+ Maximum % decrease at depth   45 is  3.92E-01  (BA not computed) --- iteration   71
+ Maximm changes as returned by SOLVEBA_V9 is  0.35446804095176326     
+ DEC_VEC:   3.92E-03  3.78E-03  3.77E-03  3.77E-03  3.75E-03  3.58E-03  3.57E-03  3.57E-03  3.53E-03  3.53E-03
+ INC_VEC:  -8.32E-04 -8.00E-04 -7.91E-04 -7.75E-04 -7.57E-04 -7.55E-04 -7.43E-04 -7.38E-04 -7.30E-04 -7.29E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  72
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33504970569659764     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.71985173    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 72) is:    1.56575696E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   44 is  6.89E-02  (BA not computed) --- iteration   72
+ Maximum % decrease at depth   45 is  3.42E-01  (BA not computed) --- iteration   72
+ Maximm changes as returned by SOLVEBA_V9 is  0.29930555976441020     
+ DEC_VEC:   3.42E-03  3.29E-03  3.28E-03  3.14E-03  3.11E-03  3.08E-03  3.07E-03  2.99E-03  2.99E-03  2.98E-03
+ INC_VEC:  -6.89E-04 -6.80E-04 -6.71E-04 -6.51E-04 -6.50E-04 -6.48E-04 -6.36E-04 -6.32E-04 -6.27E-04 -6.26E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  73
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505025684504486     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.71611249    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 73) is:    1.56570878E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   44 is  6.12E-02  (BA not computed) --- iteration   73
+ Maximum % decrease at depth   45 is  2.85E-01  (BA not computed) --- iteration   73
+ Maximm changes as returned by SOLVEBA_V9 is  0.26457224726944234     
+ DEC_VEC:   2.85E-03  2.79E-03  2.78E-03  2.76E-03  2.75E-03  2.74E-03  2.73E-03  2.72E-03  2.68E-03  2.64E-03
+ INC_VEC:  -6.12E-04 -6.06E-04 -5.69E-04 -5.67E-04 -5.62E-04 -5.61E-04 -5.57E-04 -5.54E-04 -5.54E-04 -5.52E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  74
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505079880348820     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.71155643    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 74) is:    1.56566801E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   43 is  5.44E-02  (BA not computed) --- iteration   74
+ Maximum % decrease at depth   43 is  2.50E-01  (BA not computed) --- iteration   74
+ Maximm changes as returned by SOLVEBA_V9 is  0.23363842230111773     
+ DEC_VEC:   2.50E-03  2.47E-03  2.43E-03  2.41E-03  2.38E-03  2.38E-03  2.37E-03  2.37E-03  2.36E-03  2.33E-03
+ INC_VEC:  -5.44E-04 -5.29E-04 -5.26E-04 -4.99E-04 -4.99E-04 -4.94E-04 -4.92E-04 -4.91E-04 -4.87E-04 -4.83E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  75
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505133158222672     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ 
+ Tau(Nu= 1.3161E+01) at outer boundary is: 7.661E+01
+ Tau(Nu= 1.1601E+01) at outer boundary is: 6.649E-01
+ Tau(Nu= 5.9500E+00) at outer boundary is: 8.196E-01
+ Tau(Nu= 3.2900E+00) at outer boundary is: 3.740E-03
+ Tau(Nu= 8.3001E-01) at outer boundary is: 3.603E-04
+ 
+ Average number of calls to FG_J_CMF is   1.70599163    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 75) is:    1.56563332E+05    1.56830754E+05
+
+
+ Begin COMP_GREY_V4    70    15    85
+
+ Grey solution was successfully computed
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  4.79E-02  (BA not computed) --- iteration   75
+ Maximum % decrease at depth   42 is  2.20E-01  (BA not computed) --- iteration   75
+ Maximm changes as returned by SOLVEBA_V9 is  0.20220902834779614     
+ DEC_VEC:   2.20E-03  2.19E-03  2.15E-03  2.15E-03  2.14E-03  2.10E-03  2.06E-03  2.02E-03  2.02E-03  2.02E-03
+ INC_VEC:  -4.79E-04 -4.76E-04 -4.54E-04 -4.46E-04 -4.41E-04 -4.40E-04 -4.35E-04 -4.34E-04 -4.33E-04 -4.30E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+
+
+ Model started on:               01-Oct-2020 07:32:48
+ 
+!                                                                               
+! X-ray spectra produced by APEC;                                               
+! Abundances are: Anders & Grevesse 1989                                        
+!                                                                               
+!                                                                               
+        49970     [N_BINS]        # freq bins
+  6.00000E+00     [BIN_MIN]        
+  2.00000E-01     [BIN_SIZE]       
+!                                                                               
+           71     [N_TEMP]        # freq bins
+  4.00000E+00     [LOG_T_MIN]      
+  5.00000E-02     [DEL_LOG_T]      
+!                                                                               
+            1     [N_ED]          # freq bins
+  1.00000E+01     [LOG_ED_MIN]     
+  1.00000E+00     [DEL_LOG_ED]     
+ 
+  
+ Warning/error reading in Level Names from HeI_F_OSCDAT
+ Energy levels are out of order: levels are:          23          24
+ Warning in RDPHOT_GEN_V1: CIII        
+ Super levels of final states do not match
+ Final state is: 2p2Po                                   
+
+ Successfully opened file MODEL
+ Warning: updating RP and RMAX in CMFGEN to make them consistent
+ with values in SCRTEMP. This inconsistency should only have occured
+ if you have rewound (changd POINT1) a model with DO_HYDRO=T
+   RP=   182.42297002000001       R(ND)=   182.42297001525816     
+ RMAX=   35349.796218815361        R(1)=   35349.796217682102     
+
+ Warning from INS_LINE_V6
+   427 weak lines in extreme IR will be ignored as outside continuum range.
+     Min(Nu_CONT)=   3.4989700000000001E-003
+     Min(Nu_LINE)=   8.5910025731661399E-006
+ In INS_LINE_V6 FRAC_DOP is   1.0000000000000000     
+ In INS_LINE_V6 VDop is   20.000000825612481     
+ Minimum frequency spacing is: 2.00E+00km/s
+ 
+ The continuum will be evaluated at 13743 frequencies
+ Number of line frequencies is:         146013
+ Number of frequencies is:              124891
+  
+ Warning from SET_FREQUENCY_GRID
+   421 weak lines in extreme IR will be ignored as outside continuum range.
+ Min(Nu_CONT)=   3.4989700000000001E-003
+ Min(Nu_LINE)=   8.5910025731661399E-006
+   20.000000000000000     
+   1.1000000000000001     
+   984.12300000000005     
+ Maximum red  profile extent is  9.962E-01 1.143E+03 km/s
+ Maximum red  wing    extent is  9.785E-01 6.436E+03 km/s
+ Maximum blue profile extent is  1.004E+00 1.143E+03 km/s
+ Maximum blue wing    extent is  1.017E+00 5.143E+03 km/s
+  
+ Amount of memory allocated for BA is:   2.1230993000E+08 words
+ Memory needed with full dependence is:  2.0328350000E+08 words
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  76
+ 
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level HI  2___
+ Warning in SET_TWO_PHOT -- adjusting A as working with full n=2 level He2  2___
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505185524998826     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ 
+ Using thick boundary condition in FG_J_CMF_V13
+ R(1)=  3.53497962E+04   RMAX=  3.53497962E+05
+ V(1)=  9.73081798E+02   VMAX=  9.83011388E+02
+ Using depth 1 and   9 to extrapolate opacities
+ Maximum number of points along ray in FG_J_CMF_V13 is    94
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70522296    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 76) is:    1.56560373E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  4.25E-02  (BA not computed) --- iteration   76
+ Maximum % decrease at depth   42 is  1.95E-01  (BA not computed) --- iteration   76
+ Maximm changes as returned by SOLVEBA_V9 is  0.17732757295676874     
+ DEC_VEC:   1.95E-03  1.90E-03  1.89E-03  1.88E-03  1.85E-03  1.84E-03  1.82E-03  1.82E-03  1.81E-03  1.77E-03
+ INC_VEC:  -4.25E-04 -4.14E-04 -4.10E-04 -3.88E-04 -3.87E-04 -3.83E-04 -3.83E-04 -3.81E-04 -3.80E-04 -3.75E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  77
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505236990685977     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70522296    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 77) is:    1.56557844E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   42 is  3.71E-02  (BA not computed) --- iteration   77
+ Maximum % decrease at depth   42 is  1.70E-01  (BA not computed) --- iteration   77
+ Maximm changes as returned by SOLVEBA_V9 is  0.15477574621936696     
+ DEC_VEC:   1.70E-03  1.65E-03  1.65E-03  1.64E-03  1.62E-03  1.60E-03  1.59E-03  1.57E-03  1.56E-03  1.55E-03
+ INC_VEC:  -3.71E-04 -3.70E-04 -3.50E-04 -3.48E-04 -3.40E-04 -3.39E-04 -3.35E-04 -3.34E-04 -3.34E-04 -3.33E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  78
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505287568297953     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70522296    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 78) is:    1.56555679E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   41 is  3.26E-02  (BA not computed) --- iteration   78
+ Maximum % decrease at depth   42 is  1.47E-01  (BA not computed) --- iteration   78
+ Maximm changes as returned by SOLVEBA_V9 is  0.13358099818444782     
+ DEC_VEC:   1.47E-03  1.44E-03  1.43E-03  1.42E-03  1.42E-03  1.37E-03  1.37E-03  1.36E-03  1.36E-03  1.33E-03
+ INC_VEC:  -3.26E-04 -3.20E-04 -3.13E-04 -2.98E-04 -2.97E-04 -2.96E-04 -2.94E-04 -2.93E-04 -2.92E-04 -2.90E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  79
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505337273387714     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 79) is:    1.56553824E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   41 is  2.84E-02  (BA not computed) --- iteration   79
+ Maximum % decrease at depth   42 is  1.26E-01  (BA not computed) --- iteration   79
+ Maximm changes as returned by SOLVEBA_V9 is  0.11633563963290665     
+ DEC_VEC:   1.26E-03  1.25E-03  1.23E-03  1.22E-03  1.21E-03  1.19E-03  1.18E-03  1.17E-03  1.17E-03  1.16E-03
+ INC_VEC:  -2.84E-04 -2.78E-04 -2.78E-04 -2.74E-04 -2.64E-04 -2.61E-04 -2.61E-04 -2.58E-04 -2.57E-04 -2.56E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  80
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505386122471448     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 80) is:    1.56552233E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  2.69E-02  (BA not computed) --- iteration   80
+ Maximum % decrease at depth   41 is  1.08E-01  (BA not computed) --- iteration   80
+ Maximm changes as returned by SOLVEBA_V9 is  0.10057575199704509     
+ DEC_VEC:   1.08E-03  1.07E-03  1.06E-03  1.04E-03  1.03E-03  1.02E-03  1.02E-03  1.02E-03  1.01E-03  1.00E-03
+ INC_VEC:  -2.69E-04 -2.46E-04 -2.44E-04 -2.37E-04 -2.33E-04 -2.31E-04 -2.30E-04 -2.30E-04 -2.29E-04 -2.29E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  81
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505434133463702     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 81) is:    1.56550865E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  2.64E-02  (BA not computed) --- iteration   81
+ Maximum % decrease at depth   41 is  9.30E-02  (BA not computed) --- iteration   81
+ Maximm changes as returned by SOLVEBA_V9 is   8.6482155639502067E-002
+ DEC_VEC:   9.30E-04  9.11E-04  9.06E-04  8.86E-04  8.82E-04  8.80E-04  8.79E-04  8.73E-04  8.73E-04  8.64E-04
+ INC_VEC:  -2.64E-04 -2.13E-04 -2.11E-04 -2.11E-04 -2.10E-04 -2.09E-04 -2.09E-04 -2.09E-04 -2.08E-04 -2.08E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  82
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505481324839104     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 82) is:    1.56549687E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  2.47E-02  (BA not computed) --- iteration   82
+ Maximum % decrease at depth   41 is  7.95E-02  (BA not computed) --- iteration   82
+ Maximm changes as returned by SOLVEBA_V9 is   7.4016453172681310E-002
+ DEC_VEC:   7.95E-04  7.79E-04  7.68E-04  7.65E-04  7.62E-04  7.51E-04  7.47E-04  7.46E-04  7.40E-04  7.40E-04
+ INC_VEC:  -2.47E-04 -1.98E-04 -1.98E-04 -1.97E-04 -1.96E-04 -1.94E-04 -1.93E-04 -1.93E-04 -1.92E-04 -1.91E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  83
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505527715753380     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 83) is:    1.56548670E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  2.24E-02  (BA not computed) --- iteration   83
+ Maximum % decrease at depth   41 is  6.79E-02  (BA not computed) --- iteration   83
+ Maximm changes as returned by SOLVEBA_V9 is   6.3861835286272595E-002
+ DEC_VEC:   6.79E-04  6.65E-04  6.59E-04  6.57E-04  6.50E-04  6.43E-04  6.42E-04  6.42E-04  6.41E-04  6.38E-04
+ INC_VEC:  -2.24E-04 -1.88E-04 -1.87E-04 -1.87E-04 -1.83E-04 -1.80E-04 -1.78E-04 -1.78E-04 -1.76E-04 -1.76E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  84
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505573325096361     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 84) is:    1.56547789E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  2.01E-02  (BA not computed) --- iteration   84
+ Maximum % decrease at depth   35 is  5.94E-02  (BA not computed) --- iteration   84
+ Maximm changes as returned by SOLVEBA_V9 is   5.7984281769009036E-002
+ DEC_VEC:   5.94E-04  5.92E-04  5.92E-04  5.88E-04  5.87E-04  5.86E-04  5.85E-04  5.84E-04  5.80E-04  5.80E-04
+ INC_VEC:  -2.01E-04 -1.76E-04 -1.75E-04 -1.75E-04 -1.69E-04 -1.68E-04 -1.64E-04 -1.63E-04 -1.62E-04 -1.60E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  85
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505618172448864     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 85) is:    1.56547024E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   12 is  1.69E-02  (BA not computed) --- iteration   85
+ Maximum % decrease at depth   35 is  5.48E-02  (BA not computed) --- iteration   85
+ Maximm changes as returned by SOLVEBA_V9 is   5.2741994694087684E-002
+ DEC_VEC:   5.48E-04  5.46E-04  5.43E-04  5.42E-04  5.40E-04  5.40E-04  5.40E-04  5.34E-04  5.34E-04  5.27E-04
+ INC_VEC:  -1.69E-04 -1.64E-04 -1.63E-04 -1.62E-04 -1.56E-04 -1.55E-04 -1.50E-04 -1.49E-04 -1.48E-04 -1.45E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  86
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33505662276828563     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70523095    
+  
+ Number of weak lines is      107204
+  
+ Luminosity of star (d=1,ND)(iteration 86) is:    1.56546356E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   34 is  1.51E-02  (BA not computed) --- iteration   86
+ Maximum % decrease at depth   35 is  5.03E-02  (BA not computed) --- iteration   86
+ Maximm changes as returned by SOLVEBA_V9 is   4.8517546732338400E-002
+ DEC_VEC:   5.03E-04  5.02E-04  4.99E-04  4.97E-04  4.96E-04  4.94E-04  4.94E-04  4.90E-04  4.87E-04  4.85E-04
+ INC_VEC:  -1.51E-04 -1.50E-04 -1.48E-04 -1.44E-04 -1.42E-04 -1.42E-04 -1.37E-04 -1.35E-04 -1.35E-04 -1.31E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ NUM_BAD_NG=           0
+ NG Acceleration performed using NG_BAND= 10
+ Max NG % increase at depth  34 is  1.24E-01
+ Max NG % decrease at depth  35 is  4.10E-01
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  88
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33508108088363991     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70796931    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 88) is:    1.56543064E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   11 is  6.21E-01  (BA not computed) --- iteration   88
+ Maximum % decrease at depth   12 is  8.85E-02  (BA not computed) --- iteration   88
+ Maximm changes as returned by SOLVEBA_V9 is  0.12602841447837099     
+ DEC_VEC:   8.85E-04  8.23E-04  8.21E-04  7.19E-04  7.16E-04  7.15E-04  7.12E-04  7.10E-04  7.09E-04  7.08E-04
+ INC_VEC:  -6.21E-03 -5.63E-03 -2.66E-03 -2.30E-03 -2.22E-03 -2.17E-03 -1.26E-03 -1.26E-03 -1.26E-03 -1.26E-03
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  89
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33508120286123338     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ Average number of calls to FG_J_CMF is   1.70524693    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 89) is:    1.56543196E+05    1.56830754E+05
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth   10 is  1.33E-01  (BA not computed) --- iteration   89
+ Maximum % decrease at depth   12 is  4.88E-02  (BA not computed) --- iteration   89
+ Maximm changes as returned by SOLVEBA_V9 is   4.9905921459047431E-002
+ DEC_VEC:   4.88E-04  4.37E-04  3.84E-04  3.84E-04  3.83E-04  3.82E-04  3.80E-04  3.79E-04  3.77E-04  3.76E-04
+ INC_VEC:  -1.33E-03 -1.19E-03 -8.86E-04 -8.76E-04 -7.83E-04 -6.12E-04 -5.36E-04 -5.05E-04 -4.99E-04 -4.99E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values
+ 
+ ********************************************************************************
+ ********************************************************************************
+ 
+ Current great iteration count is  90
+ 
+ Using LTE method for two-photon decay
+ The value of DTDR is :  0.33508132745906744     
+ 
+  
+ Warning: possible error in STEQ_AUTO_V1
+ No autoionization probabilities available
+ Model has states above the ionization limit
+ AUTO_FILE is NIII_AUTO_DATA
+  
+ T          15 F
+ Using USE_RAD method for two-photon decay
+ Calling FG_J_CMF_V13 in COMP_J_BLANK
+ Calling MOM_J_CMF_V11
+ 
+ Tau(Nu= 1.3161E+01) at outer boundary is: 7.661E+01
+ Tau(Nu= 1.1601E+01) at outer boundary is: 6.659E-01
+ Tau(Nu= 5.9500E+00) at outer boundary is: 8.220E-01
+ Tau(Nu= 3.2900E+00) at outer boundary is: 3.743E-03
+ Tau(Nu= 8.3001E-01) at outer boundary is: 3.603E-04
+ 
+ Average number of calls to FG_J_CMF is   1.70524693    
+  
+ Number of weak lines is      107205
+  
+ Luminosity of star (d=1,ND)(iteration 90) is:    1.56543103E+05    1.56830754E+05
+
+
+ Begin COMP_GREY_V4    70    15    85
+
+ Grey solution was successfully computed
+
+ BA matrix **NOT** computed
+ Maximum % increase at depth    9 is  3.44E-02  (BA not computed) --- iteration   90
+ Maximum % decrease at depth   58 is  2.83E-02  (BA not computed) --- iteration   90
+ Maximm changes as returned by SOLVEBA_V9 is   2.4656989856880890E-002
+ DEC_VEC:   2.83E-04  2.52E-04  2.51E-04  2.51E-04  2.51E-04  2.50E-04  2.49E-04  2.48E-04  2.48E-04  2.47E-04
+ INC_VEC:  -3.44E-04 -3.02E-04 -2.78E-04 -2.40E-04 -2.29E-04 -2.21E-04 -1.80E-04 -1.79E-04 -1.76E-04 -1.56E-04
+ The minimum value of scale for Major species is:  1.0000E+00
+ Unable to open fle with clump values

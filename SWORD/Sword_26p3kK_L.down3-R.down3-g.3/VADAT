@@ -1,14 +1,14 @@
-200.55339416  [RSTAR]            !Rp 125
-167.65252403  [RMAX]             !Rmax/Rp
+186.91189143  [RSTAR]            !Rp 125
+170.82314340  [RMAX]             !Rmax/Rp
 T             [DO_HYDRO]
 
 7             [VEL_LAW]          !Velocity Law
 RVSIG_COL     [VEL_OPT]
-1.478525E+03  [VINF]             !Terminal (km\s)
+1.478502E+03  [VINF]             !Terminal (km\s)
 1.8           [BETA]             !Gamma (i.e. Beta=speed of velocity law)
 0.30000E-6    [MDOT]             !Mass loss rate
-400000.0000   [LSTAR]            !Luminosity (Lo)
-33.82432821   [MASS]             !Stars Mass (Mo)
+350000.0000   [LSTAR]            !Luminosity (Lo)
+29.59628718   [MASS]             !Stars Mass (Mo)
 2.63D0        [TEFF]
 3.00D0        [LOGG]
 

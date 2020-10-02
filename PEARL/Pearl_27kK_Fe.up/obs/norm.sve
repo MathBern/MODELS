@@ -1,6 +1,6 @@
 norm
 {RD_OBS=F}
-{FILE=obs_cont}
+{FILE=/home/matheus/CMFGEN/MODELS/SWORD/Sword_26p3kK_L.down5-R.down5-g.3/obs/obs_cont}
 {LIN=F}
 {WR=F}
 {ADD=F}

@@ -1,0 +1,11 @@
+rd_obs2
+{FILE=/home/matheus/CMFGEN/MODELS/SWORD/Sword_26p3kK_L.down5-R.down5-g.3/obs/obs_fin}
+{SCALE=1.0D0}
+{ADD=0.0D0}
+{RAD_VEL=0.0D0}
+{CLEAN=F}
+{REM_BP=F}
+{CLN_CR=F}
+{SMOOTH=F}
+{OVER=F}
+{COLS=1,2}

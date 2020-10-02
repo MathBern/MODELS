@@ -1,0 +1,17 @@
+Machine name is :
+Linux math 5.4.0-45-generic #49~18.04.2-Ubuntu SMP Wed Aug 26 16:29:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Program started on:
+dom set 27 20:17:56 -03 2020
+ 
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Program finished on:
+dom set 27 20:56:46 -03 2020
+ 
+ 
+Continuum calculation started on:
+dom set 27 20:56:46 -03 2020
+ 
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Program finished on:
+dom set 27 21:11:15 -03 2020
